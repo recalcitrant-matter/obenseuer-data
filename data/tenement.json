@@ -1,0 +1,6873 @@
+{
+ "categories": [
+  {
+   "id": "tenement-basement",
+   "group": "Tenement",
+   "label": "Basement",
+   "rent": false,
+   "tiers": [
+    "Basement-0-Bare",
+    "Basement-1-Makeshift",
+    "Basement-2-Shabby",
+    "Basement-3-Decent",
+    "Basement-4-Fine",
+    "Basement-5-Luxurious"
+   ]
+  },
+  {
+   "id": "tenement-shrooms",
+   "group": "Tenement",
+   "label": "Basement mushroom farm",
+   "rent": false,
+   "tiers": [
+    "Shrooms-0-Bare",
+    "Shrooms-1-Makeshift",
+    "Shrooms-2-Shabby",
+    "Shrooms-3-Decent",
+    "Shrooms-4-Fine",
+    "Shrooms-5-Luxurious"
+   ]
+  },
+  {
+   "id": "tenement-sauna",
+   "group": "Tenement",
+   "label": "Basement sauna",
+   "rent": true,
+   "tiers": [
+    "Sauna-0-Bare",
+    "Sauna-1-Makeshift",
+    "Sauna-2-Shabby",
+    "Sauna-3-Decent",
+    "Sauna-4-Fine",
+    "Sauna-5-Luxurious"
+   ]
+  },
+  {
+   "id": "tenement-courtyard",
+   "group": "Tenement",
+   "label": "Courtyard",
+   "rent": true,
+   "tiers": [
+    "Courtyard-0-Bare",
+    "Courtyard-1-Makeshift",
+    "Courtyard-2-Shabby",
+    "Courtyard-3-Decent",
+    "Courtyard-4-Fine",
+    "Courtyard-5-Luxurious"
+   ]
+  },
+  {
+   "id": "tenement-elevator",
+   "group": "Tenement",
+   "label": "Elevator",
+   "rent": true,
+   "tiers": [
+    "Elevator-0-Off",
+    "Elevator-1-On",
+    "Elevator-2-Large"
+   ]
+  },
+  {
+   "id": "tenement-facade",
+   "group": "Tenement",
+   "label": "Facade",
+   "rent": true,
+   "tiers": [
+    "Facade-0-Bare",
+    "Facade-1-Makeshift",
+    "Facade-2-Shabby",
+    "Facade-3-Decent",
+    "Facade-4-Fine",
+    "Facade-5-Luxurious"
+   ]
+  },
+  {
+   "id": "tenement-mines",
+   "group": "Tenement",
+   "label": "Mine",
+   "rent": false,
+   "tiers": [
+    "Mines-0-None",
+    "Mines-1-Makeshift",
+    "Mines-2-Shabby",
+    "Mines-3-Decent",
+    "Mines-4-Fine"
+   ]
+  },
+  {
+   "id": "tenement-roof",
+   "group": "Tenement",
+   "label": "Rooftop greenhouse",
+   "rent": true,
+   "tiers": [
+    "Roof-0-None",
+    "Roof-1-Shabby",
+    "Roof-2-Decent",
+    "Roof-3-Fine"
+   ]
+  },
+  {
+   "id": "tenement-sauna-and-pier",
+   "group": "Tenement",
+   "label": "Sauna and pier",
+   "rent": true,
+   "tiers": [
+    "Sauna and pier-0-Bare",
+    "Sauna and pier-1-Makeshift",
+    "Sauna and pier-2-Shabby",
+    "Sauna and pier-3-Decent",
+    "Sauna and pier-4-Fine",
+    "Sauna and pier-5-Luxurious"
+   ],
+   "start": 1
+  },
+  {
+   "id": "tenement-stairwell",
+   "group": "Tenement",
+   "label": "Stairwell",
+   "rent": true,
+   "tiers": [
+    "Stairwell-0-Bare",
+    "Stairwell-1-Makeshift",
+    "Stairwell-2-Shabby",
+    "Stairwell-3-Decent",
+    "Stairwell-4-Fine",
+    "Stairwell-5-Luxurious"
+   ]
+  },
+  {
+   "id": "tenement-electricity",
+   "group": "Tenement",
+   "label": "Tenement electricity",
+   "rent": false,
+   "tiers": [
+    "Electricity-0-None",
+    "Electricity-1-Makeshift",
+    "Electricity-2-Good",
+    "Electricity-3-Best"
+   ]
+  },
+  {
+   "id": "tenement-heating",
+   "group": "Tenement",
+   "label": "Tenement heating room",
+   "rent": false,
+   "tiers": [
+    "Heating-0-None",
+    "Heating-1-Bare",
+    "Heating-2-Central",
+    "Heating-3-District"
+   ]
+  },
+  {
+   "id": "tenement-water",
+   "group": "Tenement",
+   "label": "Tenement plumbing",
+   "rent": false,
+   "tiers": [
+    "Water-0-None",
+    "Water-1-Dirty",
+    "Water-2-Good",
+    "Water-3-Best"
+   ]
+  },
+  {
+   "id": "tenement-workshop",
+   "group": "Tenement",
+   "label": "Workshop",
+   "rent": false,
+   "tiers": [
+    "Workshop-0-None",
+    "Workshop-1-Small",
+    "Workshop-2-Medium",
+    "Workshop-3-Large",
+    "Workshop-4-Huge"
+   ]
+  },
+  {
+   "id": "small-balcony",
+   "group": "Small apartment",
+   "label": "Apartment balcony",
+   "rent": true,
+   "tiers": [
+    "Small-Balcony-0-None",
+    "Small-Balcony-1-Makeshift",
+    "Small-Balcony-2-Shabby",
+    "Small-Balcony-3-Decent",
+    "Small-Balcony-4-Fine",
+    "Small-Balcony-5-Luxurious"
+   ]
+  },
+  {
+   "id": "small-bathroom",
+   "group": "Small apartment",
+   "label": "Apartment bathroom",
+   "rent": true,
+   "tiers": [
+    "Small-Bathroom-0-Bare",
+    "Small-Bathroom-1-Makeshift",
+    "Small-Bathroom-2-Shabby",
+    "Small-Bathroom-3-Decent",
+    "Small-Bathroom-4-Fine",
+    "Small-Bathroom-5-Luxurious"
+   ]
+  },
+  {
+   "id": "small-electricity",
+   "group": "Small apartment",
+   "label": "Apartment electricity",
+   "rent": true,
+   "tiers": [
+    "Small-Electricity-0-Off",
+    "Small-Electricity-1-On"
+   ]
+  },
+  {
+   "id": "small-heating",
+   "group": "Small apartment",
+   "label": "Apartment heating",
+   "rent": true,
+   "tiers": [
+    "Small-Heating-0-None",
+    "Small-Heating-1-Makeshift",
+    "Small-Heating-2-Shabby",
+    "Small-Heating-3-Decent",
+    "Small-Heating-4-Fine",
+    "Small-Heating-5-Luxurious"
+   ]
+  },
+  {
+   "id": "small-kitchen",
+   "group": "Small apartment",
+   "label": "Apartment kitchen",
+   "rent": true,
+   "tiers": [
+    "Small-Kitchen-0-None",
+    "Small-Kitchen-1-Makeshift",
+    "Small-Kitchen-2-Shabby",
+    "Small-Kitchen-3-Decent",
+    "Small-Kitchen-4-Fine",
+    "Small-Kitchen-5-Luxurious"
+   ]
+  },
+  {
+   "id": "small-walls",
+   "group": "Small apartment",
+   "label": "Apartment walls",
+   "rent": true,
+   "tiers": [
+    "Small-Walls-0-Bare",
+    "Small-Walls-1-Makeshift",
+    "Small-Walls-2-Shabby",
+    "Small-Walls-3-Decent",
+    "Small-Walls-4-Fine",
+    "Small-Walls-5-Luxurious"
+   ]
+  },
+  {
+   "id": "small-water",
+   "group": "Small apartment",
+   "label": "Apartment water",
+   "rent": true,
+   "tiers": [
+    "Small-Water-0-None",
+    "Small-Water-1-Shit",
+    "Small-Water-2-Good",
+    "Small-Water-3-Best"
+   ]
+  },
+  {
+   "id": "large-balconyback",
+   "group": "Large apartment",
+   "label": "Apartment balcony (back)",
+   "rent": true,
+   "tiers": [
+    "Large-Balcony-Back-0-Bare",
+    "Large-Balcony-Back-1-Makeshift",
+    "Large-Balcony-Back-2-Shabby",
+    "Large-Balcony-Back-3-Decent",
+    "Large-Balcony-Back-4-Fine",
+    "Large-Balcony-Back-5-Luxurious"
+   ]
+  },
+  {
+   "id": "shop-bathroom",
+   "group": "Shop",
+   "label": "Shop bathroom",
+   "rent": true,
+   "tiers": [
+    "Shop-Bathroom-0-Bare",
+    "Shop-Bathroom-1-Makeshift",
+    "Shop-Bathroom-2-Shabby",
+    "Shop-Bathroom-3-Decent",
+    "Shop-Bathroom-4-Fine",
+    "Shop-Bathroom-5-Luxurious"
+   ]
+  },
+  {
+   "id": "shop-walls",
+   "group": "Shop",
+   "label": "Shop walls",
+   "rent": true,
+   "tiers": [
+    "Shop-Walls-0-Bare",
+    "Shop-Walls-1-Makeshift",
+    "Shop-Walls-2-Shabby",
+    "Shop-Walls-3-Decent",
+    "Shop-Walls-4-Fine",
+    "Shop-Walls-5-Luxurious"
+   ]
+  },
+  {
+   "id": "player-extensionback",
+   "group": "Player's apartment",
+   "label": "Apartment extension (back)",
+   "rent": true,
+   "tiers": [
+    "Player-Extension-Back-0-None",
+    "Player-Extension-Back-1-Makeshift",
+    "Player-Extension-Back-2-Shabby",
+    "Player-Extension-Back-3-Decent",
+    "Player-Extension-Back-4-Fine",
+    "Player-Extension-Back-5-Luxurious"
+   ]
+  },
+  {
+   "id": "player-extensionfront",
+   "group": "Player's apartment",
+   "label": "Apartment extension (front)",
+   "rent": true,
+   "tiers": [
+    "Player-Extension-Front-0-None",
+    "Player-Extension-Front-1-Makeshift",
+    "Player-Extension-Front-2-Shabby",
+    "Player-Extension-Front-3-Decent",
+    "Player-Extension-Front-4-Fine",
+    "Player-Extension-Front-5-Luxurious"
+   ]
+  }
+ ],
+ "upgrades": [
+  {
+   "name": "Basement-0-Bare",
+   "cat": "tenement-basement",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Basement-1-Makeshift",
+   "cat": "tenement-basement",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 48,
+   "oc": 6500,
+   "rm": 100,
+   "items": [
+    [
+     35060,
+     6
+    ],
+    [
+     14830,
+     4
+    ],
+    [
+     35010,
+     4
+    ],
+    [
+     35050,
+     8
+    ],
+    [
+     35180,
+     8
+    ],
+    [
+     35100,
+     4
+    ],
+    [
+     14860,
+     2
+    ],
+    [
+     16700,
+     2
+    ]
+   ],
+   "contractors": [
+    "Ken Nakahara",
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Basement-2-Shabby",
+   "cat": "tenement-basement",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 72,
+   "oc": 15500,
+   "rm": 250,
+   "items": [
+    [
+     35060,
+     6
+    ],
+    [
+     35070,
+     6
+    ],
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     40
+    ],
+    [
+     35180,
+     12
+    ],
+    [
+     35100,
+     6
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     16700,
+     3
+    ]
+   ],
+   "requires": [
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Ken Nakahara",
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Basement-3-Decent",
+   "cat": "tenement-basement",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 128,
+   "oc": 60000,
+   "rm": 1400,
+   "items": [
+    [
+     35060,
+     10
+    ],
+    [
+     35070,
+     6
+    ],
+    [
+     35010,
+     6
+    ],
+    [
+     35050,
+     12
+    ],
+    [
+     35180,
+     26
+    ],
+    [
+     35040,
+     12
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     16700,
+     7
+    ],
+    [
+     13570,
+     20
+    ]
+   ],
+   "requires": [
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Basement-4-Fine",
+   "cat": "tenement-basement",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 192,
+   "oc": 100000,
+   "rm": 8000,
+   "items": [
+    [
+     35060,
+     12
+    ],
+    [
+     35070,
+     6
+    ],
+    [
+     35010,
+     3
+    ],
+    [
+     35050,
+     8
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35040,
+     20
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     16700,
+     10
+    ]
+   ],
+   "requires": [
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Basement-5-Luxurious",
+   "cat": "tenement-basement",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "requires": [
+    "Electricity-2-Good"
+   ]
+  },
+  {
+   "name": "Shrooms-0-Bare",
+   "cat": "tenement-shrooms",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Shrooms-1-Makeshift",
+   "cat": "tenement-shrooms",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 3000,
+   "rm": 400,
+   "items": [
+    [
+     35010,
+     16
+    ],
+    [
+     35050,
+     26
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     12
+    ],
+    [
+     12710,
+     1
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift"
+   ],
+   "contractors": [
+    "Ken Nakahara",
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Shrooms-2-Shabby",
+   "cat": "tenement-shrooms",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 72,
+   "oc": 8900,
+   "rm": 700,
+   "items": [
+    [
+     35010,
+     24
+    ],
+    [
+     35050,
+     40
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     12710,
+     4
+    ],
+    [
+     35140,
+     15
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift",
+    "Shrooms-1-Makeshift"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Shrooms-3-Decent",
+   "cat": "tenement-shrooms",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 96,
+   "oc": 20000,
+   "rm": 3000,
+   "items": [
+    [
+     35060,
+     15
+    ],
+    [
+     35080,
+     4
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35040,
+     4
+    ],
+    [
+     16700,
+     13
+    ],
+    [
+     35140,
+     16
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift",
+    "Shrooms-2-Shabby"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Shrooms-4-Fine",
+   "cat": "tenement-shrooms",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 144,
+   "oc": 40000,
+   "rm": 5000,
+   "items": [
+    [
+     35060,
+     4
+    ],
+    [
+     35080,
+     4
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     12700,
+     10
+    ],
+    [
+     16700,
+     3
+    ],
+    [
+     35140,
+     6
+    ],
+    [
+     18180,
+     40
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift",
+    "Shrooms-3-Decent"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Shrooms-5-Luxurious",
+   "cat": "tenement-shrooms",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good",
+    "Shrooms-4-Fine"
+   ]
+  },
+  {
+   "name": "Sauna-0-Bare",
+   "cat": "tenement-sauna",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Sauna-1-Makeshift",
+   "cat": "tenement-sauna",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 870,
+   "rm": 80,
+   "value": 120,
+   "items": [
+    [
+     35010,
+     12
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     16
+    ],
+    [
+     35080,
+     4
+    ],
+    [
+     12710,
+     2
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Sauna-2-Shabby",
+   "cat": "tenement-sauna",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 38,
+   "oc": 9500,
+   "rm": 400,
+   "value": 500,
+   "items": [
+    [
+     35010,
+     30
+    ],
+    [
+     35050,
+     35
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     24
+    ],
+    [
+     35080,
+     4
+    ],
+    [
+     12710,
+     2
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     18180,
+     6
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift",
+    "Water-1-Dirty"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Sauna-3-Decent",
+   "cat": "tenement-sauna",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 96,
+   "oc": 50000,
+   "rm": 2000,
+   "value": 1000,
+   "items": [
+    [
+     35010,
+     30
+    ],
+    [
+     35050,
+     40
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     34
+    ],
+    [
+     35080,
+     4
+    ],
+    [
+     35060,
+     4
+    ],
+    [
+     35040,
+     2
+    ],
+    [
+     18180,
+     35
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good",
+    "Heating-2-Central",
+    "Water-1-Dirty"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Sauna-4-Fine",
+   "cat": "tenement-sauna",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 120,
+   "oc": 80000,
+   "rm": 10000,
+   "value": 1500,
+   "items": [
+    [
+     35010,
+     35
+    ],
+    [
+     35050,
+     45
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     35
+    ],
+    [
+     35080,
+     4
+    ],
+    [
+     35060,
+     4
+    ],
+    [
+     35040,
+     4
+    ],
+    [
+     35150,
+     2
+    ],
+    [
+     18180,
+     60
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good",
+    "Heating-2-Central",
+    "Water-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Sauna-5-Luxurious",
+   "cat": "tenement-sauna",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 100,
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good"
+   ]
+  },
+  {
+   "name": "Courtyard-0-Bare",
+   "cat": "tenement-courtyard",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Courtyard-1-Makeshift",
+   "cat": "tenement-courtyard",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 48,
+   "oc": 6800,
+   "rm": 70,
+   "value": 100,
+   "items": [
+    [
+     35010,
+     40
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     16080,
+     5
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Courtyard-2-Shabby",
+   "cat": "tenement-courtyard",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 50,
+   "oc": 13000,
+   "rm": 250,
+   "value": 600,
+   "items": [
+    [
+     35010,
+     40
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     35170,
+     5
+    ],
+    [
+     35060,
+     4
+    ],
+    [
+     14860,
+     1
+    ],
+    [
+     14380,
+     1
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     16080,
+     20
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Courtyard-3-Decent",
+   "cat": "tenement-courtyard",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 72,
+   "oc": 60000,
+   "rm": 5000,
+   "value": 1200,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     40
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35060,
+     8
+    ],
+    [
+     14250,
+     5
+    ],
+    [
+     35090,
+     5
+    ],
+    [
+     13570,
+     20
+    ],
+    [
+     16080,
+     10
+    ]
+   ],
+   "requires": [
+    "Courtyard-2-Shabby",
+    "Facade-2-Shabby",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Courtyard-4-Fine",
+   "cat": "tenement-courtyard",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 100,
+   "oc": 100000,
+   "rm": 10000,
+   "value": 1800,
+   "items": [
+    [
+     35010,
+     40
+    ],
+    [
+     35050,
+     40
+    ],
+    [
+     35070,
+     12
+    ],
+    [
+     35060,
+     16
+    ],
+    [
+     35040,
+     4
+    ],
+    [
+     35090,
+     10
+    ],
+    [
+     14230,
+     5
+    ],
+    [
+     13570,
+     50
+    ],
+    [
+     16080,
+     5
+    ],
+    [
+     14380,
+     2
+    ],
+    [
+     16700,
+     12
+    ]
+   ],
+   "requires": [
+    "Courtyard-3-Decent",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Courtyard-5-Luxurious",
+   "cat": "tenement-courtyard",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 100,
+   "requires": [
+    "Courtyard-4-Fine"
+   ]
+  },
+  {
+   "name": "Elevator-0-Off",
+   "cat": "tenement-elevator",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Elevator-1-On",
+   "cat": "tenement-elevator",
+   "tier": 1,
+   "tierName": "Small",
+   "hours": 125,
+   "oc": 20000,
+   "rm": 5900,
+   "value": 10000,
+   "items": [
+    [
+     16690,
+     12
+    ],
+    [
+     19140,
+     1
+    ],
+    [
+     35090,
+     20
+    ],
+    [
+     10540,
+     4
+    ],
+    [
+     14230,
+     12
+    ],
+    [
+     35070,
+     25
+    ],
+    [
+     14140,
+     20
+    ],
+    [
+     35120,
+     10
+    ],
+    [
+     14380,
+     10
+    ]
+   ],
+   "requires": [
+    "Stairwell-3-Decent",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Elevator-2-Large",
+   "cat": "tenement-elevator",
+   "tier": 2,
+   "tierName": "Large",
+   "hours": 200,
+   "oc": 35000,
+   "rm": 11500,
+   "value": 15000,
+   "items": [
+    [
+     16690,
+     20
+    ],
+    [
+     19140,
+     1
+    ],
+    [
+     35090,
+     20
+    ],
+    [
+     10540,
+     4
+    ],
+    [
+     14230,
+     15
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     14140,
+     20
+    ],
+    [
+     35120,
+     10
+    ],
+    [
+     15050,
+     20
+    ],
+    [
+     35110,
+     5
+    ],
+    [
+     35150,
+     15
+    ]
+   ],
+   "requires": [
+    "Stairwell-4-Fine",
+    "Electricity-3-Best"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Facade-0-Bare",
+   "cat": "tenement-facade",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Facade-1-Makeshift",
+   "cat": "tenement-facade",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 48,
+   "oc": 2000,
+   "rm": 50,
+   "value": 200,
+   "items": [
+    [
+     35060,
+     10
+    ],
+    [
+     35180,
+     10
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Facade-2-Shabby",
+   "cat": "tenement-facade",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 96,
+   "oc": 14500,
+   "rm": 1700,
+   "value": 1000,
+   "items": [
+    [
+     35060,
+     15
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35010,
+     3
+    ],
+    [
+     15000,
+     5
+    ],
+    [
+     16700,
+     8
+    ]
+   ],
+   "requires": [
+    "Facade-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Facade-3-Decent",
+   "cat": "tenement-facade",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 168,
+   "oc": 40000,
+   "rm": 10000,
+   "value": 2000,
+   "items": [
+    [
+     35060,
+     20
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     15000,
+     15
+    ],
+    [
+     16700,
+     15
+    ]
+   ],
+   "requires": [
+    "Facade-2-Shabby",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Facade-4-Fine",
+   "cat": "tenement-facade",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 216,
+   "oc": 100000,
+   "rm": 20000,
+   "value": 4000,
+   "items": [
+    [
+     35060,
+     20
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35040,
+     15
+    ],
+    [
+     15010,
+     15
+    ],
+    [
+     16700,
+     15
+    ]
+   ],
+   "requires": [
+    "Facade-3-Decent",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Facade-5-Luxurious",
+   "cat": "tenement-facade",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 100,
+   "requires": [
+    "Facade-4-Fine",
+    "Electricity-2-Good"
+   ]
+  },
+  {
+   "name": "Mines-0-None",
+   "cat": "tenement-mines",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Mines-1-Makeshift",
+   "cat": "tenement-mines",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 3000,
+   "rm": 200,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     5
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35140,
+     8
+    ],
+    [
+     13450,
+     5
+    ],
+    [
+     16690,
+     8
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Mines-2-Shabby",
+   "cat": "tenement-mines",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 72,
+   "oc": 10000,
+   "rm": 300,
+   "items": [
+    [
+     35010,
+     40
+    ],
+    [
+     35050,
+     15
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     14230,
+     1
+    ],
+    [
+     14380,
+     5
+    ],
+    [
+     16080,
+     3
+    ],
+    [
+     35140,
+     10
+    ],
+    [
+     13450,
+     15
+    ],
+    [
+     16690,
+     4
+    ]
+   ],
+   "requires": [
+    "Mines-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Mines-3-Decent",
+   "cat": "tenement-mines",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 128,
+   "oc": 50000,
+   "rm": 1500,
+   "items": [
+    [
+     35010,
+     70
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     35140,
+     12
+    ],
+    [
+     13450,
+     32
+    ],
+    [
+     16690,
+     16
+    ]
+   ],
+   "requires": [
+    "Mines-2-Shabby",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Mines-4-Fine",
+   "cat": "tenement-mines",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 192,
+   "oc": 120000,
+   "rm": 3000,
+   "items": [
+    [
+     35060,
+     20
+    ],
+    [
+     35070,
+     4
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     14230,
+     4
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     35080,
+     6
+    ],
+    [
+     14140,
+     1
+    ],
+    [
+     35120,
+     1
+    ],
+    [
+     35140,
+     12
+    ],
+    [
+     16690,
+     12
+    ],
+    [
+     16700,
+     20
+    ],
+    [
+     18180,
+     10
+    ]
+   ],
+   "requires": [
+    "Mines-3-Decent",
+    "Electricity-3-Best",
+    "Water-1-Dirty"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Roof-0-None",
+   "cat": "tenement-roof",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Roof-1-Shabby",
+   "cat": "tenement-roof",
+   "tier": 1,
+   "tierName": "Shabby",
+   "hours": 50,
+   "oc": 6000,
+   "rm": 300,
+   "value": 120,
+   "items": [
+    [
+     35060,
+     6
+    ],
+    [
+     35150,
+     60
+    ],
+    [
+     35070,
+     20
+    ],
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     35
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     16700,
+     4
+    ],
+    [
+     14230,
+     2
+    ]
+   ],
+   "requires": [
+    "Stairwell-3-Decent"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Roof-2-Decent",
+   "cat": "tenement-roof",
+   "tier": 2,
+   "tierName": "Decent",
+   "hours": 72,
+   "oc": 10000,
+   "rm": 1500,
+   "value": 300,
+   "items": [
+    [
+     35060,
+     6
+    ],
+    [
+     35150,
+     80
+    ],
+    [
+     35070,
+     30
+    ],
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     10
+    ],
+    [
+     35180,
+     40
+    ],
+    [
+     16700,
+     5
+    ],
+    [
+     18180,
+     15
+    ],
+    [
+     35040,
+     4
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     35080,
+     4
+    ]
+   ],
+   "requires": [
+    "Roof-1-Shabby"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Roof-3-Fine",
+   "cat": "tenement-roof",
+   "tier": 3,
+   "tierName": "Fine",
+   "hours": 100,
+   "oc": 50000,
+   "rm": 10000,
+   "value": 500,
+   "items": [
+    [
+     35060,
+     6
+    ],
+    [
+     35150,
+     120
+    ],
+    [
+     35070,
+     60
+    ],
+    [
+     35010,
+     4
+    ],
+    [
+     35050,
+     15
+    ],
+    [
+     35180,
+     80
+    ],
+    [
+     16700,
+     4
+    ],
+    [
+     18180,
+     30
+    ],
+    [
+     35040,
+     15
+    ],
+    [
+     35080,
+     20
+    ],
+    [
+     14230,
+     4
+    ],
+    [
+     14140,
+     4
+    ]
+   ],
+   "requires": [
+    "Roof-2-Decent"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Sauna and pier-0-Bare",
+   "cat": "tenement-sauna-and-pier",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 100
+  },
+  {
+   "name": "Sauna and pier-1-Makeshift",
+   "cat": "tenement-sauna-and-pier",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 48,
+   "oc": 15000,
+   "rm": 800,
+   "value": 150,
+   "items": [
+    [
+     35010,
+     40
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     12710,
+     1
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35080,
+     2
+    ],
+    [
+     35100,
+     4
+    ],
+    [
+     35070,
+     4
+    ],
+    [
+     35040,
+     1
+    ],
+    [
+     35020,
+     4
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Sauna and pier-2-Shabby",
+   "cat": "tenement-sauna-and-pier",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 96,
+   "oc": 21500,
+   "rm": 1700,
+   "value": 800,
+   "items": [
+    [
+     35010,
+     60
+    ],
+    [
+     35050,
+     120
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35080,
+     3
+    ],
+    [
+     35100,
+     8
+    ],
+    [
+     35070,
+     4
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Sauna and pier-3-Decent",
+   "cat": "tenement-sauna-and-pier",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 144,
+   "oc": 60000,
+   "rm": 10000,
+   "value": 1100,
+   "items": [
+    [
+     35010,
+     30
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35080,
+     6
+    ],
+    [
+     35100,
+     2
+    ],
+    [
+     35070,
+     8
+    ],
+    [
+     35060,
+     8
+    ],
+    [
+     35150,
+     4
+    ],
+    [
+     35040,
+     3
+    ],
+    [
+     16700,
+     8
+    ],
+    [
+     18180,
+     8
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Sauna and pier-4-Fine",
+   "cat": "tenement-sauna-and-pier",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 192,
+   "oc": 60000,
+   "rm": 20000,
+   "value": 1600,
+   "items": [
+    [
+     35010,
+     60
+    ],
+    [
+     35050,
+     160
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35080,
+     6
+    ],
+    [
+     35100,
+     2
+    ],
+    [
+     35070,
+     8
+    ],
+    [
+     35060,
+     14
+    ],
+    [
+     35150,
+     6
+    ],
+    [
+     35040,
+     6
+    ],
+    [
+     16700,
+     14
+    ],
+    [
+     18180,
+     26
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Sauna and pier-5-Luxurious",
+   "cat": "tenement-sauna-and-pier",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 100
+  },
+  {
+   "name": "Stairwell-0-Bare",
+   "cat": "tenement-stairwell",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Stairwell-1-Makeshift",
+   "cat": "tenement-stairwell",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 3500,
+   "rm": 175,
+   "value": 300,
+   "items": [
+    [
+     35060,
+     2
+    ],
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     15
+    ],
+    [
+     35180,
+     12
+    ],
+    [
+     35150,
+     4
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Stairwell-2-Shabby",
+   "cat": "tenement-stairwell",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 48,
+   "oc": 13500,
+   "rm": 400,
+   "value": 800,
+   "items": [
+    [
+     35060,
+     2
+    ],
+    [
+     35010,
+     50
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     35180,
+     25
+    ],
+    [
+     35150,
+     6
+    ],
+    [
+     14830,
+     14
+    ]
+   ],
+   "requires": [
+    "Stairwell-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Stairwell-3-Decent",
+   "cat": "tenement-stairwell",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 72,
+   "oc": 50000,
+   "rm": 2000,
+   "value": 1800,
+   "items": [
+    [
+     35060,
+     8
+    ],
+    [
+     35040,
+     15
+    ],
+    [
+     35070,
+     8
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35150,
+     8
+    ],
+    [
+     16700,
+     8
+    ],
+    [
+     18180,
+     25
+    ]
+   ],
+   "requires": [
+    "Stairwell-2-Shabby",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Stairwell-4-Fine",
+   "cat": "tenement-stairwell",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 100,
+   "oc": 80000,
+   "rm": 7000,
+   "value": 6000,
+   "items": [
+    [
+     35060,
+     14
+    ],
+    [
+     35040,
+     20
+    ],
+    [
+     35070,
+     12
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35150,
+     12
+    ],
+    [
+     16700,
+     12
+    ],
+    [
+     18180,
+     40
+    ]
+   ],
+   "requires": [
+    "Stairwell-3-Decent",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Stairwell-5-Luxurious",
+   "cat": "tenement-stairwell",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 100,
+   "requires": [
+    "Stairwell-4-Fine",
+    "Electricity-2-Good"
+   ]
+  },
+  {
+   "name": "Electricity-0-None",
+   "cat": "tenement-electricity",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Electricity-1-Makeshift",
+   "cat": "tenement-electricity",
+   "tier": 1,
+   "tierName": "Shit",
+   "hours": 24,
+   "oc": 5215,
+   "rm": 180,
+   "items": [
+    [
+     35090,
+     10
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35120,
+     2
+    ],
+    [
+     14230,
+     1
+    ],
+    [
+     15780,
+     4
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift"
+   ],
+   "contractors": [
+    "Samuel Jonasson",
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Electricity-2-Good",
+   "cat": "tenement-electricity",
+   "tier": 2,
+   "tierName": "Good",
+   "hours": 72,
+   "oc": 18500,
+   "rm": 900,
+   "items": [
+    [
+     35090,
+     12
+    ],
+    [
+     35180,
+     35
+    ],
+    [
+     35070,
+     6
+    ],
+    [
+     35120,
+     10
+    ],
+    [
+     35110,
+     4
+    ],
+    [
+     10540,
+     4
+    ],
+    [
+     14230,
+     10
+    ],
+    [
+     15780,
+     10
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Electricity-3-Best",
+   "cat": "tenement-electricity",
+   "tier": 3,
+   "tierName": "Best",
+   "hours": 216,
+   "oc": 60000,
+   "rm": 10000,
+   "items": [
+    [
+     35090,
+     12
+    ],
+    [
+     35180,
+     35
+    ],
+    [
+     35070,
+     6
+    ],
+    [
+     35120,
+     10
+    ],
+    [
+     35110,
+     4
+    ],
+    [
+     10540,
+     4
+    ],
+    [
+     14230,
+     25
+    ],
+    [
+     15780,
+     25
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Heating-0-None",
+   "cat": "tenement-heating",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Heating-1-Bare",
+   "cat": "tenement-heating",
+   "tier": 1,
+   "tierName": "Bare",
+   "hours": 24,
+   "oc": 900,
+   "rm": 50,
+   "items": [
+    [
+     10530,
+     30
+    ],
+    [
+     35050,
+     10
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35010,
+     10
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift"
+   ],
+   "contractors": [
+    "Samuel Jonasson",
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Heating-2-Central",
+   "cat": "tenement-heating",
+   "tier": 2,
+   "tierName": "Central",
+   "hours": 100,
+   "oc": 23000,
+   "rm": 2100,
+   "items": [
+    [
+     35070,
+     15
+    ],
+    [
+     35080,
+     25
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     35010,
+     5
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     14140,
+     2
+    ],
+    [
+     15000,
+     12
+    ],
+    [
+     10560,
+     4
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Heating-3-District",
+   "cat": "tenement-heating",
+   "tier": 3,
+   "tierName": "District",
+   "hours": 100,
+   "oc": 100000,
+   "rm": 15000,
+   "items": [
+    [
+     35070,
+     30
+    ],
+    [
+     35080,
+     50
+    ],
+    [
+     35180,
+     50
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     35120,
+     5
+    ],
+    [
+     35110,
+     3
+    ],
+    [
+     14230,
+     5
+    ],
+    [
+     14140,
+     10
+    ],
+    [
+     15010,
+     12
+    ],
+    [
+     10560,
+     4
+    ],
+    [
+     15050,
+     8
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Water-0-None",
+   "cat": "tenement-water",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Water-1-Dirty",
+   "cat": "tenement-water",
+   "tier": 1,
+   "tierName": "Dirty",
+   "hours": 48,
+   "oc": 5600,
+   "rm": 120,
+   "items": [
+    [
+     35080,
+     40
+    ],
+    [
+     35180,
+     60
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35100,
+     6
+    ],
+    [
+     10560,
+     1
+    ],
+    [
+     15780,
+     5
+    ],
+    [
+     14140,
+     5
+    ],
+    [
+     35090,
+     1
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Samuel Jonasson",
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Water-2-Good",
+   "cat": "tenement-water",
+   "tier": 2,
+   "tierName": "Good",
+   "hours": 120,
+   "oc": 14500,
+   "rm": 3200,
+   "items": [
+    [
+     35080,
+     50
+    ],
+    [
+     35180,
+     80
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     35120,
+     6
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     15780,
+     20
+    ],
+    [
+     10560,
+     2
+    ],
+    [
+     15000,
+     5
+    ],
+    [
+     14140,
+     10
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Water-3-Best",
+   "cat": "tenement-water",
+   "tier": 3,
+   "tierName": "Best",
+   "hours": 168,
+   "oc": 50000,
+   "rm": 15000,
+   "items": [
+    [
+     35080,
+     30
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35070,
+     15
+    ],
+    [
+     10560,
+     5
+    ],
+    [
+     15050,
+     10
+    ],
+    [
+     15780,
+     35
+    ],
+    [
+     15010,
+     10
+    ],
+    [
+     14140,
+     28
+    ],
+    [
+     35110,
+     10
+    ],
+    [
+     14230,
+     4
+    ],
+    [
+     35090,
+     5
+    ],
+    [
+     35120,
+     3
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift",
+    "Electricity-2-Good",
+    "Water-2-Good"
+   ],
+   "contractors": [
+    "Urho Siltanen"
+   ]
+  },
+  {
+   "name": "Workshop-0-None",
+   "cat": "tenement-workshop",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0
+  },
+  {
+   "name": "Workshop-1-Small",
+   "cat": "tenement-workshop",
+   "tier": 1,
+   "tierName": "Small",
+   "hours": 24,
+   "oc": 4000,
+   "rm": 600,
+   "items": [
+    [
+     35060,
+     4
+    ],
+    [
+     35010,
+     10
+    ],
+    [
+     16700,
+     2
+    ]
+   ],
+   "requires": [
+    "Basement-1-Makeshift"
+   ],
+   "contractors": [
+    "Ken Nakahara",
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Workshop-2-Medium",
+   "cat": "tenement-workshop",
+   "tier": 2,
+   "tierName": "Medium",
+   "hours": 24,
+   "oc": 8000,
+   "rm": 1200,
+   "items": [
+    [
+     35060,
+     8
+    ],
+    [
+     35010,
+     10
+    ],
+    [
+     16700,
+     4
+    ]
+   ],
+   "requires": [
+    "Workshop-1-Small"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Workshop-3-Large",
+   "cat": "tenement-workshop",
+   "tier": 3,
+   "tierName": "Large",
+   "hours": 48,
+   "oc": 12000,
+   "rm": 3000,
+   "items": [
+    [
+     35060,
+     4
+    ],
+    [
+     35010,
+     10
+    ],
+    [
+     35180,
+     8
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35050,
+     2
+    ],
+    [
+     16700,
+     3
+    ]
+   ],
+   "requires": [
+    "Workshop-2-Medium"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Workshop-4-Huge",
+   "cat": "tenement-workshop",
+   "tier": 4,
+   "tierName": "Huge",
+   "hours": 52,
+   "oc": 16000,
+   "rm": 4000,
+   "items": [
+    [
+     35060,
+     32
+    ],
+    [
+     35010,
+     20
+    ],
+    [
+     14380,
+     10
+    ],
+    [
+     35070,
+     8
+    ],
+    [
+     35050,
+     24
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     13570,
+     50
+    ],
+    [
+     16700,
+     30
+    ],
+    [
+     35140,
+     25
+    ]
+   ],
+   "requires": [
+    "Workshop-3-Large",
+    "Basement-2-Shabby"
+   ],
+   "contractors": [
+    "Ken Nakahara"
+   ]
+  },
+  {
+   "name": "Small-Balcony-0-None",
+   "cat": "small-balcony",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Balcony-1-Makeshift",
+   "cat": "small-balcony",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 50,
+   "oc": 2000,
+   "rm": 40,
+   "value": 1500,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     12700,
+     2
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Balcony-2-Shabby",
+   "cat": "small-balcony",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 100,
+   "oc": 3500,
+   "rm": 210,
+   "value": 3000,
+   "items": [
+    [
+     35010,
+     50
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     35150,
+     5
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Balcony-3-Decent",
+   "cat": "small-balcony",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 192,
+   "oc": 40000,
+   "rm": 1000,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35150,
+     10
+    ],
+    [
+     35060,
+     5
+    ],
+    [
+     16700,
+     10
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Balcony-4-Fine",
+   "cat": "small-balcony",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 240,
+   "oc": 60000,
+   "rm": 3000,
+   "value": 15000,
+   "items": [
+    [
+     35010,
+     5
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     35150,
+     15
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     35040,
+     5
+    ],
+    [
+     16700,
+     15
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Balcony-5-Luxurious",
+   "cat": "small-balcony",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 390,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     20
+    ],
+    [
+     35050,
+     200
+    ],
+    [
+     35150,
+     50
+    ],
+    [
+     35060,
+     12
+    ],
+    [
+     35040,
+     5
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ]
+  },
+  {
+   "name": "Small-Bathroom-0-Bare",
+   "cat": "small-bathroom",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Bathroom-1-Makeshift",
+   "cat": "small-bathroom",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 8,
+   "oc": 320,
+   "rm": 20,
+   "value": 200,
+   "items": [
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     4
+    ],
+    [
+     35180,
+     5
+    ],
+    [
+     14860,
+     5
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Bathroom-2-Shabby",
+   "cat": "small-bathroom",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 24,
+   "oc": 4500,
+   "rm": 350,
+   "value": 1500,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     35150,
+     1
+    ],
+    [
+     35080,
+     3
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     18180,
+     2
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-1-Shit"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Bathroom-3-Decent",
+   "cat": "small-bathroom",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 72,
+   "oc": 16000,
+   "rm": 1300,
+   "value": 6000,
+   "items": [
+    [
+     35010,
+     4
+    ],
+    [
+     35050,
+     8
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35060,
+     2
+    ],
+    [
+     35080,
+     6
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     18180,
+     12
+    ],
+    [
+     14230,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Bathroom-4-Fine",
+   "cat": "small-bathroom",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 144,
+   "oc": 50000,
+   "rm": 4000,
+   "value": 15000,
+   "items": [
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     4
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35060,
+     2
+    ],
+    [
+     35080,
+     8
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     35150,
+     2
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     18180,
+     20
+    ],
+    [
+     14140,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-3-Best"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Bathroom-5-Luxurious",
+   "cat": "small-bathroom",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-3-Best"
+   ]
+  },
+  {
+   "name": "Small-Electricity-0-Off",
+   "cat": "small-electricity",
+   "tier": 0,
+   "tierName": "Off",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Electricity-1-On",
+   "cat": "small-electricity",
+   "tier": 1,
+   "tierName": "On",
+   "hours": 24,
+   "oc": 1500,
+   "rm": 120,
+   "value": 1500,
+   "items": [
+    [
+     35090,
+     6
+    ],
+    [
+     35060,
+     2
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     14230,
+     6
+    ],
+    [
+     35120,
+     2
+    ]
+   ],
+   "requires": [
+    "Small-Walls-1-Makeshift",
+    "Electricity-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Heating-0-None",
+   "cat": "small-heating",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Heating-1-Makeshift",
+   "cat": "small-heating",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 600,
+   "rm": 30,
+   "value": 400,
+   "items": [
+    [
+     35080,
+     3
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     8
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Heating-2-Shabby",
+   "cat": "small-heating",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 48,
+   "oc": 1500,
+   "rm": 120,
+   "value": 800,
+   "items": [
+    [
+     35080,
+     3
+    ],
+    [
+     35070,
+     2
+    ],
+    [
+     35180,
+     12
+    ],
+    [
+     35040,
+     1
+    ],
+    [
+     14140,
+     1
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Heating-3-Decent",
+   "cat": "small-heating",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 120,
+   "oc": 16300,
+   "rm": 2200,
+   "value": 10000,
+   "items": [
+    [
+     35080,
+     12
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35180,
+     40
+    ],
+    [
+     35060,
+     5
+    ],
+    [
+     35040,
+     5
+    ],
+    [
+     14140,
+     2
+    ]
+   ],
+   "requires": [
+    "Heating-2-Central"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Heating-4-Fine",
+   "cat": "small-heating",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 192,
+   "oc": 40200,
+   "rm": 5000,
+   "value": 15000,
+   "items": [
+    [
+     35080,
+     12
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35180,
+     60
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     35040,
+     5
+    ],
+    [
+     35050,
+     15
+    ],
+    [
+     14140,
+     8
+    ]
+   ],
+   "requires": [
+    "Heating-2-Central"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Heating-5-Luxurious",
+   "cat": "small-heating",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 384,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "requires": [
+    "Heating-3-District"
+   ]
+  },
+  {
+   "name": "Small-Kitchen-0-None",
+   "cat": "small-kitchen",
+   "tier": 0,
+   "tierName": "None",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Kitchen-1-Makeshift",
+   "cat": "small-kitchen",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 12,
+   "oc": 1550,
+   "rm": 50,
+   "value": 500,
+   "items": [
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     8
+    ],
+    [
+     35180,
+     25
+    ],
+    [
+     35100,
+     2
+    ]
+   ],
+   "requires": [
+    "Small-Walls-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Kitchen-2-Shabby",
+   "cat": "small-kitchen",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 36,
+   "oc": 4100,
+   "rm": 260,
+   "value": 1500,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35050,
+     25
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35100,
+     2
+    ],
+    [
+     35060,
+     2
+    ],
+    [
+     14830,
+     2
+    ],
+    [
+     18180,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-1-Shit"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Kitchen-3-Decent",
+   "cat": "small-kitchen",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 72,
+   "oc": 13000,
+   "rm": 1200,
+   "value": 5000,
+   "items": [
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     4
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     35120,
+     1
+    ],
+    [
+     35040,
+     1
+    ],
+    [
+     35060,
+     4
+    ],
+    [
+     14830,
+     4
+    ],
+    [
+     14140,
+     1
+    ],
+    [
+     18180,
+     4
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Kitchen-4-Fine",
+   "cat": "small-kitchen",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 144,
+   "oc": 25000,
+   "rm": 3000,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     4
+    ],
+    [
+     35050,
+     10
+    ],
+    [
+     35180,
+     25
+    ],
+    [
+     35120,
+     2
+    ],
+    [
+     35040,
+     1
+    ],
+    [
+     35060,
+     4
+    ],
+    [
+     14830,
+     8
+    ],
+    [
+     14140,
+     2
+    ],
+    [
+     18180,
+     8
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-3-Best"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Kitchen-5-Luxurious",
+   "cat": "small-kitchen",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 25000,
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-3-Best"
+   ]
+  },
+  {
+   "name": "Small-Walls-0-Bare",
+   "cat": "small-walls",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Walls-1-Makeshift",
+   "cat": "small-walls",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 800,
+   "rm": 75,
+   "value": 1000,
+   "items": [
+    [
+     35010,
+     30
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35100,
+     4
+    ],
+    [
+     14860,
+     2
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Walls-2-Shabby",
+   "cat": "small-walls",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 48,
+   "oc": 2700,
+   "rm": 290,
+   "value": 3000,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     14860,
+     4
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     35100,
+     5
+    ],
+    [
+     14830,
+     4
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Walls-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Walls-3-Decent",
+   "cat": "small-walls",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 144,
+   "oc": 25000,
+   "rm": 2500,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     15
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35150,
+     2
+    ],
+    [
+     12700,
+     1
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     14230,
+     1
+    ],
+    [
+     14830,
+     12
+    ],
+    [
+     35040,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Walls-4-Fine",
+   "cat": "small-walls",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 216,
+   "oc": 50000,
+   "rm": 5000,
+   "value": 20000,
+   "items": [
+    [
+     35010,
+     15
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35170,
+     2
+    ],
+    [
+     12700,
+     1
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     35040,
+     4
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     14830,
+     20
+    ],
+    [
+     14220,
+     12
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Small-Walls-5-Luxurious",
+   "cat": "small-walls",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 30000,
+   "requires": [
+    "Small-Electricity-1-On"
+   ]
+  },
+  {
+   "name": "Small-Water-0-None",
+   "cat": "small-water",
+   "tier": 0,
+   "tierName": "Off",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Small-Water-1-Shit",
+   "cat": "small-water",
+   "tier": 1,
+   "tierName": "Dirty",
+   "hours": 52,
+   "oc": 2500,
+   "rm": 200,
+   "value": 1000,
+   "items": [
+    [
+     35080,
+     6
+    ],
+    [
+     35180,
+     16
+    ],
+    [
+     35060,
+     8
+    ],
+    [
+     35100,
+     4
+    ]
+   ],
+   "requires": [
+    "Water-1-Dirty"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Water-2-Good",
+   "cat": "small-water",
+   "tier": 2,
+   "tierName": "Good",
+   "hours": 96,
+   "oc": 7500,
+   "rm": 700,
+   "value": 10000,
+   "items": [
+    [
+     35080,
+     10
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     10560,
+     1
+    ],
+    [
+     15000,
+     1
+    ],
+    [
+     15780,
+     10
+    ]
+   ],
+   "requires": [
+    "Water-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Small-Water-3-Best",
+   "cat": "small-water",
+   "tier": 3,
+   "tierName": "Best",
+   "hours": 144,
+   "oc": 40000,
+   "rm": 3000,
+   "value": 20000,
+   "items": [
+    [
+     35080,
+     10
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     14140,
+     10
+    ],
+    [
+     15010,
+     1
+    ],
+    [
+     15780,
+     8
+    ]
+   ],
+   "requires": [
+    "Water-3-Best"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Large-Balcony-Back-0-Bare",
+   "cat": "large-balconyback",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Large-Balcony-Back-1-Makeshift",
+   "cat": "large-balconyback",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 50,
+   "oc": 2000,
+   "rm": 40,
+   "value": 1500,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     12700,
+     2
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Large-Balcony-Back-2-Shabby",
+   "cat": "large-balconyback",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 100,
+   "oc": 3500,
+   "rm": 210,
+   "value": 3000,
+   "items": [
+    [
+     35010,
+     50
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     35150,
+     5
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Large-Balcony-Back-3-Decent",
+   "cat": "large-balconyback",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 192,
+   "oc": 40000,
+   "rm": 1000,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35150,
+     10
+    ],
+    [
+     35060,
+     5
+    ],
+    [
+     16700,
+     10
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Large-Balcony-Back-4-Fine",
+   "cat": "large-balconyback",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 240,
+   "oc": 60000,
+   "rm": 3000,
+   "value": 15000,
+   "items": [
+    [
+     35010,
+     5
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     35150,
+     15
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     35040,
+     5
+    ],
+    [
+     16700,
+     15
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Large-Balcony-Back-5-Luxurious",
+   "cat": "large-balconyback",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 390,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "requires": [
+    "Small-Electricity-1-On"
+   ]
+  },
+  {
+   "name": "Shop-Bathroom-0-Bare",
+   "cat": "shop-bathroom",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Shop-Bathroom-1-Makeshift",
+   "cat": "shop-bathroom",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 8,
+   "oc": 320,
+   "rm": 20,
+   "value": 200,
+   "items": [
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     4
+    ],
+    [
+     35180,
+     5
+    ],
+    [
+     14860,
+     5
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Bathroom-2-Shabby",
+   "cat": "shop-bathroom",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 24,
+   "oc": 4500,
+   "rm": 350,
+   "value": 1500,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     35150,
+     1
+    ],
+    [
+     35080,
+     3
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     18180,
+     2
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-1-Shit"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Bathroom-3-Decent",
+   "cat": "shop-bathroom",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 72,
+   "oc": 16000,
+   "rm": 1300,
+   "value": 6000,
+   "items": [
+    [
+     35010,
+     4
+    ],
+    [
+     35050,
+     8
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35060,
+     2
+    ],
+    [
+     35080,
+     6
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     18180,
+     12
+    ],
+    [
+     14230,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-2-Good"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Bathroom-4-Fine",
+   "cat": "shop-bathroom",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 144,
+   "oc": 50000,
+   "rm": 4000,
+   "value": 15000,
+   "items": [
+    [
+     35010,
+     2
+    ],
+    [
+     35050,
+     4
+    ],
+    [
+     35180,
+     30
+    ],
+    [
+     35060,
+     2
+    ],
+    [
+     35080,
+     8
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     35150,
+     2
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     18180,
+     20
+    ],
+    [
+     14140,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-3-Best"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Bathroom-5-Luxurious",
+   "cat": "shop-bathroom",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Water-3-Best"
+   ]
+  },
+  {
+   "name": "Shop-Walls-0-Bare",
+   "cat": "shop-walls",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Shop-Walls-1-Makeshift",
+   "cat": "shop-walls",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 24,
+   "oc": 800,
+   "rm": 75,
+   "value": 1000,
+   "items": [
+    [
+     35010,
+     30
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35100,
+     4
+    ],
+    [
+     14860,
+     2
+    ]
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Walls-2-Shabby",
+   "cat": "shop-walls",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 48,
+   "oc": 2700,
+   "rm": 290,
+   "value": 3000,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     14860,
+     4
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     35090,
+     1
+    ],
+    [
+     35100,
+     5
+    ],
+    [
+     14830,
+     4
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On",
+    "Small-Walls-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Walls-3-Decent",
+   "cat": "shop-walls",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 144,
+   "oc": 25000,
+   "rm": 2500,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     15
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35150,
+     2
+    ],
+    [
+     12700,
+     1
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     14230,
+     1
+    ],
+    [
+     14830,
+     12
+    ],
+    [
+     35040,
+     1
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Walls-4-Fine",
+   "cat": "shop-walls",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 216,
+   "oc": 50000,
+   "rm": 5000,
+   "value": 20000,
+   "items": [
+    [
+     35010,
+     15
+    ],
+    [
+     35050,
+     30
+    ],
+    [
+     35180,
+     15
+    ],
+    [
+     35170,
+     2
+    ],
+    [
+     12700,
+     1
+    ],
+    [
+     35090,
+     2
+    ],
+    [
+     35040,
+     4
+    ],
+    [
+     14230,
+     2
+    ],
+    [
+     14830,
+     20
+    ],
+    [
+     14220,
+     12
+    ]
+   ],
+   "requires": [
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Shop-Walls-5-Luxurious",
+   "cat": "shop-walls",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 100,
+   "oc": 0,
+   "rm": 0,
+   "value": 30000,
+   "requires": [
+    "Small-Electricity-1-On"
+   ]
+  },
+  {
+   "name": "Player-Extension-Back-0-None",
+   "cat": "player-extensionback",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Player-Extension-Back-1-Makeshift",
+   "cat": "player-extensionback",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 96,
+   "oc": 2400,
+   "rm": 300,
+   "value": 3000,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     12700,
+     2
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Player-Extension-Back-2-Shabby",
+   "cat": "player-extensionback",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 168,
+   "oc": 9000,
+   "rm": 1000,
+   "value": 5000,
+   "items": [
+    [
+     35010,
+     50
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     35150,
+     5
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Player-Extension-Back-3-Decent",
+   "cat": "player-extensionback",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 192,
+   "oc": 40000,
+   "rm": 4000,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35150,
+     10
+    ],
+    [
+     35060,
+     5
+    ],
+    [
+     15000,
+     3
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On",
+    "Facade-2-Shabby"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Player-Extension-Back-4-Fine",
+   "cat": "player-extensionback",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 240,
+   "oc": 60000,
+   "rm": 8000,
+   "value": 15000,
+   "items": [
+    [
+     35010,
+     5
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     35150,
+     15
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     35040,
+     5
+    ],
+    [
+     15010,
+     2
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On",
+    "Facade-3-Decent"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Player-Extension-Back-5-Luxurious",
+   "cat": "player-extensionback",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 390,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     20
+    ],
+    [
+     35050,
+     200
+    ],
+    [
+     35150,
+     50
+    ],
+    [
+     35060,
+     12
+    ],
+    [
+     35040,
+     5
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On"
+   ]
+  },
+  {
+   "name": "Player-Extension-Front-0-None",
+   "cat": "player-extensionfront",
+   "tier": 0,
+   "tierName": "Bare",
+   "hours": 0,
+   "oc": 0,
+   "rm": 0,
+   "value": 0
+  },
+  {
+   "name": "Player-Extension-Front-1-Makeshift",
+   "cat": "player-extensionfront",
+   "tier": 1,
+   "tierName": "Makeshift",
+   "hours": 96,
+   "oc": 2400,
+   "rm": 300,
+   "value": 3000,
+   "items": [
+    [
+     35010,
+     20
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     20
+    ],
+    [
+     35180,
+     20
+    ],
+    [
+     12700,
+     2
+    ],
+    [
+     35020,
+     10
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Player-Extension-Front-2-Shabby",
+   "cat": "player-extensionfront",
+   "tier": 2,
+   "tierName": "Shabby",
+   "hours": 168,
+   "oc": 9000,
+   "rm": 1000,
+   "value": 5000,
+   "items": [
+    [
+     35010,
+     50
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35180,
+     10
+    ],
+    [
+     35150,
+     5
+    ],
+    [
+     35020,
+     10
+    ],
+    [
+     16080,
+     1
+    ],
+    [
+     13570,
+     15
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On"
+   ],
+   "contractors": [
+    "Rob Madsen",
+    "Samuel Jonasson"
+   ]
+  },
+  {
+   "name": "Player-Extension-Front-3-Decent",
+   "cat": "player-extensionfront",
+   "tier": 3,
+   "tierName": "Decent",
+   "hours": 192,
+   "oc": 40000,
+   "rm": 4000,
+   "value": 10000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     5
+    ],
+    [
+     35050,
+     50
+    ],
+    [
+     35150,
+     10
+    ],
+    [
+     35060,
+     5
+    ],
+    [
+     15000,
+     3
+    ],
+    [
+     16080,
+     8
+    ],
+    [
+     13570,
+     20
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On",
+    "Facade-2-Shabby"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Player-Extension-Front-4-Fine",
+   "cat": "player-extensionfront",
+   "tier": 4,
+   "tierName": "Fine",
+   "hours": 240,
+   "oc": 60000,
+   "rm": 8000,
+   "value": 15000,
+   "items": [
+    [
+     35010,
+     5
+    ],
+    [
+     35070,
+     10
+    ],
+    [
+     35050,
+     80
+    ],
+    [
+     35150,
+     15
+    ],
+    [
+     35060,
+     10
+    ],
+    [
+     35040,
+     5
+    ],
+    [
+     15010,
+     2
+    ],
+    [
+     16080,
+     10
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On",
+    "Facade-3-Decent"
+   ],
+   "contractors": [
+    "Rob Madsen"
+   ]
+  },
+  {
+   "name": "Player-Extension-Front-5-Luxurious",
+   "cat": "player-extensionfront",
+   "tier": 5,
+   "tierName": "Luxurious",
+   "hours": 390,
+   "oc": 0,
+   "rm": 0,
+   "value": 20000,
+   "items": [
+    [
+     35010,
+     10
+    ],
+    [
+     35070,
+     20
+    ],
+    [
+     35050,
+     200
+    ],
+    [
+     35150,
+     50
+    ],
+    [
+     35060,
+     12
+    ],
+    [
+     35040,
+     5
+    ]
+   ],
+   "requires": [
+    "Courtyard-1-Makeshift",
+    "Small-Electricity-1-On"
+   ]
+  }
+ ],
+ "contractors": [
+  {
+   "name": "Ken Nakahara",
+   "max": {
+    "large-balconyback": 0,
+    "player-extensionback": 0,
+    "player-extensionfront": 0,
+    "shop-bathroom": 0,
+    "shop-walls": 0,
+    "small-balcony": 0,
+    "small-bathroom": 0,
+    "small-electricity": 0,
+    "small-heating": 0,
+    "small-kitchen": 0,
+    "small-walls": 0,
+    "small-water": 0,
+    "tenement-basement": 2,
+    "tenement-courtyard": 0,
+    "tenement-electricity": 0,
+    "tenement-elevator": 0,
+    "tenement-facade": 0,
+    "tenement-heating": 0,
+    "tenement-mines": 4,
+    "tenement-roof": 0,
+    "tenement-sauna-and-pier": 0,
+    "tenement-sauna": 0,
+    "tenement-shrooms": 4,
+    "tenement-stairwell": 0,
+    "tenement-water": 0,
+    "tenement-workshop": 4
+   }
+  },
+  {
+   "name": "Rob Madsen",
+   "max": {
+    "large-balconyback": 4,
+    "player-extensionback": 4,
+    "player-extensionfront": 4,
+    "shop-bathroom": 4,
+    "shop-walls": 4,
+    "small-balcony": 4,
+    "small-bathroom": 4,
+    "small-electricity": 4,
+    "small-heating": 4,
+    "small-kitchen": 4,
+    "small-walls": 4,
+    "small-water": 4,
+    "tenement-basement": 4,
+    "tenement-courtyard": 4,
+    "tenement-electricity": 0,
+    "tenement-elevator": 0,
+    "tenement-facade": 4,
+    "tenement-heating": 0,
+    "tenement-mines": 0,
+    "tenement-roof": 3,
+    "tenement-sauna-and-pier": 4,
+    "tenement-sauna": 4,
+    "tenement-shrooms": 1,
+    "tenement-stairwell": 4,
+    "tenement-water": 0,
+    "tenement-workshop": 1
+   }
+  },
+  {
+   "name": "Samuel Jonasson",
+   "max": {
+    "large-balconyback": 2,
+    "player-extensionback": 2,
+    "player-extensionfront": 2,
+    "shop-bathroom": 0,
+    "shop-walls": 0,
+    "small-balcony": 2,
+    "small-bathroom": 2,
+    "small-electricity": 2,
+    "small-heating": 2,
+    "small-kitchen": 2,
+    "small-walls": 2,
+    "small-water": 2,
+    "tenement-basement": 2,
+    "tenement-courtyard": 2,
+    "tenement-electricity": 1,
+    "tenement-elevator": 0,
+    "tenement-facade": 2,
+    "tenement-heating": 1,
+    "tenement-mines": 0,
+    "tenement-roof": 1,
+    "tenement-sauna-and-pier": 2,
+    "tenement-sauna": 2,
+    "tenement-shrooms": 1,
+    "tenement-stairwell": 2,
+    "tenement-water": 1,
+    "tenement-workshop": 1
+   }
+  },
+  {
+   "name": "Urho Siltanen",
+   "max": {
+    "large-balconyback": 0,
+    "player-extensionback": 0,
+    "player-extensionfront": 0,
+    "shop-bathroom": 0,
+    "shop-walls": 0,
+    "small-balcony": 0,
+    "small-bathroom": 0,
+    "small-electricity": 0,
+    "small-heating": 0,
+    "small-kitchen": 0,
+    "small-walls": 0,
+    "small-water": 0,
+    "tenement-basement": 0,
+    "tenement-courtyard": 0,
+    "tenement-electricity": 3,
+    "tenement-elevator": 2,
+    "tenement-facade": 0,
+    "tenement-heating": 3,
+    "tenement-mines": 0,
+    "tenement-roof": 0,
+    "tenement-sauna-and-pier": 0,
+    "tenement-sauna": 0,
+    "tenement-shrooms": 0,
+    "tenement-stairwell": 0,
+    "tenement-water": 3,
+    "tenement-workshop": 0
+   }
+  }
+ ],
+ "residents": [
+  {
+   "name": "Agnes Takala",
+   "npc": 59,
+   "oc": 250,
+   "rm": 255,
+   "sizes": [
+    "Medium"
+   ],
+   "needs": [
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "with": [
+    "Ulrik Takala"
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Takala/Agnes Takala"
+    }
+   ],
+   "talk": [
+    "Resident/Agnes Takala"
+   ]
+  },
+  {
+   "name": "Aleksi Kivi",
+   "npc": 35,
+   "oc": 3200,
+   "rm": 0,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Deekula A",
+     "object": "Npcs/Aleksi Kivi/Aleksi Kivi"
+    }
+   ],
+   "talk": [
+    "Resident/Aleksi Kivi"
+   ]
+  },
+  {
+   "name": "Amanda Korhonen",
+   "npc": 42,
+   "oc": 3000,
+   "rm": 0,
+   "sizes": [
+    "Medium"
+   ],
+   "needs": [
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     1
+    ],
+    [
+     "small-heating",
+     2
+    ],
+    [
+     "small-bathroom",
+     2
+    ],
+    [
+     "small-walls",
+     1
+    ],
+    [
+     "small-kitchen",
+     2
+    ]
+   ],
+   "with": [
+    "Tea Henderson"
+   ],
+   "furniture": "Amanda Korhonen Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Deekula B",
+     "object": "Npcs/Amanda Korhonen/Amanda Korhonen"
+    }
+   ],
+   "talk": [
+    "Deekula/Amanda Korhonen"
+   ]
+  },
+  {
+   "name": "Crazy Neighbor",
+   "npc": 107,
+   "oc": 0,
+   "rm": 0,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [],
+   "events": 4,
+   "noEvict": true,
+   "noUpgrade": true,
+   "dialogueActor": "Resident/Crazy Neighbor",
+   "furniture": "Crazy Neighbor Prefabs",
+   "where": [
+    {
+     "scene": "Interior Bazaar Casino",
+     "object": "_NPC/Crazy Neighbor/Chair_crazy/Hide/crazy_neighbor_sitting/crazy_neighbor_001"
+    },
+    {
+     "scene": "Interior Tenement House1",
+     "object": "Pia/Crazy neighbor/crazy_neighbor_pia_hide/crazy_neighbor_001"
+    }
+   ],
+   "relayTo": 4
+  },
+  {
+   "name": "Einar Kaivuri",
+   "npc": 121,
+   "oc": 900,
+   "rm": 200,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     2
+    ],
+    [
+     "tenement-sauna",
+     1
+    ],
+    [
+     "tenement-courtyard",
+     1
+    ],
+    [
+     "tenement-mines",
+     3
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     2
+    ],
+    [
+     "small-bathroom",
+     2
+    ],
+    [
+     "small-walls",
+     2
+    ],
+    [
+     "small-balcony",
+     2
+    ],
+    [
+     "small-kitchen",
+     2
+    ]
+   ],
+   "with": [
+    "Veikko Martinsen",
+    "Kalle Suutari",
+    "Olavi Hyypiö"
+   ],
+   "where": [
+    {
+     "scene": "Interior Mines Canteen",
+     "object": "NPC/Einar Kaivuri/Einar Kaivuri"
+    }
+   ],
+   "talk": [
+    "Mines/Canteen/Einar Kaivuri"
+   ]
+  },
+  {
+   "name": "Elias Karhu",
+   "npc": 174,
+   "oc": 350,
+   "rm": 200,
+   "sizes": [
+    "Medium"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     1
+    ],
+    [
+     "tenement-facade",
+     1
+    ],
+    [
+     "tenement-courtyard",
+     2
+    ],
+    [
+     "small-water",
+     1
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ],
+    [
+     "small-kitchen",
+     3
+    ]
+   ],
+   "with": [
+    "Toini Karhu"
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Bazaar",
+     "object": "Stuff 2/Bazaar NPCs/Karhut/Karhu stuff/Hide/Elias Karhu"
+    }
+   ],
+   "talk": [
+    "Bazaar/Outside/Elias Karhu"
+   ]
+  },
+  {
+   "name": "Elsa Varis",
+   "npc": 164,
+   "oc": 200,
+   "rm": 650,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     3
+    ],
+    [
+     "small-bathroom",
+     3
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-kitchen",
+     3
+    ]
+   ],
+   "furniture": "Elsa Varis Prefabs",
+   "where": [
+    {
+     "scene": "Interior Bazaar Internet Cafe",
+     "object": "Elsa Varis"
+    }
+   ],
+   "talk": [
+    "Resident/Elsa Varis"
+   ]
+  },
+  {
+   "name": "Fenella Hunt",
+   "npc": 95,
+   "oc": 3700,
+   "rm": 800,
+   "sizes": [
+    "Medium",
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     2
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     3
+    ],
+    [
+     "small-bathroom",
+     3
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-balcony",
+     2
+    ],
+    [
+     "small-kitchen",
+     3
+    ]
+   ],
+   "with": [
+    "Moray Larson"
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Kolhola",
+     "object": "Npcs/Fenella Hunt/Fenella Hunt"
+    }
+   ],
+   "talk": [
+    "Resident/Fenella Hunt"
+   ]
+  },
+  {
+   "name": "Harri Hyvinkää",
+   "npc": 154,
+   "oc": 0,
+   "rm": 600,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     3
+    ],
+    [
+     "tenement-sauna",
+     3
+    ],
+    [
+     "tenement-facade",
+     3
+    ],
+    [
+     "tenement-courtyard",
+     3
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     3
+    ],
+    [
+     "small-bathroom",
+     3
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-balcony",
+     3
+    ],
+    [
+     "small-kitchen",
+     3
+    ]
+   ],
+   "with": [
+    "Niko Kerava",
+    "Jappe Järvenpää",
+    "Juha Tuusula"
+   ],
+   "furniture": "Harri Hyvinkää Prefabs",
+   "where": [
+    {
+     "scene": "Interior Bazaar Fungi Boutique",
+     "object": "_ShopLogic/NPC/Harri Hyvinkää Node/Harri Hyvinkää"
+    }
+   ],
+   "talk": [
+    "Bazaar/Fungi/Harri Hyvinkää"
+   ]
+  },
+  {
+   "name": "Ingrid Claesson",
+   "npc": 61,
+   "oc": 1350,
+   "rm": 125,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "with": [
+    "Sami Claesson",
+    "Daan Claesson",
+    "Levo Claesson"
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Claesson/Ingrid Claesson"
+    }
+   ],
+   "talk": [
+    "Resident/Ingrid Claesson"
+   ]
+  },
+  {
+   "name": "Jarmo Pettinen",
+   "npc": 40,
+   "oc": 1450,
+   "rm": 96,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     1
+    ],
+    [
+     "tenement-basement",
+     1
+    ],
+    [
+     "tenement-sauna",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "with": [
+    "Aino Pettinen",
+    "Ilona Pettinen"
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Pettinen/Jarmo Pettinen/Jarmo Pettinen"
+    }
+   ],
+   "talk": [
+    "Resident/Jarmo Pettinen"
+   ]
+  },
+  {
+   "name": "Jesper Kumpula",
+   "npc": 60,
+   "oc": 0,
+   "rm": 740,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     3
+    ],
+    [
+     "tenement-facade",
+     3
+    ],
+    [
+     "tenement-courtyard",
+     3
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     3
+    ],
+    [
+     "small-bathroom",
+     3
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-kitchen",
+     3
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Jesper Kumpula/Jesper Kumpula"
+    }
+   ],
+   "talk": [
+    "Resident/Jesper Kumpula"
+   ]
+  },
+  {
+   "name": "Jonne Reis",
+   "npc": 114,
+   "oc": 850,
+   "rm": 180,
+   "sizes": [
+    "Small",
+    "Medium"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     2
+    ],
+    [
+     "tenement-courtyard",
+     1
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     2
+    ],
+    [
+     "small-kitchen",
+     1
+    ]
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement A",
+     "object": "NPC/Jonne Reis/Jonne Reis"
+    }
+   ],
+   "talk": [
+    "Tenement/Tenement A/Jonne Reis"
+   ]
+  },
+  {
+   "name": "Kirka Kääbus",
+   "npc": 94,
+   "oc": 2716,
+   "rm": 1150,
+   "sizes": [
+    "Medium",
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     1
+    ],
+    [
+     "tenement-basement",
+     2
+    ],
+    [
+     "tenement-sauna",
+     3
+    ],
+    [
+     "tenement-courtyard",
+     2
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     3
+    ],
+    [
+     "small-bathroom",
+     3
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-kitchen",
+     3
+    ]
+   ],
+   "with": [
+    "Hall Kääbus"
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Kolhola",
+     "object": "Npcs/Kirka Kääbus/Kirka Kääbus"
+    }
+   ],
+   "talk": [
+    "Resident/Kirka Kääbus"
+   ]
+  },
+  {
+   "name": "Lasse Lurjus",
+   "npc": 198,
+   "oc": 3000,
+   "rm": 100,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "small-water",
+     1
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ],
+    [
+     "small-kitchen",
+     1
+    ]
+   ],
+   "with": [
+    "Kalle Ketku",
+    "Kössi Kelmi"
+   ],
+   "furniture": "Lasse Lurjus Prefabs",
+   "where": [
+    {
+     "scene": "Open Sewer Bazaar",
+     "object": "Stuff 2/Bazaar NPCs/Rosmot/Lasse Lurjus"
+    }
+   ],
+   "talk": [
+    "Bazaar/Outside/Lasse Lurjus"
+   ]
+  },
+  {
+   "name": "Leon Borg",
+   "npc": 63,
+   "oc": 1400,
+   "rm": 100,
+   "sizes": [
+    "Medium"
+   ],
+   "needs": [
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "with": [
+    "Leena Borg"
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Borg/Leon Borg"
+    }
+   ],
+   "talk": [
+    "Resident/Leon Borg"
+   ]
+  },
+  {
+   "name": "Malone Petronis",
+   "npc": 37,
+   "oc": 0,
+   "rm": 0,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [],
+   "noEvict": true,
+   "furniture": "Malone Petronis Prefabs",
+   "startsIn": 7
+  },
+  {
+   "name": "Martta Lapinjoki",
+   "npc": 39,
+   "oc": 2200,
+   "rm": 0,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-courtyard",
+     1
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ],
+    [
+     "small-kitchen",
+     1
+    ]
+   ],
+   "with": [
+    "Jaska Virtanen"
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Lapinjoki/Martta Lapinjoki"
+    }
+   ],
+   "talk": [
+    "Resident/Martta Lapinjoki"
+   ]
+  },
+  {
+   "name": "Nina Lund",
+   "npc": 38,
+   "oc": 1300,
+   "rm": 130,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Nina Lund/Nina Lund"
+    }
+   ],
+   "talk": [
+    "Resident/Nina Lund"
+   ]
+  },
+  {
+   "name": "Olle Leino",
+   "npc": 64,
+   "oc": 2200,
+   "rm": 295,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     3
+    ],
+    [
+     "tenement-basement",
+     3
+    ],
+    [
+     "tenement-sauna",
+     3
+    ],
+    [
+     "tenement-facade",
+     3
+    ],
+    [
+     "tenement-courtyard",
+     3
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Leino/Olle Leino"
+    }
+   ],
+   "talk": [
+    "Resident/Olle Leino"
+   ]
+  },
+  {
+   "name": "Pate Rantanen",
+   "npc": 26,
+   "oc": 1200,
+   "rm": 0,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "furniture": "Pate Rantanen Prefabs",
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Pate Rantanen/Pate Rantanen"
+    }
+   ],
+   "talk": [
+    "Resident/Pate Rantanen"
+   ]
+  },
+  {
+   "name": "Per Otter",
+   "npc": 254,
+   "oc": 300,
+   "rm": 1368,
+   "sizes": [
+    "Medium",
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-elevator",
+     1
+    ],
+    [
+     "tenement-stairwell",
+     3
+    ],
+    [
+     "tenement-sauna",
+     3
+    ],
+    [
+     "tenement-facade",
+     3
+    ],
+    [
+     "tenement-courtyard",
+     2
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     3
+    ],
+    [
+     "small-bathroom",
+     4
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-balcony",
+     3
+    ],
+    [
+     "small-kitchen",
+     4
+    ]
+   ],
+   "with": [
+    "Anu Otter"
+   ],
+   "where": [
+    {
+     "scene": "Interior Bazaar Inn",
+     "object": "NPC/Per Otter"
+    }
+   ],
+   "talk": [
+    "Resident/Per Otter"
+   ]
+  },
+  {
+   "name": "Pera Harju",
+   "npc": 36,
+   "oc": 750,
+   "rm": 25,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Tenement",
+     "object": "NPC/Residents/Pera Harju/Pera Harju"
+    }
+   ],
+   "talk": [
+    "Resident/Pera Harju"
+   ]
+  },
+  {
+   "name": "Sara Claine",
+   "npc": 65,
+   "oc": 1400,
+   "rm": 0,
+   "sizes": [
+    "Medium"
+   ],
+   "needs": [
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Bus",
+     "object": "Npc/Sara Claine"
+    }
+   ],
+   "talk": [
+    "Resident/Sara Claine"
+   ]
+  },
+  {
+   "name": "Taneli Kurju",
+   "npc": 91,
+   "oc": 3200,
+   "rm": 450,
+   "sizes": [
+    "Small",
+    "Medium"
+   ],
+   "needs": [
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     2
+    ],
+    [
+     "small-bathroom",
+     2
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-balcony",
+     1
+    ]
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Kolhola",
+     "object": "Npcs/Taneli Kurju/Taneli Kurju"
+    }
+   ],
+   "talk": [
+    "Resident/Taneli Kurju"
+   ]
+  },
+  {
+   "name": "Tapani Kattila",
+   "npc": 194,
+   "oc": 4500,
+   "rm": 0,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     1
+    ],
+    [
+     "tenement-facade",
+     1
+    ],
+    [
+     "tenement-courtyard",
+     1
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     2
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     2
+    ],
+    [
+     "small-walls",
+     1
+    ],
+    [
+     "small-balcony",
+     1
+    ],
+    [
+     "small-kitchen",
+     2
+    ]
+   ],
+   "with": [
+    "Alexandra Kattila",
+    "Viljo Kattila",
+    "Tähti Kattila"
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Bazaar",
+     "object": "Stuff 2/Bazaar NPCs/Kattilat/Tapani Kattila"
+    }
+   ],
+   "talk": [
+    "Bazaar/Outside/Tapani Kattila"
+   ]
+  },
+  {
+   "name": "Urpo Murhapuro",
+   "npc": 244,
+   "oc": 900,
+   "rm": 368,
+   "sizes": [
+    "Large"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     4
+    ],
+    [
+     "tenement-basement",
+     4
+    ],
+    [
+     "tenement-sauna",
+     4
+    ],
+    [
+     "tenement-facade",
+     4
+    ],
+    [
+     "tenement-courtyard",
+     4
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     3
+    ],
+    [
+     "small-heating",
+     4
+    ],
+    [
+     "small-bathroom",
+     4
+    ],
+    [
+     "small-walls",
+     4
+    ],
+    [
+     "small-balcony",
+     4
+    ],
+    [
+     "small-kitchen",
+     4
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Interior Bazaar Murju A",
+     "object": "_NPC/Urpo/Urpo Murhapuro"
+    }
+   ],
+   "talk": [
+    "Resident/Urpo Murhapuro"
+   ]
+  },
+  {
+   "name": "Veeti Pärisevä",
+   "npc": 271,
+   "oc": 2000,
+   "rm": 330,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     1
+    ],
+    [
+     "small-heating",
+     2
+    ],
+    [
+     "small-bathroom",
+     2
+    ],
+    [
+     "small-walls",
+     3
+    ],
+    [
+     "small-kitchen",
+     2
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Interior Bazaar Bar",
+     "object": "_NPCs/Veeti Pärisevä/Veeti Pärisevä"
+    }
+   ],
+   "talk": [
+    "Resident/Veeti Pärisevä"
+   ]
+  },
+  {
+   "name": "Ville Sköldgangster",
+   "npc": 12,
+   "oc": 3000,
+   "rm": 300,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "small-water",
+     1
+    ],
+    [
+     "small-heating",
+     2
+    ],
+    [
+     "small-bathroom",
+     2
+    ],
+    [
+     "small-walls",
+     2
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Interior Tenement Speakeasy",
+     "object": "Content/NPCs/Ville Sköldgangster"
+    }
+   ],
+   "talk": [
+    "Resident/Ville Sköldgangster"
+   ]
+  },
+  {
+   "name": "Vivi Bondar",
+   "npc": 66,
+   "oc": 600,
+   "rm": 250,
+   "sizes": [
+    "Medium"
+   ],
+   "needs": [
+    [
+     "tenement-sauna",
+     2
+    ],
+    [
+     "small-water",
+     1
+    ],
+    [
+     "small-heating",
+     1
+    ],
+    [
+     "small-bathroom",
+     1
+    ],
+    [
+     "small-walls",
+     1
+    ]
+   ],
+   "with": [
+    "Walt Bondar"
+   ],
+   "furniture": "Furniture Variant 2 Prefabs",
+   "where": [
+    {
+     "scene": "Interior Tenement Deekula C",
+     "object": "Npcs/Vivi Bondar/Vivi Bondar"
+    }
+   ],
+   "talk": [
+    "Resident/Vivi Bondar"
+   ]
+  },
+  {
+   "name": "Zoya Gubenko",
+   "npc": 181,
+   "oc": 0,
+   "rm": 1600,
+   "sizes": [
+    "Small"
+   ],
+   "needs": [
+    [
+     "tenement-stairwell",
+     3
+    ],
+    [
+     "tenement-facade",
+     3
+    ],
+    [
+     "tenement-courtyard",
+     3
+    ],
+    [
+     "small-electricity",
+     1
+    ],
+    [
+     "small-water",
+     3
+    ],
+    [
+     "small-heating",
+     4
+    ],
+    [
+     "small-bathroom",
+     4
+    ],
+    [
+     "small-walls",
+     4
+    ],
+    [
+     "small-balcony",
+     4
+    ],
+    [
+     "small-kitchen",
+     4
+    ]
+   ],
+   "where": [
+    {
+     "scene": "Open Sewer Bazaar",
+     "object": "Stuff 2/Bazaar NPCs/Zoya Gubenko/Zoya Gubenko"
+    }
+   ],
+   "talk": [
+    "Bazaar/Outside/Zoya Gubenko"
+   ]
+  }
+ ]
+}

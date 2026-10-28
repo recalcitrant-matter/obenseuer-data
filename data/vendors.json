@@ -1,0 +1,3021 @@
+[
+ {
+  "id": "11165f55",
+  "name": "Rihkama & Trinkets",
+  "scene": "Open Sewer Tenement",
+  "title": "Rihkama & Trinkets",
+  "object": "NPC/Market/Gift Shop/Trade GiftShop",
+  "table": 30287,
+  "buy": 2,
+  "sell": 0.8,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   100,
+   600
+  ],
+  "hours": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    15
+   ]
+  ],
+  "buys": [
+   "Junk",
+   "Valuable",
+   "Tableware",
+   "Moon",
+   "Item_Fake Money"
+  ],
+  "restock": "every day",
+  "stacks": [
+   12,
+   6
+  ],
+  "perStack": [
+   8,
+   4
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "c62564da",
+  "name": "Henning's shop",
+  "scene": "Open Sewer Tenement",
+  "title": "Henning's shop",
+  "object": "NPC/Market/Henning Torskvær/Trade Henning",
+  "table": 30273,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   2220,
+   6000
+  ],
+  "hours": [
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ]
+  ],
+  "buys": [
+   "Hardware",
+   "Tools"
+  ],
+  "restock": "every day",
+  "stacks": [
+   100,
+   30
+  ],
+  "perStack": [
+   16,
+   8
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "08329b81",
+  "name": "Selmas's Stall",
+  "scene": "Open Sewer Tenement",
+  "title": "Selmas's Stall",
+  "object": "NPC/Market/Kalpana Selma/Trade Kalpana",
+  "table": 30276,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   220,
+   2000
+  ],
+  "hours": [
+   [
+    6,
+    16
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "CannedFood"
+  ],
+  "restock": "every day",
+  "stacks": [
+   20,
+   5
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "bc533c6c",
+  "name": "Kurahaara Brothers",
+  "scene": "Open Sewer Tenement",
+  "title": "Kurahaara Brothers",
+  "object": "NPC/Market/Lönkka Kurahaara/Trade Kurahaara",
+  "table": 30285,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   1220,
+   5000
+  ],
+  "hours": [
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ]
+  ],
+  "buys": [
+   "Plant",
+   "Seeds",
+   "_Item_Fertilizer",
+   "_Item_Urea Solution"
+  ],
+  "restock": "every day",
+  "stacks": [
+   60,
+   5
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "92c65ce5",
+  "name": "Petro's Log and Block",
+  "scene": "Open Sewer Tenement",
+  "title": "Petro's Log and Block",
+  "object": "NPC/Market/Petro Blokuvati/Trade Petro",
+  "table": 30272,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   200,
+   1000
+  ],
+  "hours": [
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    18
+   ]
+  ],
+  "buys": [
+   "_item_Coal",
+   "Wood"
+  ],
+  "restock": "every day",
+  "stacks": [
+   45,
+   15
+  ],
+  "perStack": [
+   16,
+   6
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "2003da7f-open-sewer-tenement",
+  "name": "Sirkku's Flower Stall",
+  "scene": "Open Sewer Tenement",
+  "title": "Sirkku's Flower Stall",
+  "object": "NPC/Market/Sirkku Maltanen/Trade Sirkku",
+  "table": 30275,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   220,
+   2000
+  ],
+  "hours": [
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Seeds",
+   "_item_Fertile Soil",
+   "Waste",
+   "Plant",
+   "_item_Empty Flowerpot"
+  ],
+  "restock": "every day",
+  "stacks": [
+   30,
+   5
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "1b2ff7e6-open-sewer-tenement",
+  "name": "Teuvo's alcohol stall",
+  "scene": "Open Sewer Tenement",
+  "title": "Teuvo's alcohol stall",
+  "object": "NPC/Market/Teuvo Skogman/Trade Teuvo",
+  "table": 30271,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   2000,
+   8000
+  ],
+  "hours": [
+   [
+    10,
+    19
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    16
+   ]
+  ],
+  "buys": [
+   "Alcohol"
+  ],
+  "restock": "every day",
+  "stacks": [
+   60,
+   20
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "2003da7f-interior-tenement-a",
+  "name": "Emma-Maija",
+  "scene": "Interior Tenement A",
+  "title": "Emma-Maija",
+  "object": "Cat Trader/Trade",
+  "custom": [
+   [
+    12720,
+    0
+   ]
+  ],
+  "buy": 1.7,
+  "sell": 0.013,
+  "buyCur": "RM",
+  "sellCur": "OC",
+  "cash": [
+   120,
+   1000
+  ],
+  "hours": [
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "buys": [
+   "_item_Cat"
+  ],
+  "restock": "every day",
+  "stacks": [
+   2,
+   2
+  ],
+  "perStack": [
+   1,
+   0
+  ]
+ },
+ {
+  "id": "aa8254a4",
+  "name": "Fredrik",
+  "scene": "Interior Tenement A",
+  "title": "Fredrik",
+  "owner": {
+   "id": 105,
+   "name": "Fredrik"
+  },
+  "object": "NPC/Fredrik/fredrik_sitting/Trade",
+  "table": 30289,
+  "buy": 1.2,
+  "sell": 0.8,
+  "buyCur": "RM",
+  "sellCur": "RM",
+  "cash": [
+   1000,
+   3000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Medical",
+   "_item_Dosimeter",
+   "_item_Empty Sample Container",
+   "_item_Polonium-210",
+   "_item_Cobalt-60"
+  ],
+  "stolen": 0.6,
+  "restock": "every day",
+  "stacks": [
+   6,
+   3
+  ],
+  "perStack": [
+   2,
+   1
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "bb3cf675-interior-tenement-b",
+  "name": "Passmore's Contrabands",
+  "scene": "Interior Tenement B",
+  "title": "Passmore's Contrabands",
+  "owner": {
+   "id": 231,
+   "name": "Denis Passmore"
+  },
+  "object": "Enviroment/Other/Usable/Doorbell/doorbell_001_usable_passmore/Passmore/Trade",
+  "custom": [
+   [
+    4,
+    1
+   ],
+   [
+    12500,
+    1
+   ],
+   [
+    12520,
+    1
+   ],
+   [
+    140010,
+    1
+   ],
+   [
+    140020,
+    1
+   ],
+   [
+    140030,
+    1
+   ],
+   [
+    12840,
+    1
+   ],
+   [
+    10880,
+    1
+   ],
+   [
+    10890,
+    1
+   ],
+   [
+    10900,
+    1
+   ],
+   [
+    12830,
+    1
+   ],
+   [
+    12851,
+    1
+   ],
+   [
+    12852,
+    1
+   ],
+   [
+    12490,
+    1
+   ],
+   [
+    12510,
+    1
+   ],
+   [
+    15020,
+    1
+   ],
+   [
+    15040,
+    1
+   ],
+   [
+    15030,
+    1
+   ],
+   [
+    15810,
+    1
+   ],
+   [
+    15800,
+    1
+   ]
+  ],
+  "buy": 1.2,
+  "sell": 0.55,
+  "buyCur": "OC",
+  "sellCur": "RM",
+  "cash": [
+   500,
+   1200
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Batteries",
+   "Smokes",
+   "Valuable",
+   "Watch",
+   "Medical",
+   "Lockpick"
+  ],
+  "stolen": 0.33,
+  "restock": "22-25 h",
+  "stacks": [
+   20,
+   10
+  ],
+  "perStack": [
+   2,
+   1
+  ]
+ },
+ {
+  "id": "1b2ff7e6-interior-tenement-deekula-c",
+  "name": "Svamppatrullen",
+  "scene": "Interior Tenement Deekula C",
+  "title": "Svamppatrullen",
+  "object": "MushroomTrade/Trade",
+  "table": 30309,
+  "buy": 1.33,
+  "sell": 0.75,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   700,
+   1600
+  ],
+  "hours": [
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ],
+   [
+    12,
+    24
+   ]
+  ],
+  "buys": [
+   "Mushrooms"
+  ],
+  "stolen": 0.7,
+  "restock": "every day",
+  "stacks": [
+   60,
+   20
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "1b2ff7e6-interior-tenement-general-store",
+  "name": "One stop shop",
+  "scene": "Interior Tenement General Store",
+  "title": "One stop shop",
+  "object": "mr_bag/Trade",
+  "table": 30235,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   5000,
+   10000
+  ],
+  "cashShared": true,
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Batteries",
+   "Chemical",
+   "Crafting Material",
+   "Fuses",
+   "Hardware",
+   "Junk",
+   "Moon",
+   "Wieldable Primary",
+   "Wieldable Secondary",
+   "Watch",
+   "Valves",
+   "Valuable",
+   "Utility",
+   "Tableware",
+   "Backpack Empty"
+  ],
+  "restock": "22-25 h",
+  "stacks": [
+   60,
+   20
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "94ed5bfb",
+  "name": "Pentti Penttilä",
+  "scene": "Interior Tenement Speakeasy",
+  "owner": {
+   "id": 11,
+   "name": "Pentti Penttilä"
+  },
+  "object": "Content/NPCs/Pentti Penttilä/Relays/Trade",
+  "custom": [
+   [
+    10850,
+    3
+   ],
+   [
+    13210,
+    5
+   ]
+  ],
+  "buy": 0.75,
+  "sell": 1.3,
+  "buyCur": "RM",
+  "sellCur": "RM",
+  "cash": [
+   5000,
+   10000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Mash"
+  ],
+  "destroysBought": true,
+  "restock": "22-25 h",
+  "stacks": [
+   5,
+   2
+  ],
+  "perStack": [
+   3,
+   1
+  ]
+ },
+ {
+  "id": "9989df0b",
+  "name": "Prison hole",
+  "scene": "Interior Tenement Gatehouse",
+  "object": "Logic/_PrisonLogic/Prison hole/Trade",
+  "table": 30279,
+  "buy": 1,
+  "sell": 0.7,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   50,
+   200
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "stolen": 0.5,
+  "restock": "every day",
+  "stacks": [
+   15,
+   5
+  ],
+  "perStack": [
+   2,
+   1
+  ],
+  "rareChance": 35
+ },
+ {
+  "id": "9983c235-test-map-empty",
+  "name": "Kalle Ketku",
+  "scene": "Test Map Empty",
+  "title": "Kalle Ketku",
+  "owner": {
+   "id": 187,
+   "name": "Kalle Ketku"
+  },
+  "object": "NPCS/Bazaar outside/Kerrostalon välis olevat tyypit 3/Kalle Ketku/Trade",
+  "table": 30353,
+  "buy": 1.569,
+  "sell": 0.598,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   700,
+   1400
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Junk",
+   "Alcohol",
+   "Backpack Empty",
+   "CannedFood",
+   "Ceramic",
+   "Crafting Material",
+   "Diesel",
+   "Dynamite",
+   "Electronic",
+   "Fuel",
+   "Fuses",
+   "Lab",
+   "Lockpick",
+   "Medical",
+   "Mushroom Alcohol",
+   "Mushrooms",
+   "Seeds",
+   "Tableware",
+   "Toy",
+   "Trap",
+   "Utility",
+   "Wood",
+   "Tools"
+  ],
+  "stolen": 0.4,
+  "restock": "every day",
+  "stacks": [
+   10,
+   5
+  ],
+  "perStack": [
+   2,
+   2
+  ],
+  "rareChance": 25,
+  "test": true
+ },
+ {
+  "id": "94809cb7",
+  "name": "Ivar Pihl",
+  "scene": "Interior Mines Shroom Farm Apartment",
+  "title": "Ivar Pihl",
+  "owner": {
+   "id": 127,
+   "name": "Ivar Pihl"
+  },
+  "object": "NPCS/Trade",
+  "buy": 1.2,
+  "sell": 1,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   10000,
+   50000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Mushroom Alcohol",
+   "Growing",
+   "Mushrooms Green",
+   "_item_Mushroom Rollie"
+  ],
+  "stolen": 0.8,
+  "destroysBought": true
+ },
+ {
+  "id": "41ea9fcb",
+  "name": "Anna Markkanen",
+  "scene": "Interior Mines Canteen",
+  "owner": {
+   "id": 119,
+   "name": "Anna Markkanen"
+  },
+  "object": "NPC/Anna Markkanen/Trade",
+  "table": 30303,
+  "buy": 1.2,
+  "sell": 0.9,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   500,
+   2000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Sandwich"
+  ],
+  "destroysBought": true,
+  "restock": "22-25 h",
+  "stacks": [
+   14,
+   0
+  ],
+  "perStack": [
+   4,
+   3
+  ],
+  "rareChance": 100
+ },
+ {
+  "id": "1b2ff7e6-interior-mines-office",
+  "name": "Reijo Rautakaivos",
+  "scene": "Interior Mines Office",
+  "title": "Reijo Rautakaivos",
+  "owner": {
+   "id": 122,
+   "name": "Reijo Rautakaivos"
+  },
+  "object": "NPC/Trade",
+  "buy": 1.2,
+  "sell": 1,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "fixedPrices": true,
+  "cash": [
+   10000,
+   30000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Ore"
+  ],
+  "destroysBought": true
+ },
+ {
+  "id": "2d39c4de",
+  "name": "Seamus' potatoes",
+  "scene": "Interior Mines Potato Mine",
+  "title": "Seamus' potatoes",
+  "owner": {
+   "id": 125,
+   "name": "Seamus Liepa"
+  },
+  "object": "Scene/NPC/Seamus Liepa/Trade",
+  "custom": [
+   [
+    21,
+    75
+   ]
+  ],
+  "buy": 0.8,
+  "sell": 1,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   5000,
+   20000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Growing"
+  ],
+  "stolen": 0.75,
+  "restock": "every day",
+  "stacks": [
+   50,
+   16
+  ],
+  "perStack": [
+   8,
+   16
+  ]
+ },
+ {
+  "id": "1cc99d5b",
+  "name": "Mikael Arnaldur",
+  "scene": "Interior Bazaar Slum Shack 3",
+  "title": "Mikael Arnaldur",
+  "owner": {
+   "id": 255,
+   "name": "Mikael Arnaldur"
+  },
+  "object": "NPC/Mikael Arnaldur/Trade",
+  "table": 30352,
+  "buy": 1,
+  "sell": 1,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   100,
+   2000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Alcohol",
+   "_item_Empty Cooler Bag",
+   "Berry",
+   "CannedFood",
+   "Cigarette packs",
+   "Fish",
+   "Kebab",
+   "Pizza",
+   "Welho"
+  ],
+  "stolen": 1,
+  "restock": "every day",
+  "stacks": [
+   10,
+   8
+  ],
+  "perStack": [
+   1,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "ebb4bb72",
+  "name": "Ms. Lotina",
+  "scene": "Interior Bazaar Slum Shack 5",
+  "owner": {
+   "id": 158,
+   "name": "Ms. Lotina"
+  },
+  "object": "Trade",
+  "buy": 1.2,
+  "sell": 0.7,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   350,
+   1200
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Meat Raw",
+   "_item_Sawdust",
+   "_item_Homemade Rye Flour",
+   "_item_Homemade Wheat Flour",
+   "_item_Wheat Flour",
+   "_item_Rye Flour",
+   "_item_Cheese",
+   "_item_Canned Tomatoes",
+   "_item_Can of Tomato Soup"
+  ],
+  "stolen": 0.7,
+  "destroysBought": true
+ },
+ {
+  "id": "aabfdb7e",
+  "name": "Welhö",
+  "scene": "Interior Bazaar Welho",
+  "title": "Welhö",
+  "owner": {
+   "id": 141,
+   "name": "Welhö"
+  },
+  "object": "NPC/Welho Trade Default/Trade",
+  "table": 30318,
+  "buy": 1.4,
+  "sell": 0.7,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   3000,
+   5000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Alcohol",
+   "Chemical",
+   "Special"
+  ],
+  "stolen": 0.4,
+  "restock": "every day",
+  "stacks": [
+   16,
+   3
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 40
+ },
+ {
+  "id": "3a285276",
+  "name": "Welhö",
+  "scene": "Interior Bazaar Welho",
+  "title": "Welhö",
+  "owner": {
+   "id": 141,
+   "name": "Welhö"
+  },
+  "object": "NPC/Welho Trade Special/Trade",
+  "table": 30317,
+  "buy": 1.4,
+  "sell": 0.7,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   3000,
+   5000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Alcohol",
+   "Chemical",
+   "Special"
+  ],
+  "stolen": 0.4,
+  "restock": "every day",
+  "stacks": [
+   16,
+   3
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 40
+ },
+ {
+  "id": "9a26ca15",
+  "name": "Pawn Shop",
+  "scene": "Interior Bazaar Pawn",
+  "title": "Pawn Shop",
+  "owner": {
+   "id": 163,
+   "name": "Cajsa Mörk"
+  },
+  "object": "_NPC/Trade",
+  "table": 30337,
+  "buy": 1,
+  "sell": 0.5,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   15000,
+   30000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Valuable",
+   "Backpack Empty",
+   "Ceramic",
+   "Metallurgy",
+   "Tableware",
+   "Tools",
+   "Watch",
+   "Fuses",
+   "RefinedMaterial",
+   "Toy",
+   "_item_Pack of Cigars",
+   "Bottled Alcohol"
+  ],
+  "stolen": 0.35,
+  "restock": "every day",
+  "stacks": [
+   35,
+   12
+  ],
+  "perStack": [
+   2,
+   1
+  ],
+  "rareChance": 24
+ },
+ {
+  "id": "91d0982a",
+  "name": "General Trader",
+  "scene": "Interior Bazaar General Store",
+  "title": "General Trader",
+  "owner": {
+   "id": 3,
+   "name": "Ivan Kapustanov"
+  },
+  "object": "_ShopLogic/Trade",
+  "table": 30339,
+  "buy": 1.179,
+  "sell": 1,
+  "buyCur": "RM",
+  "sellCur": "OC",
+  "cash": [
+   7000,
+   17000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "refuses": [
+   "QuestItem",
+   "Animal",
+   "Fish",
+   "Backpack",
+   "Waste",
+   "Sandwich",
+   "Ramen",
+   "_Meta_ItemPerishabledata",
+   "Mail",
+   "Receipt"
+  ],
+  "restock": "every day",
+  "stacks": [
+   66,
+   13
+  ],
+  "perStack": [
+   4,
+   4
+  ],
+  "rareChance": 50
+ },
+ {
+  "id": "043a4e43",
+  "name": "Larry Goatbridge",
+  "scene": "Interior Bazaar Metal Shop",
+  "owner": {
+   "id": 167,
+   "name": "Larry Goatbridge"
+  },
+  "object": "NPC/Trade",
+  "buy": 1.2,
+  "sell": 0.8,
+  "buyCur": "RM",
+  "sellCur": "RM",
+  "cash": [
+   10000,
+   21000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "_item_Steel Bar",
+   "_item_Brass Bar",
+   "_item_Metal Slab",
+   "_item_Sheet Metal",
+   "_item_Mechanical Parts",
+   "_item_Stainless Steel"
+  ],
+  "destroysBought": true
+ },
+ {
+  "id": "383d5b21",
+  "name": "Torsten Dvergsson",
+  "scene": "Interior Bazaar Gold Shop",
+  "owner": {
+   "id": 106,
+   "name": "Torsten Dvergsson"
+  },
+  "special": true,
+  "object": "_Trade/Trade",
+  "table": 30336,
+  "buy": 1.1,
+  "sell": 0.9,
+  "buyCur": "RM",
+  "sellCur": "RM",
+  "cash": [
+   150000,
+   700000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Valuable"
+  ],
+  "refuses": [
+   "SNW"
+  ],
+  "restock": "every day",
+  "stacks": [
+   15,
+   6
+  ],
+  "perStack": [
+   3,
+   2
+  ],
+  "rareChance": 70,
+  "certificate": {
+   "id": 19030,
+   "generic": false
+  }
+ },
+ {
+  "id": "b97ab13f",
+  "name": "Alco",
+  "scene": "Interior Bazaar Alco",
+  "title": "Alco",
+  "owner": {
+   "id": 10,
+   "name": "Astrid Vinsjö"
+  },
+  "object": "Shop/BuyAlcohol",
+  "buy": 1.2,
+  "sell": 0.85,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   50000,
+   100000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Alcohol Good",
+   "Bottled Alcohol"
+  ],
+  "destroysBought": true
+ },
+ {
+  "id": "afe79480",
+  "name": "Irma Kött",
+  "scene": "Interior Bazaar Butchershop",
+  "owner": {
+   "id": 148,
+   "name": "Irma Kött"
+  },
+  "object": "_Market/SellAnimals",
+  "buy": 1.2,
+  "sell": 1,
+  "buyCur": "RM",
+  "sellCur": "RM",
+  "cash": [
+   6000,
+   12000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "_item_Chicken",
+   "_item_Pig",
+   "_item_Salmon",
+   "_item_Perch",
+   "_item_Pike"
+  ],
+  "destroysBought": true
+ },
+ {
+  "id": "61e5b537",
+  "name": "Mikael Arnaldur",
+  "scene": "Interior Bazaar Books",
+  "title": "Mikael Arnaldur",
+  "owner": {
+   "id": 255,
+   "name": "Mikael Arnaldur"
+  },
+  "object": "Welho Memory/Office/Welho/CardGameTable/Chairs/chair_002_usable (2)/Mikael Arnaldur/Trade",
+  "table": 30352,
+  "buy": 1,
+  "sell": 1,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   100,
+   2000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Alcohol",
+   "_item_Empty Cooler Bag",
+   "Berry",
+   "CannedFood",
+   "Cigarette packs",
+   "Fish",
+   "Kebab",
+   "Pizza",
+   "Welho"
+  ],
+  "stolen": 1,
+  "restock": "every day",
+  "stacks": [
+   10,
+   8
+  ],
+  "perStack": [
+   1,
+   2
+  ],
+  "rareChance": 20
+ },
+ {
+  "id": "10d75374",
+  "name": "Bookstore",
+  "scene": "Interior Bazaar Books",
+  "title": "Bookstore",
+  "owner": {
+   "id": 213,
+   "name": "Aune Korsborg"
+  },
+  "object": "_NPC/Trade",
+  "table": 30347,
+  "buy": 1.2,
+  "sell": 0.2,
+  "buyCur": "RM",
+  "sellCur": "OC",
+  "cash": [
+   5000,
+   10000
+  ],
+  "hours": [
+   [
+    8,
+    16
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Readable"
+  ],
+  "restock": "every day",
+  "stacks": [
+   7,
+   3
+  ],
+  "perStack": [
+   2,
+   1
+  ],
+  "rareChance": 50
+ },
+ {
+  "id": "1b8df981",
+  "name": "Rosario Rootto",
+  "scene": "Interior Bazaar Ratfighting Arena",
+  "owner": {
+   "id": 217,
+   "name": "Rosario Rootto"
+  },
+  "object": "_Logic/SellRats",
+  "buy": 1.2,
+  "sell": 1.5,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   400,
+   700
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "_item_Rat"
+  ],
+  "destroysBought": true
+ },
+ {
+  "id": "9983c235-interior-bazaar-restaurant",
+  "name": "Tonie Savisaar",
+  "scene": "Interior Bazaar Restaurant",
+  "title": "Tonie Savisaar",
+  "owner": {
+   "id": 279,
+   "name": "Tonie Savisaar"
+  },
+  "object": "_NPC/Customers/Open/Hide/Tonie Savisaar/Tonie Savisaar/Trade",
+  "table": 30356,
+  "buy": 0.5,
+  "sell": 1.5,
+  "buyCur": "RM",
+  "sellCur": "RM",
+  "fixedPrices": true,
+  "cash": [
+   100,
+   200
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Candy",
+   "Chocolate"
+  ],
+  "stolen": 0.4,
+  "destroysBought": true,
+  "restock": "every day",
+  "stacks": [
+   4,
+   2
+  ],
+  "perStack": [
+   1,
+   0
+  ],
+  "rareChance": 25
+ },
+ {
+  "id": "f4103c03",
+  "name": "Saunaklonkku",
+  "scene": "Open Sewer Mines",
+  "title": "Saunaklonkku",
+  "owner": {
+   "id": 136,
+   "name": "Saunaklonkku"
+  },
+  "object": "__MAIN/Mines NPCs/Saunaklonkku/Trade",
+  "table": 30310,
+  "buy": 0.8,
+  "sell": 0.5,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   300,
+   2000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Valuable",
+   "Meat"
+  ],
+  "stolen": 0.5,
+  "restock": "every day",
+  "stacks": [
+   10,
+   5
+  ],
+  "perStack": [
+   5,
+   3
+  ],
+  "rareChance": 10
+ },
+ {
+  "id": "0b151f18",
+  "name": "OS Mining Services",
+  "scene": "Open Sewer Mines",
+  "title": "OS Mining Services",
+  "owner": {
+   "id": 133,
+   "name": "Toivo Malmijoki"
+  },
+  "object": "__MAIN/Mines NPCs/Toivo Malmijoki/Trade",
+  "table": 30308,
+  "buy": 1.2,
+  "sell": 0.8,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   0,
+   0
+  ],
+  "cashShared": true,
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "Backpack",
+   "Batteries",
+   "Smokes",
+   "Coffee",
+   "Crafting Material",
+   "Fuel",
+   "Dynamite",
+   "Fuses",
+   "Hardware",
+   "Wood"
+  ],
+  "stolen": 0.6,
+  "restock": "every day",
+  "stacks": [
+   20,
+   10
+  ],
+  "perStack": [
+   5,
+   3
+  ],
+  "rareChance": 30
+ },
+ {
+  "id": "9983c235-open-sewer-bazaar",
+  "name": "Kalle Ketku",
+  "scene": "Open Sewer Bazaar",
+  "title": "Kalle Ketku",
+  "owner": {
+   "id": 187,
+   "name": "Kalle Ketku"
+  },
+  "object": "Stuff 2/Bazaar NPCs/Rosmot/Rosmo Stuff/Hide/Kalle Ketku/Kalle Ketku/Trade",
+  "table": 30353,
+  "buy": 1.569,
+  "sell": 0.598,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   700,
+   1400
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Junk",
+   "Alcohol",
+   "Backpack Empty",
+   "CannedFood",
+   "Ceramic",
+   "Crafting Material",
+   "Diesel",
+   "Dynamite",
+   "Electronic",
+   "Fuel",
+   "Fuses",
+   "Lab",
+   "Lockpick",
+   "Medical",
+   "Mushroom Alcohol",
+   "Mushrooms",
+   "Seeds",
+   "Tableware",
+   "Toy",
+   "Trap",
+   "Utility",
+   "Wood",
+   "Tools"
+  ],
+  "stolen": 0.4,
+  "restock": "every day",
+  "stacks": [
+   10,
+   5
+  ],
+  "perStack": [
+   2,
+   2
+  ],
+  "rareChance": 25
+ },
+ {
+  "id": "3f4a6f8b",
+  "name": "Brom's",
+  "scene": "Open Sewer Bazaar",
+  "title": "Brom's",
+  "owner": {
+   "id": 170,
+   "name": "Jens Brom"
+  },
+  "object": "Stuff/Broms/Trade",
+  "table": 30342,
+  "buy": 1.569,
+  "sell": 0.598,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   700,
+   1400
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Junk",
+   "Alcohol",
+   "Backpack Empty",
+   "CannedFood",
+   "Ceramic",
+   "Crafting Material",
+   "Diesel",
+   "Dynamite",
+   "Electronic",
+   "Fuel",
+   "Fuses",
+   "Lab",
+   "Lockpick",
+   "Medical",
+   "Mushroom Alcohol",
+   "Mushrooms",
+   "Seeds",
+   "Tableware",
+   "Toy",
+   "Trap",
+   "Utility",
+   "Wood",
+   "Tools"
+  ],
+  "stolen": 0.4,
+  "restock": "5-7 h",
+  "stacks": [
+   20,
+   5
+  ],
+  "perStack": [
+   8,
+   2
+  ],
+  "rareChance": 50
+ },
+ {
+  "id": "2c4c17e9",
+  "name": "SellOil",
+  "scene": "Open Sewer Bazaar",
+  "object": "Stuff/SlumGrill/SellOil",
+  "buy": 1.2,
+  "sell": 0.7,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   100,
+   1000
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "buys": [
+   "_item_Cooking Oil"
+  ],
+  "destroysBought": true
+ },
+ {
+  "id": "bb3cf675-interior-bazaar-mentti-a",
+  "name": "Passmore's Contrabands",
+  "scene": "Interior Bazaar Mentti A",
+  "title": "Passmore's Contrabands",
+  "owner": {
+   "id": 10001,
+   "name": "Default Male"
+  },
+  "object": "Stuff/A/Floor 2 A/doorbell_001_usable_passmore/Passmore/Trade",
+  "custom": [
+   [
+    4,
+    1
+   ],
+   [
+    12500,
+    1
+   ],
+   [
+    12520,
+    1
+   ],
+   [
+    140010,
+    1
+   ],
+   [
+    140020,
+    1
+   ],
+   [
+    140030,
+    1
+   ],
+   [
+    12840,
+    1
+   ],
+   [
+    10880,
+    1
+   ],
+   [
+    10890,
+    1
+   ],
+   [
+    10900,
+    1
+   ],
+   [
+    12830,
+    1
+   ],
+   [
+    12851,
+    1
+   ],
+   [
+    12852,
+    1
+   ],
+   [
+    12490,
+    1
+   ],
+   [
+    12510,
+    1
+   ],
+   [
+    15020,
+    1
+   ],
+   [
+    15040,
+    1
+   ],
+   [
+    15030,
+    1
+   ],
+   [
+    15810,
+    1
+   ],
+   [
+    15800,
+    1
+   ]
+  ],
+  "buy": 1.2,
+  "sell": 0.55,
+  "buyCur": "OC",
+  "sellCur": "RM",
+  "cash": [
+   500,
+   1200
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Batteries",
+   "Smokes",
+   "Valuable",
+   "Watch",
+   "Medical",
+   "Lockpick"
+  ],
+  "stolen": 0.33,
+  "restock": "22-25 h",
+  "stacks": [
+   20,
+   10
+  ],
+  "perStack": [
+   2,
+   1
+  ]
+ },
+ {
+  "id": "d3da96b6",
+  "name": "Ari Pulsunmäki",
+  "scene": "Interior Bazaar Mentti A",
+  "owner": {
+   "id": 229,
+   "name": "Ari Pulsunmäki"
+  },
+  "special": true,
+  "object": "_NPC/_Auction/Trade",
+  "table": 30354,
+  "buy": 1.06,
+  "sell": 0.8,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   3000,
+   14000
+  ],
+  "hours": [
+   [
+    0,
+    0
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Junk",
+   "Valuable",
+   "Hardware",
+   "Electronic",
+   "Ceramic",
+   "Glass bottle",
+   "Backpack Empty",
+   "RefinedMaterial",
+   "Clock",
+   "Tools",
+   "Tableware"
+  ],
+  "refuses": [
+   "_meta_ItemPerishabledata",
+   "_meta_ItemGrowdata",
+   "_meta_ItemAnimalData",
+   "Liquid",
+   "Food",
+   "Waste",
+   "Meat",
+   "Fish",
+   "SNW",
+   "Keycard",
+   "Soft drink",
+   "Ore",
+   "Dough",
+   "Forge"
+  ],
+  "restock": "every day",
+  "stacks": [
+   10,
+   6
+  ],
+  "perStack": [
+   2,
+   1
+  ],
+  "rareChance": 25,
+  "certificate": {
+   "id": 19030,
+   "generic": true
+  }
+ },
+ {
+  "id": "d9a39a97",
+  "name": "Keke's Hoard",
+  "scene": "Interior Bazaar Pontikka",
+  "title": "Keke's Hoard",
+  "owner": {
+   "id": 228,
+   "name": "Keke Roinaneva"
+  },
+  "object": "Scene/_NPC/Keke/Keke_shop",
+  "table": 30349,
+  "buy": 0.5,
+  "sell": 0.35,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   50,
+   350
+  ],
+  "hours": [
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    8,
+    18
+   ]
+  ],
+  "stolen": 1,
+  "restock": "every day",
+  "stacks": [
+   7,
+   4
+  ],
+  "perStack": [
+   1,
+   3
+  ],
+  "rareChance": 13
+ },
+ {
+  "id": "348b2191",
+  "name": "Marjan Marja",
+  "scene": "Interior Bazaar Mallment",
+  "title": "Marjan Marja",
+  "owner": {
+   "id": 238,
+   "name": "Marja Noukkinen"
+  },
+  "object": "_NPC/BerryStall/Trade",
+  "table": 30350,
+  "buy": 1.2,
+  "sell": 0.67,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   5000,
+   10000
+  ],
+  "hours": [
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Berry",
+   "Fruit"
+  ],
+  "restock": "every day",
+  "stacks": [
+   10,
+   4
+  ],
+  "perStack": [
+   16,
+   8
+  ],
+  "rareChance": 50
+ },
+ {
+  "id": "5219c665",
+  "name": "Vices",
+  "scene": "Interior Bazaar Murju A",
+  "title": "Vices",
+  "owner": {
+   "id": 251,
+   "name": "Dave Smiker"
+  },
+  "object": "_NPC/Vices Shop/Trade",
+  "table": 30351,
+  "buy": 1.23,
+  "sell": 0.82,
+  "buyCur": "OC",
+  "sellCur": "OC",
+  "cash": [
+   6000,
+   14900
+  ],
+  "hours": [
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "autoHours": true,
+  "buys": [
+   "Alcohol",
+   "Smokes",
+   "Mushrooms Green",
+   "Mushrooms Orange",
+   "Lottery",
+   "Mushroom Alcohol",
+   "_item_Rubber Duck",
+   "Tea",
+   "Coffee"
+  ],
+  "stolen": 0.75,
+  "restock": "every day",
+  "stacks": [
+   25,
+   10
+  ],
+  "perStack": [
+   5,
+   4
+  ],
+  "rareChance": 33
+ }
+]
