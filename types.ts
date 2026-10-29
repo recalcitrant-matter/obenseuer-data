@@ -1,8 +1,8 @@
 // Data shapes of the pipeline. Two layers, one source of truth for every side: change a record here and tsc points
 // at every place that builds or reads it.
 //   out/*.json            written by scripts/build.ts, the one place that reads and joins the game files (Full* types,
-//                         plus Spawn, Vendor and Tenement, which build.ts already writes in their final shape;
-//                         recipe sources come from scripts/recipe-sources.ts)
+//                         plus Spawn, Vendor, Tenement and FurnitureData, which build.ts already writes in their final
+//                         shape; recipe sources come from scripts/recipe-sources.ts, furniture from scripts/furniture.ts)
 //   viewer/public/data/   written by scripts/build-data.ts from out/ only, read by the viewer (Item, Recipe, Meta ...)
 // Fields marked optional are dropped by cleanObj (scripts/shared.ts) when empty, null, false or ''.
 
@@ -25,8 +25,14 @@ export interface ItemMeta {
   animal?: { fullGrownAge: number; grownItem: Ref | null; maxHunger: number };
   package?: { capacity: number; valueFactor: number; allowed: string[] };
   /** Item group members: any of them can stand in for this item in recipes. */
-  group?: { item: Ref | null; tag: string; craftingValues: Record<string, unknown> }[];
+  group?: ItemGroupMember[];
   [blockType: string]: unknown;
+}
+
+/** One member of an item group (ItemGroupData). `craftingValues` is the game's object as Items.json has it. */
+export interface ItemGroupMember {
+  item: Ref | null; tag: string;
+  craftingValues: { qualityFactor: number; skillFactor: number; failFactor: number; craftTimeFactor: number; addSMV: number; useOutputTag: string };
 }
 
 /** A recipe input/output entry. `n` is set only when the item ID is not in Items.json (the raw name from the recipe). */
@@ -51,10 +57,22 @@ export interface Item {
   producedBy: number[]; usedIn: number[]; failOf: number[]; foundIn: FoundIn[]; spoilsFrom: number[];
   value?: number; stack?: number; desc?: string; sprite?: string; prefab?: string; material?: string;
   actionDetail?: ActionDetail[]; upgrades?: string[]; soldBy?: string[]; boughtBy?: string[];
+  /** Checkouts (Market IDs) whose goods include it. */
+  soldAt?: string[];
   nutrition?: number; thirst?: number;
   /** Recipe sources (data/sources.json) this item is. */
   teaches?: number[];
+  /** Blueprint keys (data/furniture.json) whose resources consume this item; furniture keys whose dismantling yields it. */
+  usedInBlueprints?: string[]; dismantledFrom?: string[];
+  /** Blueprint readables: what reading gives, with the pool size (the pool itself is the blueprints whose `sources`
+   *  name this item and category). */
+  givesBlueprints?: GivesBlueprints[];
 }
+
+/** One blueprint pick of a readable (ItemReadable.GiveBlueprints): up to `max` blueprints from the pool of `category`
+ *  ('Start' = the controller's start list, 'main' = its main list, else a category of the controller). `pool` is the
+ *  number of distinct blueprints in it; the game leaves out what the player already holds (runtime, ignored here). */
+export interface GivesBlueprints { category: string; max: number; pool: number }
 
 export interface Recipe {
   in: RecipeEntry[]; out: RecipeEntry[]; fail: RecipeEntry[];
@@ -77,12 +95,21 @@ export interface Spawn {
   common: number[]; rare: number[];
   /** IDs of the vendors this table stocks. */
   vendors: string[];
+  /** IDs of the checkouts whose shelves or spawners roll from it. */
+  markets?: string[];
   mixed?: true;
 }
 
+/** The Stalburg wiki page of a vendor or a furniture shop (scripts/vendors-wiki.json, scripts/furniture-shops-wiki.json,
+ *  both checked by hand): `kind` says whether the page is the shop's own, the location it is in, or its NPC's. */
+export interface WikiRef { url: string; title: string; kind: 'shop' | 'location' | 'npc'; note?: string }
+
+/** A scene Trade (scripts/vendors.ts). `wiki`: its Stalburg wiki page; `wikiName`: the wiki's name for it when the
+ *  wiki file gives one (it differs from the game's). */
 export interface Vendor {
   id: string; name: string; scene: string;
   title?: string; owner?: { id: number; name: string }; special?: boolean; object?: string;
+  wiki?: WikiRef; wikiName?: string;
   table?: number; tableName?: string; custom?: [number, number][];
   buy?: number; sell?: number; buyCur?: string; sellCur?: string; fixedPrices?: boolean;
   cash?: [number, number]; cashShared?: boolean;
@@ -92,6 +119,19 @@ export interface Vendor {
   restock?: string; stacks?: [number, number]; perStack?: [number, number]; rareChance?: number;
   certificate?: { id: number; generic: boolean };
   test?: boolean;
+}
+
+/** A checkout (the game's MarketShop, scripts/vendors.ts joinMarkets): the player lays goods of `owner` on its conveyor
+ *  and pays the sum of their sale values x `priceFactor` in `currency` (RM = OC x 0.1), rounded once, at least 1. It has
+ *  no stock of its own. `retain`: paid goods whose use leaves items worth at least this many OC stay the owner's, usable
+ *  in place (0 = all goods); `bag`: the bag item it packs the goods into; `vendors`: vendors of the same owner and scene. */
+export interface Market {
+  id: string; name: string; scene: string; object: string; currency: string; priceFactor: number;
+  owner?: { id: number; name: string }; retain?: number; bag?: Ref; lockMessage?: string; vendors?: string[]; test?: boolean;
+  /** Its goods (scripts/vendors.ts joinMarkets): the spawn tables its shelves and spawners roll from, the fixed items with
+   *  the number of shelves, spawners and placed items that hold them, table names no table has, and how many of each. */
+  tables?: number[]; stock?: [number, number][]; missingTables?: string[];
+  goods?: { shelves: number; spawners: number; items: number };
 }
 
 /** `start`: the tier a new game starts at, when not 0 (scripts/tenement.ts START_TIERS). */
@@ -144,7 +184,143 @@ export interface Meta {
   versionLabel: string;
   /** [value, count], most frequent first. */
   categories: [string, number][]; actionTypes: [string, number][]; stations: [string, number][];
+  /** Furniture categories with their counts, in the game's enum order (Furniture.Category), trains included. */
+  furnitureCategories: [string, number][];
 }
+
+// ---- furniture (out/furniture.json from scripts/furniture.ts; viewer/public/data/furniture.json is the same, minified).
+// Furniture, blueprints and groups are keyed by their addressable asset path minus "Prefabs/Building System/" (trains:
+// minus "Prefabs/"): "Furniture/Bathroom/Bathroom Cabinet", "Blueprints/Growing/Barrel", "Furniture Groups/Barrel",
+// "Vehicles/Flat Wagon". Shops are keyed "<first scene>|<GameObject path>". Shop lists go by their asset name.
+// Game rules: docs/furniture-research.md section 2.
+
+/** A blueprint resource or a dismantle yield: an item, a furniture, or any member of a group (dismantling into a group
+ *  gives its first member). `q` is the amount; furniture and group entries are satisfied by one owned copy (2.4). */
+export type FurnitureResource = { item: Ref; q: number } | { furniture: string; q: number } | { group: string; q: number };
+
+/** What one restock of a shop list can stock (2.6): `minDistinct`..`maxDistinct` different furniture, each with
+ *  `stackMin`..`stackMax` units (split over skins). Repeats within the list are accounted for (scripts/furniture.ts
+ *  stockRange); fewer when an earlier list of the same shop already stocked one. */
+export interface StockRange { minDistinct: number; maxDistinct: number; stackMin: number; stackMax: number }
+
+/** Where a scene source sits: its scenes, its GameObject path, how many identical instances (when more than one);
+ *  `inactive`: disabled in its scene (test objects). */
+export interface FurniturePlace { scenes: string[]; object: string; count?: number; inactive?: true }
+
+/** One way to get a blueprint (`Blueprint.sources`) or a furniture (`Furniture.obtainedBy`).
+ *  drop        a FurnitureBlueprintSpawner draws it from the controller's start list (about 90 % of the draws while that
+ *              list is not used up) or its main list; which spawners and where: FurnitureController.spawners
+ *  readable    reading `item` gives up to `max` picks from the pool of `category` (size `pool`), see GivesBlueprints
+ *  pickup      a CollectibleTaskItem (blueprint) or FurnitureCollectable (furniture; all are inactive test objects)
+ *  package     a CollectiblePackage holding it
+ *  relay       logic_taskitem_control (blueprint) or PlaceFurniture (furniture, `area` = the build area it lands in)
+ *  mail        logic_mail_sender / logic_mail_bundle_sender (`sender`, `mailName`, `target`), or a RandommailSender
+ *              parcel (`sender`, `mailNames`, `mailType` = the random mail type)
+ *  achievement the reward of a Steam achievement, by mail (`parcel`: to the parcel locker)
+ *  craft       made at a worktable from `blueprint`
+ *  shop        stocked by `shop` from its list `list`
+ *  display     a display model in `shop` (data in FurnitureShop.displays)
+ *  dismantle   dismantling furniture `from` yields `q` of it */
+export type FurnitureSource =
+  | { kind: 'drop'; list: 'start' | 'main' }
+  | { kind: 'readable'; item: Ref; category: string; max: number; pool: number }
+  | ({ kind: 'pickup' | 'package'; amount?: number } & FurniturePlace)
+  | ({ kind: 'relay'; amount?: number; area?: string } & FurniturePlace)
+  | ({ kind: 'mail'; sender: string; mailName?: string; mailNames?: string[]; target?: string; mailType?: string } & Partial<FurniturePlace>)
+  | { kind: 'achievement'; name: string; enabled: boolean; reward?: string; parcel?: true }
+  | { kind: 'craft'; blueprint: string }
+  | { kind: 'shop'; shop: string; list: string; stock: StockRange }
+  | { kind: 'display'; shop: string; count?: number }
+  | { kind: 'dismantle'; from: string; q: number };
+export type FurnitureSourceKind = FurnitureSource['kind'];
+
+/** A furniture (or train) the player can own in build mode. `name`: the title, or the asset name when the title is
+ *  empty. Prices are the base prices before the difficulty multiplier; a shop charges both at its buyPercent. */
+export interface Furniture {
+  key: string; name: string; class: 'Furniture' | 'Train'; category: string; priceOC: number; priceRM: number;
+  details?: string; trash?: true;
+  /** Build areas it may not be placed in (empty = anywhere). */
+  restrictedAreas?: string[];
+  /** Skins 1..n (skin 0 is the furniture itself); an empty title means the furniture's title. */
+  skins?: { id?: string; title?: string }[];
+  /** What dismantling gives; absent when nothing. `dismantlesToNothing`: the worktable dismantles it (its
+   *  dismantleItems is not empty) but every entry yields nothing (amount 0); without both it cannot be dismantled. */
+  dismantle?: FurnitureResource[]; dismantlesToNothing?: true;
+  /** The blueprint that makes it. */
+  blueprint?: string;
+  /** Blueprints that consume it (directly or as a member of a group); furniture whose dismantling yields it. */
+  usedInBlueprints?: string[]; dismantledFrom?: string[];
+  /** Shops whose lists stock it (one entry per list); shops that buy it from the player (FurnitureShop.CanSell). */
+  soldBy?: { shop: string; list: string }[]; boughtBy?: string[];
+  obtainedBy?: FurnitureSource[];
+}
+
+/** A worktable blueprint. `name`: its item name. `amount`: furniture made per craft (the game's 0 counts as 1).
+ *  `processTime`: game minutes as stored; `baseSeconds`: TaskItemBlueprint.GetProcessTime() (processTime x 60, or 60
+ *  when 0), before skill (scripts/furniture.ts craftingSeconds). */
+export interface Blueprint {
+  key: string; name: string; result: string; amount: number; resources: FurnitureResource[];
+  processTime: number; baseSeconds: number;
+  /** Game seconds at skill 10 (PlayerStats.maxLevel): craftingSeconds(blueprint, MAX_SKILL), half of `baseSeconds`
+   *  with a skill, `baseSeconds` with skill None; without mushroom effects and the difficulty's crafting speed. */
+  skill10Seconds: number;
+  skill: string; minimumSkill: number;
+  sources: FurnitureSource[];
+}
+
+export interface FurnitureGroup { key: string; title: string; members: string[] }
+
+/** One FurnitureShopItemsList as a shop uses it: `min`/`max` = minItemAmount/maxItemAmount, `maxStack` =
+ *  maxItemStackAmount, `furniture` = its distinct entries. */
+export interface FurnitureShopList { name: string; min: number; max: number; maxStack: number; furniture: string[]; stock: StockRange }
+
+/** Identical InteractableFurnitureDisplays of a shop, merged (`count` when more than one). `currency`: Both = the
+ *  shop's two prices, OC = OC + RM x 10, RM = RM + OC / 10 (2.6). */
+export interface FurnitureShopDisplay { furniture: string; skin: number; currency: 'Both' | 'OC' | 'RM'; addAsItem?: true; purchase?: true; infiniteStock?: true; count?: number;
+  /** addAsItem: what the shop's checkout charges for the flatpack, in the checkout's currency (scripts/furniture.ts checkoutPrice). */
+  checkoutPrice?: number }
+
+/** A FurnitureShop or TrainShop scene object. `title`: the game's title, or the GameObject name when that is empty
+ *  (`untitled`). `label`: the name to show: the game's title, else the wiki's name for the shop, else the GameObject
+ *  name and the scene, "Relay_custom_painting (Test Map Empty)". `testMap`: a test object: every scene of it is a test
+ *  map (a name starting with "Test", as for vendors), or its GameObject path has a segment "Test" (the debug TrainShop
+ *  ".../Train Shop/Test" in Open Sewer Mines). sellPercent = what it pays, buyPercent = what it charges (both currencies at
+ *  once). `restock` in game seconds. Sell rule (boughtBy): `buysAnything`, or `canSellItems` and the furniture is in
+ *  `lists` (with `sellItemsSameAsBuy`) or in `sellLists`; a TrainShop buys trains. */
+export interface FurnitureShop {
+  key: string; scenes: string[]; object: string; class: 'FurnitureShop' | 'TrainShop'; title: string; label: string; untitled?: true;
+  wiki?: WikiRef;
+  guid: string; sellPercent: number; buyPercent: number;
+  cash: { oc: [number, number]; rm: [number, number] };
+  restock: { everyDay: true } | { min: number; max: number };
+  lists: FurnitureShopList[];
+  buysAnything?: true; canSellItems?: true; sellItemsSameAsBuy?: true; sellLists?: string[];
+  displays?: FurnitureShopDisplay[]; inactive?: true; testMap?: true;
+  /** The checkout (Market ID) where the flatpacks of its addAsItem displays are paid: the scene's MarketShop of the
+   *  displays' owner. */
+  checkout?: string;
+}
+
+/** A blueprint pool of the FurnitureBlueprintController: the ListMain's name, its distinct blueprints, and the number
+ *  of list entries (a blueprint listed twice weighs double in a random pick). */
+export interface BlueprintPool { list: string; blueprints: string[]; entries: number }
+
+/** The scene-wide FurnitureBlueprintController (one configuration in every scene): spawners draw from `start`, then
+ *  `main`; readables name a category ('Start' = start, '' = main, else one of `categories`). `spawners`: the active
+ *  FurnitureBlueprintSpawner instances (`count`) and the scenes they are in, which every 'drop' source refers to. */
+export interface FurnitureController {
+  start: BlueprintPool; main: BlueprintPool; categories: (BlueprintPool & { name: string })[];
+  spawners: { count: number; scenes: string[] };
+}
+
+/** out/furniture.json. `controller` is null when gamedata/Furniture.json is missing. */
+export interface FurnitureData {
+  furniture: Furniture[]; blueprints: Blueprint[]; groups: FurnitureGroup[]; shops: FurnitureShop[];
+  controller: FurnitureController | null;
+}
+
+/** GivesBlueprints as out/items-full.json carries it, with the pool's blueprint keys. */
+export interface FullGivesBlueprints { category: string; max: number; pool: string[] }
 
 /** One recipe of out/recipes.json (all recipes, Debug included, in file order). Values are the game's own: `name`
  *  may be missing, `skill` may be "None"; build-data.ts normalises them for the viewer. `time` is in seconds. */
@@ -208,8 +384,14 @@ export interface FullItem {
   /** Perishable items that spoil into this one. */
   SpoilsFrom: Ref[];
   SoldBy: VendorRef[]; BoughtBy: VendorRef[];
+  /** Checkouts whose goods include it (scripts/vendors.ts joinMarkets). */
+  SoldAt: VendorRef[];
   /** Names of the tenement upgrades that need this item. */
   Upgrades: string[];
   /** Indexes into out/recipe-sources.json of this item's readable actions that give recipes. */
   Teaches: number[];
+  /** Blueprint keys whose resources consume this item; furniture keys whose dismantling yields it (out/furniture.json). */
+  UsedInBlueprints: string[]; DismantledFrom: string[];
+  /** Blueprint readables (MaxBlueprints > 0): one entry per category read. */
+  GivesBlueprints: FullGivesBlueprints[];
 }

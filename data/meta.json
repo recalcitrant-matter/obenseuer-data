@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T20:22:33.515Z",
+ "generated": "2026-10-29T00:50:16.404Z",
  "game": {
   "version": "0.5.13",
   "steamBuild": "26179069",
@@ -698,6 +698,116 @@
   ],
   [
    "Malting",
+   1
+  ]
+ ],
+ "furnitureCategories": [
+  [
+   "All",
+   4
+  ],
+  [
+   "Chairs",
+   35
+  ],
+  [
+   "Tables",
+   33
+  ],
+  [
+   "Electronics",
+   40
+  ],
+  [
+   "Paintings",
+   40
+  ],
+  [
+   "Lights",
+   29
+  ],
+  [
+   "Rugs",
+   19
+  ],
+  [
+   "Storage",
+   29
+  ],
+  [
+   "Clutter",
+   96
+  ],
+  [
+   "Beds",
+   12
+  ],
+  [
+   "Sofas",
+   5
+  ],
+  [
+   "Decoration",
+   48
+  ],
+  [
+   "Plants",
+   2
+  ],
+  [
+   "Shelves",
+   15
+  ],
+  [
+   "Manufacturing",
+   51
+  ],
+  [
+   "Growing",
+   32
+  ],
+  [
+   "Letters",
+   32
+  ],
+  [
+   "Bathroom",
+   14
+  ],
+  [
+   "Signs",
+   16
+  ],
+  [
+   "Magazines",
+   7
+  ],
+  [
+   "Posters",
+   15
+  ],
+  [
+   "Curtains",
+   2
+  ],
+  [
+   "Flags",
+   37
+  ],
+  [
+   "LicensePlates",
+   4
+  ],
+  [
+   "Kitchen",
+   32
+  ],
+  [
+   "Tank",
+   9
+  ],
+  [
+   "None",
    1
   ]
  ]

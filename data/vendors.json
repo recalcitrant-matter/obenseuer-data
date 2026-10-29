@@ -5,6 +5,13 @@
   "scene": "Open Sewer Tenement",
   "title": "Rihkama & Trinkets",
   "object": "NPC/Market/Gift Shop/Trade GiftShop",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "No page of its own (redlink); the vendor overview has a Gift Shop row in the Market Square table (magazines, novelties, junk, jewelry)."
+  },
+  "wikiName": "Gift Shop",
   "table": 30287,
   "buy": 2,
   "sell": 0.8,
@@ -68,6 +75,13 @@
   "scene": "Open Sewer Tenement",
   "title": "Henning's shop",
   "object": "NPC/Market/Henning Torskvær/Trade Henning",
+  "wiki": {
+   "url": "https://stalburg.net/Hardware_Stall",
+   "title": "Hardware Stall",
+   "kind": "shop",
+   "note": "Run by Henning Torskvaer."
+  },
+  "wikiName": "Hardware Stall",
   "table": 30273,
   "buy": 1.2,
   "sell": 0.9,
@@ -128,6 +142,13 @@
   "scene": "Open Sewer Tenement",
   "title": "Selmas's Stall",
   "object": "NPC/Market/Kalpana Selma/Trade Kalpana",
+  "wiki": {
+   "url": "https://stalburg.net/Jams_%26_Canned_Foods",
+   "title": "Jams & Canned Foods",
+   "kind": "shop",
+   "note": "Stall operated by Kalpana Selma."
+  },
+  "wikiName": "Jams & Canned Foods",
   "table": 30276,
   "buy": 1.2,
   "sell": 0.9,
@@ -188,6 +209,11 @@
   "scene": "Open Sewer Tenement",
   "title": "Kurahaara Brothers",
   "object": "NPC/Market/Lönkka Kurahaara/Trade Kurahaara",
+  "wiki": {
+   "url": "https://stalburg.net/Kurahaara_Brothers_Stall",
+   "title": "Kurahaara Brothers Stall",
+   "kind": "shop"
+  },
   "table": 30285,
   "buy": 1.2,
   "sell": 0.9,
@@ -250,6 +276,13 @@
   "scene": "Open Sewer Tenement",
   "title": "Petro's Log and Block",
   "object": "NPC/Market/Petro Blokuvati/Trade Petro",
+  "wiki": {
+   "url": "https://stalburg.net/Firewood_Stall",
+   "title": "Firewood Stall",
+   "kind": "shop",
+   "note": "Run by Petro Blokuvati."
+  },
+  "wikiName": "Firewood Stall",
   "table": 30272,
   "buy": 1.2,
   "sell": 0.9,
@@ -310,6 +343,13 @@
   "scene": "Open Sewer Tenement",
   "title": "Sirkku's Flower Stall",
   "object": "NPC/Market/Sirkku Maltanen/Trade Sirkku",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "No page of its own (redlink); the vendor overview has a Decorative Plants & Pots stall row (berries, decorative plant seeds, empty flowerpots)."
+  },
+  "wikiName": "Decorative Plants & Pots",
   "table": 30275,
   "buy": 1.2,
   "sell": 0.9,
@@ -374,6 +414,13 @@
   "scene": "Open Sewer Tenement",
   "title": "Teuvo's alcohol stall",
   "object": "NPC/Market/Teuvo Skogman/Trade Teuvo",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "No page of its own (redlink); the vendor overview has a Cold Drinks stall row (alcohol). The Alcohol Brewing page names its seller Teuvo Skogman. Not the Mine Market (that is Teuvo Sorvi)."
+  },
+  "wikiName": "Cold Drinks",
   "table": 30271,
   "buy": 1.2,
   "sell": 0.9,
@@ -433,6 +480,12 @@
   "scene": "Interior Tenement A",
   "title": "Emma-Maija",
   "object": "Cat Trader/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Tenement_A",
+   "title": "Tenement A",
+   "kind": "location",
+   "note": "Apartment A7: Emma-Maija Taylor sells and buys cats."
+  },
   "custom": [
    [
     12720,
@@ -500,6 +553,12 @@
    "name": "Fredrik"
   },
   "object": "NPC/Fredrik/fredrik_sitting/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Tenement_A",
+   "title": "Tenement A",
+   "kind": "location",
+   "note": "Apartment A10: Fredrik (Walker) lives here; the Radiation page says the dosimeter can be bought from him. Fredrik has no NPC page."
+  },
   "table": 30289,
   "buy": 1.2,
   "sell": 0.8,
@@ -569,6 +628,11 @@
    "name": "Denis Passmore"
   },
   "object": "Enviroment/Other/Usable/Doorbell/doorbell_001_usable_passmore/Passmore/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Passmore%27s_Contrabands",
+   "title": "Passmore's Contrabands",
+   "kind": "shop"
+  },
   "custom": [
    [
     4,
@@ -715,6 +779,12 @@
   "scene": "Interior Tenement Deekula C",
   "title": "Svamppatrullen",
   "object": "MushroomTrade/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Svamppatrullen_Mushroom_Seller",
+   "title": "Svamppatrullen Mushroom Seller",
+   "kind": "shop"
+  },
+  "wikiName": "Svamppatrullen Mushroom Seller",
   "table": 30309,
   "buy": 1.33,
   "sell": 0.75,
@@ -775,6 +845,11 @@
   "scene": "Interior Tenement General Store",
   "title": "One stop shop",
   "object": "mr_bag/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/One_Stop_Shop",
+   "title": "One Stop Shop",
+   "kind": "shop"
+  },
   "table": 30235,
   "buy": 1.2,
   "sell": 0.9,
@@ -853,6 +928,13 @@
    "name": "Pentti Penttilä"
   },
   "object": "Content/NPCs/Pentti Penttilä/Relays/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Speakeasy_Bar",
+   "title": "Speakeasy Bar",
+   "kind": "shop",
+   "note": "Tenement A basement bar run by Pentti Penttilä (the game has no vendor title)."
+  },
+  "wikiName": "Speakeasy Bar",
   "custom": [
    [
     10850,
@@ -920,6 +1002,12 @@
   "name": "Prison hole",
   "scene": "Interior Tenement Gatehouse",
   "object": "Logic/_PrisonLogic/Prison hole/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Jail",
+   "title": "Jail",
+   "kind": "location",
+   "note": "The vendor in the hole in the wall of the second cell is Colton (also described in the vendor overview, Secret/Unlockable vendors); Colton has no page of his own."
+  },
   "table": 30279,
   "buy": 1,
   "sell": 0.7,
@@ -1070,6 +1158,12 @@
    "name": "Ivar Pihl"
   },
   "object": "NPCS/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors#Ivar_Pihl",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "Section \"Ivar Pihl\" of the vendor overview describes his buying (shroom farm in the mines). An NPC page https://stalburg.net/Ivar_Pihl also exists but says little about trading."
+  },
   "buy": 1.2,
   "sell": 1,
   "buyCur": "OC",
@@ -1127,6 +1221,12 @@
    "name": "Anna Markkanen"
   },
   "object": "NPC/Anna Markkanen/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Canteen",
+   "title": "Canteen",
+   "kind": "shop",
+   "note": "Mines Service Area canteen run by Anna Markkanen."
+  },
   "table": 30303,
   "buy": 1.2,
   "sell": 0.9,
@@ -1191,6 +1291,12 @@
    "name": "Reijo Rautakaivos"
   },
   "object": "NPC/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Mines",
+   "title": "Mines",
+   "kind": "location",
+   "note": "Indirect: the Mines page lists the mine management (Managment, redlink) in the Service Area; Reijo Rautakaivos is named only on the Elevator to Surface quest page (https://stalburg.net/Elevator_to_Surface)."
+  },
   "buy": 1.2,
   "sell": 1,
   "buyCur": "OC",
@@ -1246,6 +1352,12 @@
    "name": "Seamus Liepa"
   },
   "object": "Scene/NPC/Seamus Liepa/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Mines",
+   "title": "Mines",
+   "kind": "location",
+   "note": "Indirect: the Mines page lists the Potato Mine; the Orange Heaven quest page covers Seamus Liepa and his potato farm (https://stalburg.net/Orange_Heaven). Seamus has no NPC page."
+  },
   "custom": [
    [
     21,
@@ -1387,6 +1499,12 @@
    "name": "Ms. Lotina"
   },
   "object": "Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Known_Locations_within_the_Bazaar",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "Probable match: Pizza Shack in the slums, \"buys ingredients like meat and canned vegetables\", fits the buy-only list (raw meat, flour, cheese, tomatoes). The wiki does not name Ms. Lotina."
+  },
   "buy": 1.2,
   "sell": 0.7,
   "buyCur": "OC",
@@ -1449,6 +1567,13 @@
    "name": "Welhö"
   },
   "object": "NPC/Welho Trade Default/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "No Welho page (redlink); the vendor overview has a Welho row (normal stock; the True Welho quest unlocks the second selection)."
+  },
+  "wikiName": "Welho",
   "table": 30318,
   "buy": 1.4,
   "sell": 0.7,
@@ -1515,6 +1640,13 @@
    "name": "Welhö"
   },
   "object": "NPC/Welho Trade Special/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "Same establishment as the normal-stock Welhö vendor: the overview row says the quest True Welho unlocks his separate selection."
+  },
+  "wikiName": "Welho",
   "table": 30317,
   "buy": 1.4,
   "sell": 0.7,
@@ -1581,6 +1713,12 @@
    "name": "Cajsa Mörk"
   },
   "object": "_NPC/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Pawn_Shop",
+   "title": "Pawn Shop",
+   "kind": "shop",
+   "note": "Run by Cajsa Mörk."
+  },
   "table": 30337,
   "buy": 1,
   "sell": 0.5,
@@ -1656,6 +1794,12 @@
    "name": "Ivan Kapustanov"
   },
   "object": "_ShopLogic/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/General_Trader",
+   "title": "General Trader",
+   "kind": "shop",
+   "note": "Ivan Kapustanov."
+  },
   "table": 30339,
   "buy": 1.179,
   "sell": 1,
@@ -1728,6 +1872,12 @@
    "name": "Larry Goatbridge"
   },
   "object": "NPC/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Known_Locations_within_the_Bazaar",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "The wiki only lists \"Metal Shop\" (no page); the Obenseuer/Locations page places it in the Bazaar industrial area."
+  },
   "buy": 1.2,
   "sell": 0.8,
   "buyCur": "RM",
@@ -1786,6 +1936,13 @@
   },
   "special": true,
   "object": "_Trade/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "Indirect: the game calls it Gold Shop (Keycards page: Gold shop Keycard); the vendor overview has a Jewellery Shop row (redlink) where precious metals need certificates of authenticity, which matches the vendor's certificate trade."
+  },
+  "wikiName": "Jewellery Shop",
   "table": 30336,
   "buy": 1.1,
   "sell": 0.9,
@@ -1856,6 +2013,12 @@
    "name": "Astrid Vinsjö"
   },
   "object": "Shop/BuyAlcohol",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Known_Locations_within_the_Bazaar",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "Bazaar location list: \"Alco - sells various liquor\" (no page)."
+  },
   "buy": 1.2,
   "sell": 0.85,
   "buyCur": "OC",
@@ -1909,6 +2072,13 @@
    "name": "Irma Kött"
   },
   "object": "_Market/SellAnimals",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "No page of its own (redlink); the vendor overview has a Butcher's shop row (meat). Irma Kött is not named."
+  },
+  "wikiName": "Butcher's shop",
   "buy": 1.2,
   "sell": 1,
   "buyCur": "RM",
@@ -2040,6 +2210,13 @@
    "name": "Aune Korsborg"
   },
   "object": "_NPC/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "The vendor overview has a Books row (book shop that only sells magazines); no page of its own."
+  },
+  "wikiName": "Books",
   "table": 30347,
   "buy": 1.2,
   "sell": 0.2,
@@ -2103,6 +2280,12 @@
    "name": "Rosario Rootto"
   },
   "object": "_Logic/SellRats",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Murju",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "Indirect: the Murju section of the Bazaar page mentions the Rat Arena on the roof of Murju A; Rat Fights has no page."
+  },
   "buy": 1.2,
   "sell": 1.5,
   "buyCur": "OC",
@@ -2223,6 +2406,12 @@
    "name": "Saunaklonkku"
   },
   "object": "__MAIN/Mines NPCs/Saunaklonkku/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Mines",
+   "title": "Mines",
+   "kind": "location",
+   "note": "Indirect: the Mines page lists the Sauna as a standalone place; the Backpacks page names Saunaklonkku's shop (redlink)."
+  },
   "table": 30310,
   "buy": 0.8,
   "sell": 0.5,
@@ -2289,6 +2478,12 @@
    "name": "Toivo Malmijoki"
   },
   "object": "__MAIN/Mines NPCs/Toivo Malmijoki/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/OS_Mining_Services",
+   "title": "OS Mining Services",
+   "kind": "shop",
+   "note": "Mines Service Area shop (Toivo Malmijoki)."
+  },
   "table": 30308,
   "buy": 1.2,
   "sell": 0.8,
@@ -2450,6 +2645,13 @@
    "name": "Jens Brom"
   },
   "object": "Stuff/Broms/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Obenseuer/Shop_Vendors",
+   "title": "Obenseuer/Shop Vendors",
+   "kind": "location",
+   "note": "No page of its own; the vendor overview has a Broms row (above Rob-In Build and Repair) and the Bazaar page lists it."
+  },
+  "wikiName": "Broms",
   "table": 30342,
   "buy": 1.569,
   "sell": 0.598,
@@ -2585,6 +2787,12 @@
    "name": "Default Male"
   },
   "object": "Stuff/A/Floor 2 A/doorbell_001_usable_passmore/Passmore/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Passmore%27s_Contrabands",
+   "title": "Passmore's Contrabands",
+   "kind": "shop",
+   "note": "The page covers the Bazaar-side vendor too (it places it in Murju A; the game scene is Mentti A)."
+  },
   "custom": [
    [
     4,
@@ -2735,6 +2943,12 @@
   },
   "special": true,
   "object": "_NPC/_Auction/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Mentti",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "Indirect: Mentti complex section of the Bazaar page; Ari Pulsunmäki is not named anywhere on the wiki."
+  },
   "table": 30354,
   "buy": 1.06,
   "sell": 0.8,
@@ -2829,6 +3043,12 @@
    "name": "Keke Roinaneva"
   },
   "object": "Scene/_NPC/Keke/Keke_shop",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Pontikka",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "Indirect: Pontikka complex section of the Bazaar page; Keke's Hoard is not named."
+  },
   "table": 30349,
   "buy": 0.5,
   "sell": 0.35,
@@ -2890,6 +3110,13 @@
    "name": "Marja Noukkinen"
   },
   "object": "_NPC/BerryStall/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Mallment",
+   "title": "Mallment",
+   "kind": "location",
+   "note": "Mallment page, Market Hall: Fresh Fruits & Berries, run by Marja Noukkinen."
+  },
+  "wikiName": "Fresh Fruits & Berries",
   "table": 30350,
   "buy": 1.2,
   "sell": 0.67,
@@ -2955,6 +3182,12 @@
    "name": "Dave Smiker"
   },
   "object": "_NPC/Vices Shop/Trade",
+  "wiki": {
+   "url": "https://stalburg.net/Bazaar#Murju",
+   "title": "Bazaar",
+   "kind": "location",
+   "note": "Murju section of the Bazaar page: Murju A has a vendor that buys and sells cigars, alcohol and mushroom products (no page; Vices and Dave Smiker are not named)."
+  },
   "table": 30351,
   "buy": 1.23,
   "sell": 0.82,

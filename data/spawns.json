@@ -276,7 +276,10 @@
    21
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30207,
@@ -376,7 +379,10 @@
    13
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30209,
@@ -391,7 +397,10 @@
    22010
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30210,
@@ -406,7 +415,10 @@
    10600
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30211,
@@ -451,7 +463,10 @@
    12820
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30214,
@@ -466,7 +481,10 @@
    22030
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30215,
@@ -481,7 +499,10 @@
    12
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30216,
@@ -496,7 +517,10 @@
    22020
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30217,
@@ -1623,7 +1647,10 @@
    13370,
    13430
   ],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market"
+  ]
  },
  {
   "id": 30240,
@@ -3020,7 +3047,12 @@
    13390
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-tenement-o-market",
+   "interior-mines-canteen",
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30287,
@@ -3728,6 +3760,9 @@
   "rare": [],
   "vendors": [
    "41ea9fcb"
+  ],
+  "markets": [
+   "interior-mines-canteen"
   ]
  },
  {
@@ -4538,7 +4573,10 @@
    12940
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30331,
@@ -4553,7 +4591,10 @@
    12930
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30332,
@@ -4568,7 +4609,10 @@
    24020
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30333,
@@ -4583,7 +4627,10 @@
    17390
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30334,
@@ -4598,7 +4645,10 @@
    11520
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30335,
@@ -4613,7 +4663,10 @@
    12970
   ],
   "rare": [],
-  "vendors": []
+  "vendors": [],
+  "markets": [
+   "interior-bazaar-j-kiosk"
+  ]
  },
  {
   "id": 30336,

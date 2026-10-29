@@ -1226,6 +1226,14 @@
    "9a26ca15",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-canteen",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -1290,6 +1298,13 @@
     "amount": 33,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -1374,6 +1389,13 @@
   ],
   "soldBy": [
    "1b2ff7e6-interior-tenement-general-store"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -1492,6 +1514,9 @@
    "91d0982a",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "11165f55",
@@ -1745,6 +1770,10 @@
    "1b2ff7e6-interior-tenement-general-store",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -1877,6 +1906,10 @@
    "bc533c6c",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -1973,6 +2006,9 @@
     "amount": 20,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -2431,6 +2467,63 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Clutter/Folder Large Old",
+   "Furniture/Clutter/Folder Large Pile Old",
+   "Furniture/Clutter/Folder Large Pile Old 2",
+   "Furniture/Clutter/Folder Piles Old",
+   "Furniture/Clutter/Folder Small Old",
+   "Furniture/Clutter/Folder Small Old 2",
+   "Furniture/Clutter/Folder Small Pile Old",
+   "Furniture/Decoration/Small Mirror",
+   "Furniture/Painting Table/Painting Colors",
+   "Furniture/Painting Table/Painting Custom",
+   "Furniture/Painting Table/Painting Grandmothers",
+   "Furniture/Painting Table/Painting Meadow Girls",
+   "Furniture/Painting Table/Painting Osmo Girl",
+   "Furniture/Painting Table/Painting Woman",
+   "Furniture/Paintings Big/Painting Base Landscape",
+   "Furniture/Paintings Big/Painting Base Portrait",
+   "Furniture/Paintings Big/Painting City",
+   "Furniture/Paintings Big/Painting Custom Big",
+   "Furniture/Paintings Big/Painting Custom Big Portrait",
+   "Furniture/Paintings Big/Painting Dog",
+   "Furniture/Paintings Big/Painting Fire",
+   "Furniture/Paintings Big/Painting Foggy Mirror",
+   "Furniture/Paintings Big/Painting Money",
+   "Furniture/Paintings Big/Painting Motorcycle Gang Member",
+   "Furniture/Paintings Big/Painting Motorcycle Gang Member 2",
+   "Furniture/Paintings Big/Painting Mountains",
+   "Furniture/Paintings Big/Painting Robin",
+   "Furniture/Paintings Big/Painting Stalburg",
+   "Furniture/Paintings Big/Painting Victim",
+   "Furniture/Paintings Medium/Painting Custom Medium",
+   "Furniture/Paintings Medium/Painting Medium Base",
+   "Furniture/Paintings Medium/Painting Tonni",
+   "Furniture/Paintings Small/Painting Beer",
+   "Furniture/Paintings Small/Painting Black Cat",
+   "Furniture/Paintings Small/Painting Custom Small",
+   "Furniture/Paintings Small/Painting Dog",
+   "Furniture/Paintings Small/Painting Family",
+   "Furniture/Paintings Small/Painting Fox",
+   "Furniture/Paintings Small/Painting Grey Cat",
+   "Furniture/Paintings Small/Painting Island",
+   "Furniture/Paintings Small/Painting Jesus",
+   "Furniture/Paintings Small/Painting Orange Forest",
+   "Furniture/Paintings Small/Painting Red Lady",
+   "Furniture/Paintings Small/Painting Small Base",
+   "Furniture/Posters/Poster Custom",
+   "Furniture/Posters/Poster Internets Old",
+   "Furniture/Posters/Poster Maahis Matto",
+   "Furniture/Posters/Poster Motorbike",
+   "Furniture/Posters/Poster Open Sewer",
+   "Furniture/Posters/Poster Osmo Olut",
+   "Furniture/Posters/Poster Periodic Table",
+   "Furniture/Posters/Poster Stalburg Steel",
+   "Furniture/Posters/Poster The Engineer",
+   "Furniture/Posters/Poster The Engineer Autographed",
+   "Furniture/Signs/Label Small"
   ]
  },
  {
@@ -2942,6 +3035,9 @@
    "1b2ff7e6-interior-tenement-deekula-c",
    "3a285276"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-deekula-c",
    "9989df0b",
@@ -3111,6 +3207,9 @@
    "d9a39a97",
    "5219c665"
   ],
+  "usedInBlueprints": [
+   "Blueprints/Special/Orange Mushroom Lantern"
+  ],
   "nutrition": 7
  },
  {
@@ -3234,6 +3333,10 @@
   "soldBy": [
    "bc533c6c",
    "2d39c4de"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -3384,6 +3487,9 @@
    "91d0982a",
    "61e5b537",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-ankea"
   ],
   "boughtBy": [
    "11165f55",
@@ -3561,6 +3667,13 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Cat Cage Large",
+   "Blueprints/Cages/Cat Cage Medium",
+   "Blueprints/Cages/Cat Cage Small",
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small"
   ]
  },
  {
@@ -3673,6 +3786,10 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -3683,6 +3800,11 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Cat Cage Large",
+   "Blueprints/Cages/Cat Cage Medium",
+   "Blueprints/Cages/Cat Cage Small"
   ]
  },
  {
@@ -3759,6 +3881,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "41ea9fcb",
    "3f4a6f8b"
+  ],
+  "soldAt": [
+   "interior-mines-canteen"
   ],
   "boughtBy": [
    "11165f55",
@@ -3984,6 +4109,105 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Bathroom Glass",
+   "Furniture/Bathroom/Bathroom Mug",
+   "Furniture/Bathroom/Bucket Toilet",
+   "Furniture/Bathroom/Plastic Barrel Shower",
+   "Furniture/Bathroom/Plunger",
+   "Furniture/Bathroom/Toilet Brush",
+   "Furniture/Bathroom/Washing Machine",
+   "Furniture/Chairs/Fancy Leather Office Chair",
+   "Furniture/Chairs/Gaming Chair",
+   "Furniture/Chairs/Modern Chair",
+   "Furniture/Chairs/Office Armchair",
+   "Furniture/Chairs/Plastic Chair",
+   "Furniture/Chairs/Plastic Garden Chair",
+   "Furniture/Chairs/Plastic Garden Chair Malone",
+   "Furniture/Chairs/Round Rolling Stool",
+   "Furniture/Cleaning/Cleaning Cart",
+   "Furniture/Cleaning/Red Bucket",
+   "Furniture/Clutter/Beer Crate",
+   "Furniture/Clutter/Binder",
+   "Furniture/Clutter/Blue Plastic Barrel",
+   "Furniture/Clutter/Inflatable Pool",
+   "Furniture/Clutter/Pen Holder",
+   "Furniture/Clutter/Shopping Basket",
+   "Furniture/Clutter/Table Fan",
+   "Furniture/Clutter/Traffic Cone",
+   "Furniture/Clutter/Wall Clock",
+   "Furniture/Clutter/Water Cooler",
+   "Furniture/Clutter/Water Cooler Bottle",
+   "Furniture/Clutter/Watering Can",
+   "Furniture/Decoration/Decoration Lights Large",
+   "Furniture/Decoration/Decoration Lights Medium",
+   "Furniture/Decoration/Decoration Lights Small",
+   "Furniture/Decoration/Red Wall Mounted Bicycle",
+   "Furniture/Electronics/23 Inch Computer Monitor",
+   "Furniture/Electronics/27 Inch Computer Monitor",
+   "Furniture/Electronics/Big Television",
+   "Furniture/Electronics/Camera Tripod",
+   "Furniture/Electronics/Cat Ear Headset",
+   "Furniture/Electronics/Charger",
+   "Furniture/Electronics/Cheap Radio",
+   "Furniture/Electronics/Computer Keyboard",
+   "Furniture/Electronics/Computer Mouse",
+   "Furniture/Electronics/Flat Screen Television",
+   "Furniture/Electronics/Game Console",
+   "Furniture/Electronics/Gaming Controller",
+   "Furniture/Electronics/Gaming PC",
+   "Furniture/Electronics/Headset",
+   "Furniture/Electronics/Laptop",
+   "Furniture/Electronics/Old Computer",
+   "Furniture/Electronics/Old Computer 2",
+   "Furniture/Electronics/Old Computer Keyboard",
+   "Furniture/Electronics/Old Computer Monitor",
+   "Furniture/Electronics/Old Computer Mouse",
+   "Furniture/Electronics/Old Projector",
+   "Furniture/Electronics/Old Telephone",
+   "Furniture/Electronics/Old Television",
+   "Furniture/Electronics/PC",
+   "Furniture/Electronics/Projector",
+   "Furniture/Electronics/Small Radio",
+   "Furniture/Electronics/Speaker Large",
+   "Furniture/Electronics/Speaker Medium",
+   "Furniture/Electronics/Speaker Small",
+   "Furniture/Electronics/Tape Recorder",
+   "Furniture/Electronics/VCR",
+   "Furniture/Growing/Bag of Soil",
+   "Furniture/Growing/Hydroponic Farm",
+   "Furniture/Growing/Hydroponic Farm With Support",
+   "Furniture/Growing/Vertical Farm",
+   "Furniture/Growing/Vertical Farm Box",
+   "Furniture/Kitchen/Cafeteria Bucket",
+   "Furniture/Kitchen/Coffee Machine",
+   "Furniture/Kitchen/Kitchen Cart",
+   "Furniture/Kitchen/Old Coffeemaker",
+   "Furniture/Kitchen/Styrofoam Cooler",
+   "Furniture/Lights/Mushroom Lamp Blue",
+   "Furniture/Lights/Mushroom Lamp Green",
+   "Furniture/Lights/Mushroom Lamp Orange",
+   "Furniture/Lights/Mushroom Lamp Red",
+   "Furniture/Manufacturing/3D Printer",
+   "Furniture/Manufacturing/Alcohol/Fermenting Bucket",
+   "Furniture/Manufacturing/Biogas Reactor",
+   "Furniture/Manufacturing/Machining/Angle Grinder",
+   "Furniture/Manufacturing/Printers/Copy Machine",
+   "Furniture/Manufacturing/Printers/Printer",
+   "Furniture/Manufacturing/Sewing Machine",
+   "Furniture/Manufacturing/Typewriter",
+   "Furniture/Manufacturing/Upgrades/Sample Analyzer",
+   "Furniture/Storage/Green Dumpster",
+   "Furniture/Storage/IBC Container",
+   "Furniture/Storage/Pet Carrier",
+   "Furniture/Storage/Plastic Storage Crate",
+   "Furniture/Tables/Cafeteria Table",
+   "Furniture/Tables/Cafeteria Table Round",
+   "Furniture/Tables/Large Plastic Table",
+   "Furniture/Tables/Small Plastic Table",
+   "Furniture/Vehicles/Bicycle",
+   "Furniture/Vehicles/Pappatunturi"
   ]
  },
  {
@@ -4540,6 +4764,11 @@
    "d9a39a97",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
    "9989df0b",
@@ -4664,6 +4893,13 @@
    "3f4a6f8b",
    "d9a39a97",
    "5219c665"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
@@ -4863,6 +5099,10 @@
    "1b2ff7e6-interior-tenement-general-store",
    "bb3cf675-interior-bazaar-mentti-a"
   ],
+  "soldAt": [
+   "interior-tenement-pharmacy",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
@@ -4952,6 +5192,9 @@
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
    "bb3cf675-interior-bazaar-mentti-a"
+  ],
+  "soldAt": [
+   "interior-tenement-pharmacy"
   ],
   "boughtBy": [
    "aa8254a4",
@@ -5055,6 +5298,9 @@
    "9989df0b",
    "bb3cf675-interior-bazaar-mentti-a"
   ],
+  "soldAt": [
+   "interior-tenement-pharmacy"
+  ],
   "boughtBy": [
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
@@ -5122,6 +5368,9 @@
   ],
   "soldBy": [
    "1b2ff7e6-interior-tenement-general-store"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -5276,6 +5525,10 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -5328,6 +5581,9 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -5390,6 +5646,11 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -5469,6 +5730,11 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -5531,6 +5797,10 @@
   "sprite": "Sprites/Items/Yeast_spr",
   "prefab": "Prefabs/Items/Yeast",
   "material": "Cardboard",
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -5602,6 +5872,10 @@
   "soldBy": [
    "f4103c03"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -5656,6 +5930,12 @@
     "special": "Laxative 10"
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -5708,6 +5988,12 @@
     "amount": 33,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -5762,6 +6048,13 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -5815,6 +6108,12 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -5867,6 +6166,13 @@
     "amount": 33,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -5940,6 +6246,11 @@
     "destroy": true,
     "special": "Laxative 5"
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -6037,6 +6348,10 @@
     "amount": 50,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -6284,6 +6599,9 @@
    "bc533c6c",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -6368,6 +6686,9 @@
   ],
   "soldBy": [
    "bc533c6c"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -6544,6 +6865,9 @@
   ],
   "soldBy": [
    "bc533c6c"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -6887,6 +7211,9 @@
   "soldBy": [
    "bc533c6c"
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -7070,6 +7397,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -7156,6 +7486,11 @@
     "special": "Laxative 66"
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -7213,6 +7548,13 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-internet-cafe",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -7268,6 +7610,11 @@
     "amount": 10,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -7339,6 +7686,9 @@
     "amount": 50,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -7450,6 +7800,10 @@
   "soldBy": [
    "1b2ff7e6-interior-tenement-general-store"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "ebb4bb72",
@@ -7517,6 +7871,10 @@
     "amount": 35,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -7588,6 +7946,12 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -7667,6 +8031,11 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -7751,6 +8120,9 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -13037,6 +13409,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -14229,6 +14605,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
+  ],
   "boughtBy": [
    "9989df0b",
    "41ea9fcb",
@@ -15386,6 +15766,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
+  ],
   "boughtBy": [
    "9989df0b",
    "41ea9fcb",
@@ -15616,6 +16000,10 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
   ],
   "boughtBy": [
    "9989df0b",
@@ -15946,6 +16334,18 @@
    "ebb4bb72",
    "0b151f18",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small",
+   "Blueprints/Cages/Rat Cage Large",
+   "Blueprints/Cages/Rat Cage Medium",
+   "Blueprints/Cages/Rat Cage Small",
+   "Blueprints/Cages/Rat Cage Tiny"
+  ],
+  "dismantledFrom": [
+   "Furniture/Kitchen/Toothpick Holder",
+   "Furniture/Lights/Candle Bowl"
   ]
  },
  {
@@ -16130,6 +16530,10 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "92c65ce5",
@@ -16142,6 +16546,122 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Bathroom/Makeshift Shower",
+   "Blueprints/Bathroom/Makeshift Toilet Blueprint",
+   "Blueprints/Beds/Plank Bed Blueprint",
+   "Blueprints/Cages/Cat Cage Large",
+   "Blueprints/Cages/Cat Cage Medium",
+   "Blueprints/Cages/Cat Cage Small",
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small",
+   "Blueprints/Cages/Rat Cage Large",
+   "Blueprints/Cages/Rat Cage Medium",
+   "Blueprints/Cages/Rat Cage Small",
+   "Blueprints/Cages/Rat Cage Tiny",
+   "Blueprints/Chairs/Cottage Bench Blueprint",
+   "Blueprints/Chairs/Dressing Room Bench",
+   "Blueprints/Chairs/Dressing Room Bench Large",
+   "Blueprints/Chairs/Plank Armchair Blueprint",
+   "Blueprints/Chairs/Plank Chair Blueprint",
+   "Blueprints/Chairs/Plank Stool Blueprint",
+   "Blueprints/Chairs/Small Wooden Stool",
+   "Blueprints/Chairs/Wooden Step Stool",
+   "Blueprints/Clutter/Vegetable Crate Blueprint",
+   "Blueprints/Clutter/Wooden Crate Blueprint",
+   "Blueprints/Clutter/Wooden Pallet Blueprint",
+   "Blueprints/Clutter/Wooden Pallet Half Blueprint",
+   "Blueprints/Clutter/Wooden Pallet Quater Blueprint",
+   "Blueprints/Growing/Barrel With Support",
+   "Blueprints/Growing/Compost",
+   "Blueprints/Growing/Flowerbox",
+   "Blueprints/Growing/Flowerbox With Supports",
+   "Blueprints/Growing/Large Flowerpot With Support",
+   "Blueprints/Growing/Mushroom Growing Rack Blueprint",
+   "Blueprints/Growing/Old Bathtub Growing With Support",
+   "Blueprints/Lights/Plank Ceiling Light Blueprint",
+   "Blueprints/Manufacturing/Fermenting Barrel Blueprint",
+   "Blueprints/Manufacturing/Loom Blueprint",
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint",
+   "Blueprints/Manufacturing/Printing Press",
+   "Blueprints/Manufacturing/Sawbuck",
+   "Blueprints/Manufacturing/Sawbuck With Chainsaw",
+   "Blueprints/Shelves/Plank Shelf Blueprint",
+   "Blueprints/Shelves/Small Plank Shelf Blueprint",
+   "Blueprints/Shelves/Small White Shelf Blueprint",
+   "Blueprints/Shelves/Small Wood Shelf Blueprint",
+   "Blueprints/Storages/Firewood Pile Blueprint",
+   "Blueprints/Storages/Large Wooden Cupboard Blueprint",
+   "Blueprints/Storages/Oak Barrel Blueprint",
+   "Blueprints/Storages/Small Wooden Cupboard Blueprint",
+   "Blueprints/Storages/Wooden Chest Blueprint",
+   "Blueprints/Storages/Wooden Drawer Blueprint",
+   "Blueprints/Tables/Cottage Table",
+   "Blueprints/Tables/Plank Side Table",
+   "Blueprints/Tables/Plank Table",
+   "Blueprints/Tables/Wooden Desk",
+   "Blueprints/Tables/Wooden Table"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Makeshift Shower",
+   "Furniture/Bathroom/Makeshift Toilet",
+   "Furniture/Beds/Decent Bed",
+   "Furniture/Chairs/Cottage Bench",
+   "Furniture/Chairs/Dressing Room Bench",
+   "Furniture/Chairs/Dressing Room Bench Large",
+   "Furniture/Chairs/Small Wooden Step Stool",
+   "Furniture/Chairs/Wooden Step Stool",
+   "Furniture/Clutter/Pallet",
+   "Furniture/Clutter/Pallet Half",
+   "Furniture/Clutter/Pallet Quater",
+   "Furniture/Clutter/Vegetable Crate",
+   "Furniture/Clutter/Wooden crate",
+   "Furniture/Growing/Barrel With Support",
+   "Furniture/Growing/Cat cage Large",
+   "Furniture/Growing/Cat cage Medium",
+   "Furniture/Growing/Cat cage Small",
+   "Furniture/Growing/Chicken coop Large",
+   "Furniture/Growing/Chicken coop Small",
+   "Furniture/Growing/Compost",
+   "Furniture/Growing/Flowerbox",
+   "Furniture/Growing/Flowerbox With Supports",
+   "Furniture/Growing/Large Flowerpot With Support",
+   "Furniture/Growing/Mushroom Growing Rack",
+   "Furniture/Growing/Rat cage Large",
+   "Furniture/Growing/Rat cage Medium",
+   "Furniture/Growing/Rat cage Small",
+   "Furniture/Growing/Rat cage Tiny",
+   "Furniture/Manufacturing/Carpentry/Sawbuck",
+   "Furniture/Manufacturing/Carpentry/Sawbuck With Chainsaw",
+   "Furniture/Manufacturing/Loom",
+   "Furniture/Manufacturing/Makeshift Chemical Reactor",
+   "Furniture/Manufacturing/Printing Press",
+   "Furniture/Manufacturing/Work table",
+   "Furniture/Shelves/Shelf Modular Hex",
+   "Furniture/Shelves/Shelf Small Dark",
+   "Furniture/Shelves/Shelf Small White",
+   "Furniture/Shelves/Shelf Small Wood",
+   "Furniture/Shelves/Shelf Wooden",
+   "Furniture/Shelves/Shelf modular Rectangle",
+   "Furniture/Shelves/Shelf modular Square",
+   "Furniture/Storage/IBC Container",
+   "Furniture/Storage/Large Wooden Chest",
+   "Furniture/Storage/Large Wooden Cupboard",
+   "Furniture/Storage/Oak Barrel",
+   "Furniture/Storage/Small Wooden Cupboard",
+   "Furniture/Storage/Wooden Chest",
+   "Furniture/Storage/Wooden Drawer",
+   "Furniture/Storage/Wooden Wine Rack Large",
+   "Furniture/Storage/Wooden Wine Rack Medium",
+   "Furniture/Storage/Wooden Wine Rack Small",
+   "Furniture/Structural/Smooth Wooden Pillar",
+   "Furniture/Structural/Smooth Wooden Pillar Half",
+   "Furniture/Structural/Wooden Pillar",
+   "Furniture/Structural/Wooden Pillar Half",
+   "Furniture/Tables/Cottage Table",
+   "Furniture/Tables/Wooden Desk",
+   "Furniture/Tables/Wooden Table"
   ]
  },
  {
@@ -16235,6 +16755,12 @@
    "91d0982a",
    "0b151f18",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Stone Fireplace"
+  ],
+  "dismantledFrom": [
+   "Furniture/Kitchen/Stone Fireplace"
   ]
  },
  {
@@ -16411,6 +16937,52 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Bathroom Glass",
+   "Furniture/Bathroom/Bathroom Mug",
+   "Furniture/Clutter/Ashtray",
+   "Furniture/Clutter/Broken Mirror",
+   "Furniture/Clutter/Broken Mirror Small",
+   "Furniture/Clutter/Wall Clock",
+   "Furniture/Decoration/Flower Mirror",
+   "Furniture/Decoration/Helm Clock",
+   "Furniture/Decoration/Memorial Candle",
+   "Furniture/Decoration/Rose Vase Glass",
+   "Furniture/Decoration/Rose Vase Green",
+   "Furniture/Decoration/Rose Vase White",
+   "Furniture/Decoration/Vase Blue",
+   "Furniture/Decoration/Vase Green",
+   "Furniture/Decoration/Vase Large Blue",
+   "Furniture/Decoration/Vase White",
+   "Furniture/Electronics/23 Inch Computer Monitor",
+   "Furniture/Electronics/27 Inch Computer Monitor",
+   "Furniture/Electronics/Old Computer Monitor",
+   "Furniture/Electronics/Old Projector",
+   "Furniture/Electronics/Projector",
+   "Furniture/Kitchen/Coffee Machine",
+   "Furniture/Kitchen/Lattemaster Coffeemaker",
+   "Furniture/Kitchen/Old Coffeemaker",
+   "Furniture/Lights/Arc Floor Lamp",
+   "Furniture/Lights/Bankers Lamp",
+   "Furniture/Lights/Beer Lamp",
+   "Furniture/Lights/Floor Lamp",
+   "Furniture/Lights/Mushroom Lamp Blue",
+   "Furniture/Lights/Mushroom Lamp Green",
+   "Furniture/Lights/Mushroom Lamp Orange",
+   "Furniture/Lights/Mushroom Lamp Red",
+   "Furniture/Lights/Mushroom Lantern",
+   "Furniture/Lights/Mushroom Lantern Orange",
+   "Furniture/Lights/Oil Lamp",
+   "Furniture/Lights/Orange Lava Lamp",
+   "Furniture/Lights/Red Desk Lamp",
+   "Furniture/Lights/Wall Light",
+   "Furniture/Lights/Yellow Lanter",
+   "Furniture/Manufacturing/Printers/Copy Machine",
+   "Furniture/Manufacturing/Upgrades/Distillation Kit",
+   "Furniture/Manufacturing/Upgrades/Spices",
+   "Furniture/Storage/Fancy Large Wooden Cabinet",
+   "Furniture/Storage/Vitrine"
   ]
  },
  {
@@ -16519,6 +17091,9 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -16527,6 +17102,19 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small",
+   "Blueprints/Shelves/Modular Shelf Hex",
+   "Blueprints/Shelves/Modular Shelf Rectangle",
+   "Blueprints/Shelves/Modular Shelf Square",
+   "Blueprints/Shelves/Small White Shelf Blueprint",
+   "Blueprints/Signs/Sign Industrial Blueprint",
+   "Blueprints/Storages/Metal Locker Blueprint",
+   "Blueprints/Tables/White Coffee Table Large",
+   "Blueprints/Tables/White Coffee Table Medium",
+   "Blueprints/Tables/White Coffee Table Small"
   ]
  },
  {
@@ -16751,6 +17339,9 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -16759,6 +17350,115 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Bathroom/Makeshift IBC Sink Blueprint",
+   "Blueprints/Bathroom/Makeshift Sink Blueprint",
+   "Blueprints/Bathroom/Makeshift Toilet Blueprint",
+   "Blueprints/Beds/Plank Bed Blueprint",
+   "Blueprints/Chairs/Plank Armchair Blueprint",
+   "Blueprints/Chairs/Plank Chair Blueprint",
+   "Blueprints/Chairs/Plank Stool Blueprint",
+   "Blueprints/Chairs/Small Wooden Stool",
+   "Blueprints/Chairs/Wooden Bench Blueprint",
+   "Blueprints/Chairs/Wooden Chair Blueprint",
+   "Blueprints/Chairs/Wooden Step Stool",
+   "Blueprints/Clutter/Vegetable Crate Blueprint",
+   "Blueprints/Clutter/Wooden Crate Blueprint",
+   "Blueprints/Clutter/Wooden Pallet Blueprint",
+   "Blueprints/Clutter/Wooden Pallet Half Blueprint",
+   "Blueprints/Clutter/Wooden Pallet Quater Blueprint",
+   "Blueprints/Growing/Compost",
+   "Blueprints/Growing/Flowerbox",
+   "Blueprints/Growing/Mushroom Growing Rack Blueprint",
+   "Blueprints/Lights/Plank Ceiling Light Blueprint",
+   "Blueprints/Manufacturing/Fermenting Barrel Blueprint",
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint",
+   "Blueprints/Manufacturing/Mashing Barrel Blueprint",
+   "Blueprints/Manufacturing/Printing Press",
+   "Blueprints/Manufacturing/Sawbuck",
+   "Blueprints/Manufacturing/Sawbuck With Chainsaw",
+   "Blueprints/Shelves/Modular Shelf Hex",
+   "Blueprints/Shelves/Modular Shelf Rectangle",
+   "Blueprints/Shelves/Modular Shelf Square",
+   "Blueprints/Shelves/Plank Shelf Blueprint",
+   "Blueprints/Shelves/Small White Shelf Blueprint",
+   "Blueprints/Shelves/Small Wood Shelf Blueprint",
+   "Blueprints/Shelves/Wooden Shelf Blueprint",
+   "Blueprints/Storages/Firewood Pile Blueprint",
+   "Blueprints/Storages/Large Wooden Cupboard Blueprint",
+   "Blueprints/Storages/Small Wooden Cupboard Blueprint",
+   "Blueprints/Storages/Wooden Chest Blueprint",
+   "Blueprints/Storages/Wooden Drawer Blueprint",
+   "Blueprints/Tables/Fancy Square Wooden Table",
+   "Blueprints/Tables/Plank Side Table",
+   "Blueprints/Tables/Plank Table",
+   "Blueprints/Tables/White Coffee Table Large",
+   "Blueprints/Tables/White Coffee Table Medium",
+   "Blueprints/Tables/White Coffee Table Small",
+   "Blueprints/Tables/Wooden Desk",
+   "Blueprints/Tables/Wooden Table"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Makeshift IBC Sink",
+   "Furniture/Bathroom/Makeshift Toilet",
+   "Furniture/Beds/Decent Bed",
+   "Furniture/Beds/Double Bed",
+   "Furniture/Beds/Double Bed Money",
+   "Furniture/Chairs/Rocking Chair",
+   "Furniture/Chairs/Small Wooden Step Stool",
+   "Furniture/Chairs/Wooden Step Stool",
+   "Furniture/Clutter/Pallet",
+   "Furniture/Clutter/Pallet Half",
+   "Furniture/Clutter/Pallet Quater",
+   "Furniture/Clutter/Vegetable Crate",
+   "Furniture/Clutter/Wooden crate",
+   "Furniture/Growing/Cat cage Large",
+   "Furniture/Growing/Cat cage Medium",
+   "Furniture/Growing/Cat cage Small",
+   "Furniture/Growing/Chicken coop Large",
+   "Furniture/Growing/Chicken coop Small",
+   "Furniture/Growing/Compost",
+   "Furniture/Growing/Flowerbox",
+   "Furniture/Growing/Mushroom Growing Rack",
+   "Furniture/Kitchen/Kitchen Drawer",
+   "Furniture/Manufacturing/Carpentry/Sawbuck",
+   "Furniture/Manufacturing/Carpentry/Sawbuck With Chainsaw",
+   "Furniture/Manufacturing/Work table",
+   "Furniture/Shelves/Shelf Large Birch",
+   "Furniture/Shelves/Shelf Small Birch",
+   "Furniture/Shelves/Shelf Wooden",
+   "Furniture/Storage/Fancy Large Wooden Cabinet",
+   "Furniture/Storage/Fancy Wooden Desk",
+   "Furniture/Storage/Large Wooden Cupboard",
+   "Furniture/Storage/Night Stand",
+   "Furniture/Storage/Small Drawer",
+   "Furniture/Storage/Small Night Stand",
+   "Furniture/Storage/Small Wooden Cupboard",
+   "Furniture/Storage/Small Wooden Night Stand",
+   "Furniture/Storage/Vitrine",
+   "Furniture/Storage/Wardrobe",
+   "Furniture/Storage/White Cupboard",
+   "Furniture/Storage/Wooden Drawer",
+   "Furniture/Storage/Wooden Wardrobe",
+   "Furniture/Storage/Wooden Wine Rack Large",
+   "Furniture/Storage/Wooden Wine Rack Medium",
+   "Furniture/Storage/Wooden Wine Rack Small",
+   "Furniture/Tables/Coffee Table",
+   "Furniture/Tables/Corner Desk",
+   "Furniture/Tables/Corner Table",
+   "Furniture/Tables/Fancy Wooden Square Table",
+   "Furniture/Tables/Large Coffee Table",
+   "Furniture/Tables/Large Wooden Table",
+   "Furniture/Tables/Park Table",
+   "Furniture/Tables/Round Coffee Table",
+   "Furniture/Tables/Small Coffee Table",
+   "Furniture/Tables/Small Round Coffee Table",
+   "Furniture/Tables/Small Wooden Table",
+   "Furniture/Tables/Wooden Desk",
+   "Furniture/Tables/Wooden Single Leg Table",
+   "Furniture/Tables/Wooden Table",
+   "Furniture/Tables/Wooden Tv Table"
   ]
  },
  {
@@ -16883,6 +17583,9 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -16891,6 +17594,10 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Brick Furnace Blueprint",
+   "Blueprints/Manufacturing/Stone Fireplace"
   ]
  },
  {
@@ -17057,6 +17764,10 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -17069,6 +17780,56 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Beds/Shabby Bed Frame Blueprint",
+   "Blueprints/Growing/Aquarium",
+   "Blueprints/Growing/Terrarium",
+   "Blueprints/Manufacturing/Mashing Barrel Blueprint",
+   "Blueprints/Signs/Sign Industrial Blueprint",
+   "Blueprints/Storages/Metal Locker Blueprint",
+   "Blueprints/Structural/Basement Floor Blueprint",
+   "Blueprints/Structural/Basement Grate Floor Blueprint",
+   "Blueprints/Tables/Metal Table Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Beds/Shabby Bed Frame",
+   "Furniture/Clutter/Corrugated Metal Sheet",
+   "Furniture/Clutter/Corrugated Metal Sheet Half",
+   "Furniture/Clutter/Metal Crate",
+   "Furniture/Clutter/Metal Stove",
+   "Furniture/Clutter/Red Barrel",
+   "Furniture/Growing/Aquarium",
+   "Furniture/Growing/Fume Cabinet",
+   "Furniture/Growing/Mushroom Growing Cabinet",
+   "Furniture/Growing/Terrarium",
+   "Furniture/Kitchen/Chest Freezer",
+   "Furniture/Manufacturing/Ball Grill",
+   "Furniture/Manufacturing/Carpentry/Bandsaw",
+   "Furniture/Manufacturing/Carpentry/Table Saw",
+   "Furniture/Manufacturing/Concrete Mixer",
+   "Furniture/Manufacturing/Electronics Station",
+   "Furniture/Manufacturing/Electronics Workbench",
+   "Furniture/Manufacturing/Smelting/Brick Furnace",
+   "Furniture/Manufacturing/Smelting/Electric Kiln",
+   "Furniture/Manufacturing/Smelting/Gas Furnace",
+   "Furniture/Manufacturing/Smelting/Power Hammer",
+   "Furniture/Shelves/Shelf Large Metal",
+   "Furniture/Signs/Road Sign Crosswalk",
+   "Furniture/Signs/Road Sign Keep Right",
+   "Furniture/Signs/Road Sign No Parking",
+   "Furniture/Signs/Road Sign No Pooping",
+   "Furniture/Signs/Road Sign No Shrooms",
+   "Furniture/Signs/Road Sign No Stopping",
+   "Furniture/Signs/Road Sign Parking",
+   "Furniture/Signs/Road Sign Speed Limit",
+   "Furniture/Storage/Filing Cabinet",
+   "Furniture/Storage/Metal Desk",
+   "Furniture/Storage/Metal Locker",
+   "Furniture/Storage/Safe",
+   "Furniture/Storage/Tool Cart",
+   "Furniture/Structural/Basement Floor",
+   "Furniture/Tables/Metal Table"
   ]
  },
  {
@@ -17184,6 +17945,10 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -17192,6 +17957,49 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Beds/Shabby Bed Frame Blueprint",
+   "Blueprints/Chairs/Dressing Room Bench",
+   "Blueprints/Chairs/Dressing Room Bench Large",
+   "Blueprints/Growing/Aquarium",
+   "Blueprints/Growing/Terrarium",
+   "Blueprints/Manufacturing/Brick Furnace Blueprint",
+   "Blueprints/Manufacturing/Copper Moonshine Still",
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint",
+   "Blueprints/Manufacturing/Mashing Kettle Blueprint",
+   "Blueprints/Manufacturing/Moonshine Distillery",
+   "Blueprints/Structural/Basement Grate Floor Handrail Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Chairs/Dressing Room Bench",
+   "Furniture/Chairs/Dressing Room Bench Large",
+   "Furniture/Growing/Aquarium",
+   "Furniture/Growing/Fume Cabinet",
+   "Furniture/Growing/Hydroponic Farm",
+   "Furniture/Growing/Hydroponic Farm With Support",
+   "Furniture/Growing/Mushroom Growing Cabinet",
+   "Furniture/Growing/Terrarium",
+   "Furniture/Growing/Vertical Farm",
+   "Furniture/Kitchen/Commercial Kitchen Table With Sink",
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Alcohol/Moonshine Distillery",
+   "Furniture/Manufacturing/Biogas Reactor",
+   "Furniture/Manufacturing/Chemical Reactor",
+   "Furniture/Manufacturing/Hydraulic Press",
+   "Furniture/Manufacturing/Makeshift Chemical Reactor",
+   "Furniture/Manufacturing/Smelting/Brick Furnace",
+   "Furniture/Manufacturing/Smelting/Power Hammer",
+   "Furniture/Manufacturing/Upgrades/Distillation Kit",
+   "Furniture/Signs/Road Sign Crosswalk",
+   "Furniture/Signs/Road Sign Keep Right",
+   "Furniture/Signs/Road Sign No Parking",
+   "Furniture/Signs/Road Sign No Pooping",
+   "Furniture/Signs/Road Sign No Shrooms",
+   "Furniture/Signs/Road Sign No Stopping",
+   "Furniture/Signs/Road Sign Parking",
+   "Furniture/Signs/Road Sign Speed Limit",
+   "Furniture/Structural/Basement Grate Floor Handrail"
   ]
  },
  {
@@ -17299,6 +18107,10 @@
    "61e5b537",
    "0b151f18",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -17466,6 +18278,12 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -17595,6 +18413,9 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -17607,6 +18428,14 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Electronics/All-in-One PC",
+   "Furniture/Electronics/Gaming PC",
+   "Furniture/Electronics/Laptop",
+   "Furniture/Electronics/PC",
+   "Furniture/Manufacturing/Electronics Workbench",
+   "Furniture/Manufacturing/Upgrades/Sample Analyzer"
   ]
  },
  {
@@ -17737,6 +18566,10 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -17749,6 +18582,54 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Lights/Plank Ceiling Light Blueprint",
+   "Blueprints/Manufacturing/Copper Moonshine Still",
+   "Blueprints/Manufacturing/Malter Blueprint",
+   "Blueprints/Manufacturing/Mashing Kettle Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Broken/Payphone Broken",
+   "Furniture/Broken/Refrigerator Brown Broken",
+   "Furniture/Electronics/All-in-One PC",
+   "Furniture/Electronics/Big Television",
+   "Furniture/Electronics/Curved Gaming Monitor",
+   "Furniture/Electronics/Flat Screen Television",
+   "Furniture/Electronics/Gaming PC",
+   "Furniture/Electronics/Old Computer",
+   "Furniture/Electronics/Old Television",
+   "Furniture/Electronics/PC",
+   "Furniture/Electronics/Speaker Large",
+   "Furniture/Electronics/Speaker Medium",
+   "Furniture/Electronics/Speaker Small",
+   "Furniture/Electronics/VCR",
+   "Furniture/Growing/Hydroponic Farm",
+   "Furniture/Growing/Hydroponic Farm With Support",
+   "Furniture/Growing/Mushroom Growing Cabinet",
+   "Furniture/Growing/Vertical Farm",
+   "Furniture/Kitchen/Chest Freezer",
+   "Furniture/Kitchen/Commercial Dishwasher",
+   "Furniture/Kitchen/Commercial Refrigerator",
+   "Furniture/Kitchen/Dishwasher",
+   "Furniture/Kitchen/Microwave",
+   "Furniture/Kitchen/Old Microwave",
+   "Furniture/Kitchen/Old Stove",
+   "Furniture/Kitchen/Refrigerator",
+   "Furniture/Kitchen/Refrigerator Brown",
+   "Furniture/Kitchen/Refrigerator Modern",
+   "Furniture/Kitchen/Stove",
+   "Furniture/Manufacturing/3D Printer",
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Chemical Reactor",
+   "Furniture/Manufacturing/Electronics Station",
+   "Furniture/Manufacturing/Electronics Workbench",
+   "Furniture/Manufacturing/Printers/Copy Machine",
+   "Furniture/Manufacturing/Printers/Printer",
+   "Furniture/Manufacturing/Sewing Machine",
+   "Furniture/Manufacturing/Smelting/Electric Kiln",
+   "Furniture/Manufacturing/Upgrades/Sample Analyzer",
+   "Furniture/Manufacturing/Upgrades/Sterilizer"
   ]
  },
  {
@@ -17825,6 +18706,9 @@
    "0b151f18",
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b"
+  ],
+  "soldAt": [
+   "interior-mines-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -17938,6 +18822,9 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -17950,6 +18837,22 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Growing/Aquarium",
+   "Blueprints/Growing/Terrarium",
+   "Blueprints/Special/Mushroom Lantern",
+   "Blueprints/Special/Orange Mushroom Lantern",
+   "Blueprints/Special/Yellow Lantern",
+   "Blueprints/Storages/Small Wooden Cupboard Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Growing/Aquarium",
+   "Furniture/Growing/Fume Cabinet",
+   "Furniture/Growing/Terrarium",
+   "Furniture/Storage/Vitrine",
+   "Furniture/Tables/Glass Coffee Table",
+   "Furniture/Tables/Small Glass Coffee Table"
   ]
  },
  {
@@ -18044,6 +18947,9 @@
    "91d0982a",
    "0b151f18"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -18052,6 +18958,12 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Cat Cage Large",
+   "Blueprints/Cages/Cat Cage Medium",
+   "Blueprints/Cages/Cat Cage Small",
+   "Blueprints/Growing/Aquarium"
   ]
  },
  {
@@ -18355,6 +19267,309 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Bathroom/Makeshift Barrel Sink Blueprint",
+   "Blueprints/Bathroom/Makeshift IBC Sink Blueprint",
+   "Blueprints/Bathroom/Makeshift Shower",
+   "Blueprints/Bathroom/Makeshift Sink Blueprint",
+   "Blueprints/Beds/Shabby Bed Frame Blueprint",
+   "Blueprints/Chairs/Dressing Room Bench",
+   "Blueprints/Chairs/Dressing Room Bench Large",
+   "Blueprints/Clutter/Ceiling Lamp Chain",
+   "Blueprints/Clutter/Metal Chain",
+   "Blueprints/Clutter/Wall Hook",
+   "Blueprints/Growing/Flowerbox With Lamp",
+   "Blueprints/Manufacturing/Fermenting Barrel Blueprint",
+   "Blueprints/Manufacturing/Loom Blueprint",
+   "Blueprints/Manufacturing/Mashing Barrel Blueprint",
+   "Blueprints/Manufacturing/Medium Moonshine Distillery Blueprint",
+   "Blueprints/Manufacturing/Moonshine Distillery",
+   "Blueprints/Manufacturing/Small Moonshine Distillery Blueprint",
+   "Blueprints/Shelves/Small White Shelf Blueprint",
+   "Blueprints/Shelves/Small Wood Shelf Blueprint",
+   "Blueprints/Signs/Label Small",
+   "Blueprints/Special/Mushroom Lantern",
+   "Blueprints/Special/Orange Mushroom Lantern",
+   "Blueprints/Special/Yellow Lantern",
+   "Blueprints/Storages/Metal Locker Blueprint",
+   "Blueprints/Structural/Basement Floor Blueprint",
+   "Blueprints/Structural/Basement Grate Floor Blueprint",
+   "Blueprints/Structural/Basement Grate Floor Handrail Blueprint",
+   "Blueprints/Structural/Mesh Wall",
+   "Blueprints/Structural/Tarp Wall",
+   "Blueprints/Tables/Metal Table Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Bathroom Cabinet",
+   "Furniture/Bathroom/Blue Plastic Barrel Sink",
+   "Furniture/Bathroom/Makeshift Barrel Sink",
+   "Furniture/Bathroom/Makeshift IBC Sink",
+   "Furniture/Bathroom/Makeshift Shower",
+   "Furniture/Bathroom/Old Bathtub",
+   "Furniture/Bathroom/Plastic Barrel Shower",
+   "Furniture/Bathroom/Toilet Paper Holder",
+   "Furniture/Bathroom/Washing Machine",
+   "Furniture/Beds/Shabby Bed Frame",
+   "Furniture/Broken/Payphone Broken",
+   "Furniture/Broken/Refrigerator Brown Broken",
+   "Furniture/Chairs/Blue Bench",
+   "Furniture/Chairs/Comfy Office Chair",
+   "Furniture/Chairs/Dressing Room Bench",
+   "Furniture/Chairs/Dressing Room Bench Large",
+   "Furniture/Chairs/Fancy Bench",
+   "Furniture/Chairs/Fancy Leather Office Chair",
+   "Furniture/Chairs/Fancy Sofa",
+   "Furniture/Chairs/Gaming Chair",
+   "Furniture/Chairs/Meeting Chair",
+   "Furniture/Chairs/Metal Stool",
+   "Furniture/Chairs/Modern Chair",
+   "Furniture/Chairs/Office Armchair",
+   "Furniture/Chairs/Office Chair",
+   "Furniture/Chairs/Red Metal Chair",
+   "Furniture/Chairs/Round Rolling Stool",
+   "Furniture/Chairs/Saddle Stool",
+   "Furniture/Chairs/School Chair",
+   "Furniture/Chairs/Theater Chair",
+   "Furniture/Cleaning/Broom",
+   "Furniture/Cleaning/Cleaning Cart",
+   "Furniture/Clutter/Ashtray Stand",
+   "Furniture/Clutter/Cage Trolley",
+   "Furniture/Clutter/Car Wheel",
+   "Furniture/Clutter/Cardboard Boxes",
+   "Furniture/Clutter/Cardboard Boxes 2",
+   "Furniture/Clutter/Chainsaw",
+   "Furniture/Clutter/Clothes Rack",
+   "Furniture/Clutter/Coat Rack",
+   "Furniture/Clutter/Darts",
+   "Furniture/Clutter/Drying Rack",
+   "Furniture/Clutter/Fire Extinguisher",
+   "Furniture/Clutter/Firewood Basket",
+   "Furniture/Clutter/Gas Bottle",
+   "Furniture/Clutter/Gear Big",
+   "Furniture/Clutter/Mailbox Blue",
+   "Furniture/Clutter/Mailbox Grey",
+   "Furniture/Clutter/Mailbox Red",
+   "Furniture/Clutter/Metal Bucket",
+   "Furniture/Clutter/Metal Chain",
+   "Furniture/Clutter/Metal Crate",
+   "Furniture/Clutter/Metal Stove",
+   "Furniture/Clutter/Microscope",
+   "Furniture/Clutter/Napkin Dispenser",
+   "Furniture/Clutter/Office Partition",
+   "Furniture/Clutter/Paper Towel Holder",
+   "Furniture/Clutter/Portable Ladder",
+   "Furniture/Clutter/Red Barrel",
+   "Furniture/Clutter/Rusty Barrel",
+   "Furniture/Clutter/Saw",
+   "Furniture/Clutter/Scissors",
+   "Furniture/Clutter/Shopping Cart",
+   "Furniture/Clutter/Silver Screen",
+   "Furniture/Clutter/Toolbox",
+   "Furniture/Clutter/Toolbox Open",
+   "Furniture/Clutter/Trash Bin",
+   "Furniture/Clutter/Vat",
+   "Furniture/Clutter/Wall Clock",
+   "Furniture/Clutter/Water Cooler",
+   "Furniture/Clutter/Wheelbarrow",
+   "Furniture/Decoration/Gear Clock",
+   "Furniture/Decoration/Helm",
+   "Furniture/Decoration/Helm Clock",
+   "Furniture/Decoration/Katana Stand",
+   "Furniture/Decoration/Red Wall Mounted Bicycle",
+   "Furniture/Electronics/27 Inch Computer Monitor",
+   "Furniture/Electronics/Big Television",
+   "Furniture/Electronics/Camera Tripod",
+   "Furniture/Electronics/Curved Gaming Monitor",
+   "Furniture/Electronics/Flat Screen Television",
+   "Furniture/Electronics/Game Console",
+   "Furniture/Electronics/Laptop",
+   "Furniture/Electronics/Mini Generator",
+   "Furniture/Electronics/Old Computer 2",
+   "Furniture/Electronics/Old Projector",
+   "Furniture/Electronics/Old Television",
+   "Furniture/Electronics/Projector",
+   "Furniture/Electronics/Small Radio",
+   "Furniture/Electronics/Speaker Large",
+   "Furniture/Electronics/Speaker Medium",
+   "Furniture/Electronics/Speaker Small",
+   "Furniture/Electronics/Tape Recorder",
+   "Furniture/Growing/Flowerbox With Lamp",
+   "Furniture/Growing/Fume Cabinet",
+   "Furniture/Growing/Hydroponic Farm",
+   "Furniture/Growing/Hydroponic Farm With Support",
+   "Furniture/Growing/Mushroom Growing Cabinet",
+   "Furniture/Growing/Vertical Farm",
+   "Furniture/Growing/Vertical Farm Box",
+   "Furniture/Hospital/Examination Table",
+   "Furniture/Hospital/Hospital Bed",
+   "Furniture/Hospital/Hospital Table",
+   "Furniture/Kitchen/Chest Freezer",
+   "Furniture/Kitchen/Commercial Dishwasher",
+   "Furniture/Kitchen/Commercial Kitchen Table",
+   "Furniture/Kitchen/Commercial Kitchen Table With Sink",
+   "Furniture/Kitchen/Commercial Refrigerator",
+   "Furniture/Kitchen/Commercial Stove",
+   "Furniture/Kitchen/Dishwasher",
+   "Furniture/Kitchen/Egg Timer",
+   "Furniture/Kitchen/Grater",
+   "Furniture/Kitchen/Jug",
+   "Furniture/Kitchen/Kettle",
+   "Furniture/Kitchen/Kitchen Cart",
+   "Furniture/Kitchen/Kitchen Tools",
+   "Furniture/Kitchen/Lattemaster Coffeemaker",
+   "Furniture/Kitchen/Microwave",
+   "Furniture/Kitchen/Old Microwave",
+   "Furniture/Kitchen/Old Stove",
+   "Furniture/Kitchen/Pan",
+   "Furniture/Kitchen/Refrigerator",
+   "Furniture/Kitchen/Refrigerator Brown",
+   "Furniture/Kitchen/Refrigerator Modern",
+   "Furniture/Kitchen/Smoker",
+   "Furniture/Kitchen/Stove",
+   "Furniture/Kitchen/Table Stove",
+   "Furniture/Letters/Red/Letter A Red Small",
+   "Furniture/Letters/Red/Letter B Red Small",
+   "Furniture/Letters/Red/Letter C Red Small",
+   "Furniture/Letters/Red/Letter D Red Small",
+   "Furniture/Letters/Red/Letter Dash Red Small",
+   "Furniture/Letters/Red/Letter Dot Red Small",
+   "Furniture/Letters/Red/Letter E Red Small",
+   "Furniture/Letters/Red/Letter Exclamation Mark Red Small",
+   "Furniture/Letters/Red/Letter F Red Small",
+   "Furniture/Letters/Red/Letter G Red Small",
+   "Furniture/Letters/Red/Letter H Red Small",
+   "Furniture/Letters/Red/Letter I Red Small",
+   "Furniture/Letters/Red/Letter J Red Small",
+   "Furniture/Letters/Red/Letter K Red Small",
+   "Furniture/Letters/Red/Letter L Red Small",
+   "Furniture/Letters/Red/Letter M Red Small",
+   "Furniture/Letters/Red/Letter N Red Small",
+   "Furniture/Letters/Red/Letter O Red Small",
+   "Furniture/Letters/Red/Letter P Red Small",
+   "Furniture/Letters/Red/Letter Q Red Small",
+   "Furniture/Letters/Red/Letter Question Mark Red Small",
+   "Furniture/Letters/Red/Letter R Red Small",
+   "Furniture/Letters/Red/Letter S Red Small",
+   "Furniture/Letters/Red/Letter T Red Small",
+   "Furniture/Letters/Red/Letter U Red Small",
+   "Furniture/Letters/Red/Letter V Red Small",
+   "Furniture/Letters/Red/Letter W Red Small",
+   "Furniture/Letters/Red/Letter X Red Small",
+   "Furniture/Letters/Red/Letter Y Red Small",
+   "Furniture/Letters/Red/Letter Z Red Small",
+   "Furniture/Letters/Red/Letter Ä Red Small",
+   "Furniture/Letters/Red/Letter Ö Red Small",
+   "Furniture/License Plate/License Plate",
+   "Furniture/License Plate/License Plate B",
+   "Furniture/License Plate/License Plate C",
+   "Furniture/License Plate/License Plate D",
+   "Furniture/Lights/Arc Floor Lamp",
+   "Furniture/Lights/Bankers Lamp",
+   "Furniture/Lights/Ceiling Lamp Chain",
+   "Furniture/Lights/Ceiling Light",
+   "Furniture/Lights/Floor Lamp",
+   "Furniture/Lights/Grey Lantern",
+   "Furniture/Lights/Mushroom Lantern",
+   "Furniture/Lights/Mushroom Lantern Orange",
+   "Furniture/Lights/Oil Lamp",
+   "Furniture/Lights/Red Desk Lamp",
+   "Furniture/Lights/Red Lantern",
+   "Furniture/Lights/Wall Hook",
+   "Furniture/Lights/Wall Light",
+   "Furniture/Lights/Yellow Lanter",
+   "Furniture/Manufacturing/3D Printer",
+   "Furniture/Manufacturing/Alcohol/Bottle Corker",
+   "Furniture/Manufacturing/Alcohol/Fermenting Barrel",
+   "Furniture/Manufacturing/Alcohol/Fermenting Container",
+   "Furniture/Manufacturing/Alcohol/Mashing Barrel",
+   "Furniture/Manufacturing/Alcohol/Mashing Kettle",
+   "Furniture/Manufacturing/Alcohol/Medium Moonshine Still",
+   "Furniture/Manufacturing/Alcohol/Moonshine Distillery",
+   "Furniture/Manufacturing/Alcohol/Small Moonshine Still",
+   "Furniture/Manufacturing/Ball Grill",
+   "Furniture/Manufacturing/Biogas Reactor",
+   "Furniture/Manufacturing/Carpentry/Bandsaw",
+   "Furniture/Manufacturing/Carpentry/Table Saw",
+   "Furniture/Manufacturing/Chemical Lab",
+   "Furniture/Manufacturing/Chemical Reactor",
+   "Furniture/Manufacturing/Compressor",
+   "Furniture/Manufacturing/Concrete Mixer",
+   "Furniture/Manufacturing/Drawing Board",
+   "Furniture/Manufacturing/Electric Meat Grinder",
+   "Furniture/Manufacturing/Electronics Station",
+   "Furniture/Manufacturing/Grain Mill",
+   "Furniture/Manufacturing/Hydraulic Press",
+   "Furniture/Manufacturing/Loom",
+   "Furniture/Manufacturing/Machining/Angle Grinder",
+   "Furniture/Manufacturing/Machining/Geared Head Drill",
+   "Furniture/Manufacturing/Machining/Metalworking Lathe",
+   "Furniture/Manufacturing/Malter",
+   "Furniture/Manufacturing/Meat Grinder",
+   "Furniture/Manufacturing/Printers/Copy Machine",
+   "Furniture/Manufacturing/Printers/Printer",
+   "Furniture/Manufacturing/Rolling Machine",
+   "Furniture/Manufacturing/Sewing Machine",
+   "Furniture/Manufacturing/Small Jaw Crusher",
+   "Furniture/Manufacturing/Smelting/Brick Furnace",
+   "Furniture/Manufacturing/Smelting/Electric Kiln",
+   "Furniture/Manufacturing/Smelting/Gas Furnace",
+   "Furniture/Manufacturing/Typewriter",
+   "Furniture/Manufacturing/Upgrades/Distillation Kit",
+   "Furniture/Manufacturing/Upgrades/Sample Analyzer",
+   "Furniture/Manufacturing/Upgrades/Sterilizer",
+   "Furniture/Shelves/Shelf Large Metal",
+   "Furniture/Shelves/Shelf Plywood",
+   "Furniture/Shelves/Shelf Small Dark",
+   "Furniture/Shelves/Shelf Small White",
+   "Furniture/Shelves/Shelf Small Wood",
+   "Furniture/Shelves/Shoe Rack",
+   "Furniture/Signs/Label Small",
+   "Furniture/Signs/Road Sign Crosswalk",
+   "Furniture/Signs/Road Sign Keep Right",
+   "Furniture/Signs/Road Sign No Parking",
+   "Furniture/Signs/Road Sign No Pooping",
+   "Furniture/Signs/Road Sign No Shrooms",
+   "Furniture/Signs/Road Sign No Stopping",
+   "Furniture/Signs/Road Sign Parking",
+   "Furniture/Signs/Road Sign Speed Limit",
+   "Furniture/Signs/Sign Biohazard",
+   "Furniture/Signs/Sign Exit Down",
+   "Furniture/Signs/Sign Exit Left",
+   "Furniture/Signs/Sign Exit Right",
+   "Furniture/Signs/Sign Industrial",
+   "Furniture/Signs/Sign Private Property",
+   "Furniture/Signs/Street Sign",
+   "Furniture/Sofa/Sofa Blue",
+   "Furniture/Sofa/Sofa Old",
+   "Furniture/Sofa/Sofa Purple",
+   "Furniture/Sofa/Sofa Red",
+   "Furniture/Sofa/Sofa Yellow",
+   "Furniture/Storage/Filing Cabinet",
+   "Furniture/Storage/IBC Container",
+   "Furniture/Storage/Metal Desk",
+   "Furniture/Storage/Metal Locker",
+   "Furniture/Storage/Night Stand",
+   "Furniture/Storage/Oak Barrel",
+   "Furniture/Storage/Pet Carrier",
+   "Furniture/Storage/Safe",
+   "Furniture/Storage/Small Night Stand",
+   "Furniture/Storage/Small Wooden Night Stand",
+   "Furniture/Storage/Suitcase Old",
+   "Furniture/Storage/Tool Cart",
+   "Furniture/Structural/Basement Floor",
+   "Furniture/Structural/Basement Grate Floor",
+   "Furniture/Structural/Mesh Wall",
+   "Furniture/Structural/Tarp Wall",
+   "Furniture/Tables/Cafeteria Table",
+   "Furniture/Tables/Cafeteria Table Round",
+   "Furniture/Tables/Lab Table",
+   "Furniture/Tables/Large Plastic Table",
+   "Furniture/Tables/Metal Table",
+   "Furniture/Tables/Park Table",
+   "Furniture/Tables/School Desk",
+   "Furniture/Vehicles/Bicycle",
+   "Furniture/Vehicles/Pappatunturi"
   ]
  },
  {
@@ -18764,6 +19979,9 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Clutter/Red Barrel Fire"
   ]
  },
  {
@@ -18988,6 +20206,9 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-mines-canteen"
   ],
   "boughtBy": [
    "11165f55",
@@ -20109,6 +21330,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -21022,6 +22246,9 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Storage/Wooden Chest"
   ]
  },
  {
@@ -21145,6 +22372,10 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -21871,6 +23102,11 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -22055,6 +23291,12 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-electronics",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
    "1b2ff7e6-interior-tenement-general-store",
@@ -22158,6 +23400,11 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -22244,6 +23491,9 @@
   "soldBy": [
    "bc533c6c",
    "348b2191"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -22352,6 +23602,9 @@
    "bc533c6c",
    "348b2191"
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -22445,6 +23698,9 @@
   ],
   "soldBy": [
    "348b2191"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -22619,6 +23875,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -22665,6 +23924,10 @@
    "1b2ff7e6-interior-tenement-general-store",
    "9983c235-test-map-empty",
    "9983c235-open-sewer-bazaar"
+  ],
+  "soldAt": [
+   "interior-bazaar-electronics",
+   "interior-bazaar-ankea"
   ],
   "boughtBy": [
    "9989df0b",
@@ -22758,6 +24021,10 @@
    "91d0982a",
    "0b151f18",
    "9983c235-open-sewer-bazaar"
+  ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -22939,6 +24206,9 @@
    "91d0982a",
    "f4103c03",
    "0b151f18"
+  ],
+  "soldAt": [
+   "interior-mines-market"
   ],
   "boughtBy": [
    "c62564da",
@@ -23173,6 +24443,12 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-electronics",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
    "1b2ff7e6-interior-tenement-general-store",
@@ -23184,6 +24460,12 @@
    "3f4a6f8b",
    "bb3cf675-interior-bazaar-mentti-a",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Decoration/Stolland Clock"
+  ],
+  "dismantledFrom": [
+   "Furniture/Decoration/Stolland Clock"
   ]
  },
  {
@@ -23258,6 +24540,11 @@
   ],
   "soldBy": [
    "9a26ca15"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -23356,6 +24643,9 @@
   ],
   "soldBy": [
    "9a26ca15"
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -23528,6 +24818,11 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -23580,6 +24875,13 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -23627,6 +24929,12 @@
     "amount": 33,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -23677,6 +24985,12 @@
     "destroy": true,
     "special": "Laxative 5"
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -23941,10 +25255,22 @@
    "3f4a6f8b",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Bathroom/Makeshift Sink Blueprint",
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Makeshift Barrel Sink",
+   "Furniture/Manufacturing/Makeshift Chemical Reactor"
   ]
  },
  {
@@ -24052,6 +25378,9 @@
    "61e5b537",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-ankea"
   ],
   "boughtBy": [
    "11165f55",
@@ -24673,6 +26002,10 @@
    "aa8254a4",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-pharmacy",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
@@ -24768,6 +26101,11 @@
    "91d0982a",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
    "9989df0b",
@@ -24850,6 +26188,10 @@
    "1b2ff7e6-interior-tenement-general-store",
    "9983c235-test-map-empty",
    "9983c235-open-sewer-bazaar"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -24982,6 +26324,11 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-pharmacy",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -25091,6 +26438,11 @@
    "9983c235-test-map-empty",
    "9983c235-open-sewer-bazaar"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -25176,6 +26528,10 @@
   "material": "Plastic",
   "soldBy": [
    "1b2ff7e6-interior-tenement-general-store"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -25284,6 +26640,11 @@
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-tenement-pharmacy",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -25472,6 +26833,9 @@
     "amount": 8,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -27360,6 +28724,10 @@
    "d9a39a97",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -28250,6 +29618,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -28300,6 +29672,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -28349,6 +29725,10 @@
     "amount": 1,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -28405,6 +29785,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -28445,6 +29829,11 @@
   "desc": "A bag of store bought rye flour",
   "sprite": "Sprites/Items/Rye Flour_spr",
   "prefab": "Prefabs/Items/Rye Flour",
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "ebb4bb72",
@@ -28494,6 +29883,11 @@
   "prefab": "Prefabs/Items/Wheat Flour",
   "soldBy": [
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -28569,6 +29963,12 @@
   ],
   "soldBy": [
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -28826,6 +30226,36 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Calendars/Calendar Beach",
+   "Furniture/Calendars/Calendar Bird",
+   "Furniture/Calendars/Calendar Cartoon",
+   "Furniture/Calendars/Calendar Cat",
+   "Furniture/Calendars/Calendar Custom",
+   "Furniture/Calendars/Calendar Red Barn",
+   "Furniture/Clutter/Binder",
+   "Furniture/Clutter/Cardboard Box Grey",
+   "Furniture/Clutter/Empty Case of Osmo Olut",
+   "Furniture/Clutter/Folder Large Old",
+   "Furniture/Clutter/Folder Large Pile Old",
+   "Furniture/Clutter/Folder Large Pile Old 2",
+   "Furniture/Clutter/Folder Piles Old",
+   "Furniture/Clutter/Folder Small Old",
+   "Furniture/Clutter/Folder Small Old 2",
+   "Furniture/Clutter/Folder Small Pile Old",
+   "Furniture/Clutter/Paper Stack",
+   "Furniture/Clutter/Paper Towel Holder",
+   "Furniture/Clutter/Small Cardboard Box",
+   "Furniture/Clutter/Small Cardboard Box 2",
+   "Furniture/Decoration/Gift Box",
+   "Furniture/Magazines/Magazine House",
+   "Furniture/Magazines/Magazine IC",
+   "Furniture/Magazines/Magazine Open Sewer",
+   "Furniture/Magazines/Magazine Osmo Olut",
+   "Furniture/Magazines/Magazine Stalburg Trains",
+   "Furniture/Magazines/Magazine Stalburg Women",
+   "Furniture/Magazines/Magazine The Doctor"
   ]
  },
  {
@@ -28924,6 +30354,11 @@
    "91d0982a",
    "9983c235-open-sewer-bazaar",
    "5219c665"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
@@ -29033,6 +30468,12 @@
    "91d0982a",
    "d9a39a97",
    "5219c665"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
@@ -29482,6 +30923,10 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
   ],
   "boughtBy": [
    "9989df0b",
@@ -29936,6 +31381,11 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe",
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -30630,6 +32080,11 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "41ea9fcb",
@@ -31092,6 +32547,10 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
   ],
   "boughtBy": [
    "9989df0b",
@@ -31556,6 +33015,10 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
   ],
   "boughtBy": [
    "9989df0b",
@@ -32248,6 +33711,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen",
+   "interior-bazaar-internet-cafe"
+  ],
   "boughtBy": [
    "9989df0b",
    "41ea9fcb",
@@ -32716,6 +34183,12 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -32770,6 +34243,12 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -32828,6 +34307,12 @@
   "soldBy": [
    "9983c235-interior-bazaar-restaurant"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -32882,6 +34367,12 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -32933,6 +34424,12 @@
     "destroy": true,
     "special": "Laxative 8"
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -36625,6 +38122,10 @@
    "9989df0b",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-pharmacy",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
@@ -36804,6 +38305,95 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Rugs/Rag Rug"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Braided Laundry Basket",
+   "Furniture/Bathroom/Towel Stack",
+   "Furniture/Beds/Double Bed",
+   "Furniture/Beds/Double Bed Money",
+   "Furniture/Beds/Hammock",
+   "Furniture/Beds/Plank Bed",
+   "Furniture/Beds/Sleepingbag",
+   "Furniture/Chairs/Beach Chair",
+   "Furniture/Chairs/Fancy Leather Chair",
+   "Furniture/Chairs/Fancy Sofa",
+   "Furniture/Chairs/Meeting Chair",
+   "Furniture/Chairs/Office Armchair",
+   "Furniture/Chairs/Round Rolling Stool",
+   "Furniture/Chairs/Theater Chair",
+   "Furniture/Chairs/Tuffet",
+   "Furniture/Clutter/Body Pillow Custom",
+   "Furniture/Clutter/Body Pillow Shroom Girl",
+   "Furniture/Clutter/Body Pillow White",
+   "Furniture/Clutter/Cardboard Boxes",
+   "Furniture/Clutter/Cardboard Boxes 2",
+   "Furniture/Clutter/Cat Climbing Tree",
+   "Furniture/Clutter/Office Partition",
+   "Furniture/Clutter/Silver Screen",
+   "Furniture/Clutter/Slippers",
+   "Furniture/Clutter/Violet Pillow",
+   "Furniture/Clutter/White Pillow",
+   "Furniture/Curtains/Curtains",
+   "Furniture/Curtains/Short Curtains",
+   "Furniture/Decoration/Blue Shroomekko Wall Cloth",
+   "Furniture/Decoration/Green Shroomekko Wall Cloth",
+   "Furniture/Decoration/Orange Shroomekko Wall Cloth",
+   "Furniture/Decoration/Placemat Green",
+   "Furniture/Decoration/Placemat White",
+   "Furniture/Decoration/Red Shroomekko Wall Cloth",
+   "Furniture/Decoration/Shroom Bottle Wall Cloth",
+   "Furniture/Decoration/Stalburg Osmo Flag Wall Cloth",
+   "Furniture/Decoration/Wall Cloth Custom",
+   "Furniture/Decoration/Wall Flag Devils Angels",
+   "Furniture/Decoration/Wall Flag of Stalburg",
+   "Furniture/Decoration/Wooden Partition",
+   "Furniture/Electronics/Desk Mat",
+   "Furniture/Electronics/Desk Mat Custom",
+   "Furniture/Electronics/Mousepad",
+   "Furniture/Electronics/Mousepad Custom",
+   "Furniture/Flags/Flag of Custom",
+   "Furniture/Flags/Flag of Denmark",
+   "Furniture/Flags/Flag of Estonia",
+   "Furniture/Flags/Flag of Finland",
+   "Furniture/Flags/Flag of Iceland",
+   "Furniture/Flags/Flag of Japan",
+   "Furniture/Flags/Flag of Norway",
+   "Furniture/Flags/Flag of Poland",
+   "Furniture/Flags/Flag of Stolland",
+   "Furniture/Flags/Flag of Sweden",
+   "Furniture/Flags/Flag of Ukraine",
+   "Furniture/Flags/Flag of the Livonians",
+   "Furniture/Flags/Flag of the United States",
+   "Furniture/Hospital/Examination Table",
+   "Furniture/Hospital/Hospital Bed",
+   "Furniture/Lights/Floor Lamp",
+   "Furniture/Rugs/Rag Rug",
+   "Furniture/Rugs/Rug Guy",
+   "Furniture/Rugs/Rug Old",
+   "Furniture/Rugs/Rug Persian",
+   "Furniture/Rugs/Rug Pink",
+   "Furniture/Rugs/Rug Small Black",
+   "Furniture/Rugs/Rug Small Fluffy",
+   "Furniture/Rugs/Rug Small Grey",
+   "Furniture/Rugs/Rug Small Grey Welcome",
+   "Furniture/Rugs/Rug Small Old",
+   "Furniture/Rugs/Rug Small Persian",
+   "Furniture/Rugs/Rug Small Red",
+   "Furniture/Rugs/Rug Small Simple",
+   "Furniture/Rugs/Rug Small Striped",
+   "Furniture/Rugs/Rug Small White",
+   "Furniture/Rugs/Rug Small White Welcome",
+   "Furniture/Rugs/Rug Small Worn",
+   "Furniture/Rugs/Rug White Green",
+   "Furniture/Sofa/Sofa Blue",
+   "Furniture/Sofa/Sofa Old",
+   "Furniture/Sofa/Sofa Purple",
+   "Furniture/Sofa/Sofa Red",
+   "Furniture/Sofa/Sofa Yellow",
+   "Furniture/Storage/Potato Sack"
   ]
  },
  {
@@ -36945,6 +38535,21 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Rugs/Leather Scrap Rug"
+  ],
+  "dismantledFrom": [
+   "Furniture/Chairs/Fancy Leather Chair",
+   "Furniture/Chairs/Fancy Leather Office Chair",
+   "Furniture/Chairs/Gaming Chair",
+   "Furniture/Chairs/Saddle Stool",
+   "Furniture/Clutter/Boot Left",
+   "Furniture/Clutter/Boot Right",
+   "Furniture/Hospital/Examination Table",
+   "Furniture/Rugs/Leather Scrap Rug",
+   "Furniture/Storage/Safe",
+   "Furniture/Storage/Suitcase Old"
   ]
  },
  {
@@ -37050,6 +38655,9 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -37059,6 +38667,25 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Beds/Floor Bed Blueprint",
+   "Blueprints/Beds/Plank Bed Blueprint",
+   "Blueprints/Beds/Shabby Bed Blueprint",
+   "Blueprints/Clutter/Potato Sack",
+   "Blueprints/Clutter/Violet Pillow",
+   "Blueprints/Clutter/White Pillow",
+   "Blueprints/Tables/Metal Table With White Tablecloth"
+  ],
+  "dismantledFrom": [
+   "Furniture/Beds/Decent Bed",
+   "Furniture/Beds/Double Bed",
+   "Furniture/Beds/Double Bed Money",
+   "Furniture/Beds/Floor Bed",
+   "Furniture/Beds/Mattress",
+   "Furniture/Beds/Shabby Bed",
+   "Furniture/Hospital/Hospital Bed",
+   "Furniture/Tables/Metal Table With White Tablecloth"
   ]
  },
  {
@@ -37140,6 +38767,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "0b151f18",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -37721,6 +39351,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-bazaar-ankea"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -37911,6 +39544,9 @@
   ],
   "soldBy": [
    "348b2191"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "bc533c6c",
@@ -38247,6 +39883,9 @@
     "amount": 25
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -38434,6 +40073,12 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -38602,6 +40247,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -38674,6 +40322,12 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -38748,6 +40402,11 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -38828,6 +40487,11 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -38901,6 +40565,12 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -38976,6 +40646,12 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -39045,6 +40721,11 @@
   ],
   "soldBy": [
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -39127,6 +40808,13 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-internet-cafe",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -39200,6 +40888,11 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -39276,6 +40969,11 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -39368,6 +41066,12 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-internet-cafe",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -40651,6 +42355,12 @@
    "41ea9fcb",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-canteen",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -40706,6 +42416,9 @@
   "soldBy": [
    "1b2ff7e6-open-sewer-tenement",
    "41ea9fcb"
+  ],
+  "soldAt": [
+   "interior-mines-canteen"
   ],
   "boughtBy": [
    "9989df0b",
@@ -40774,6 +42487,9 @@
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
    "3f4a6f8b"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -40845,10 +42561,18 @@
    "94ed5bfb",
    "3f4a6f8b"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Fermenting Bucket Blueprint"
   ]
  },
  {
@@ -41399,6 +43123,12 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Growing/Tincan"
+  ],
+  "dismantledFrom": [
+   "Furniture/Growing/Tincan"
   ]
  },
  {
@@ -41553,6 +43283,9 @@
   "soldBy": [
    "91d0982a",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -41804,6 +43537,12 @@
    "3a285276",
    "91d0982a",
    "5219c665"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -42147,6 +43886,11 @@
    "61e5b537",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-ankea"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -42266,6 +44010,11 @@
   "soldBy": [
    "3f4a6f8b"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-canteen",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -42328,6 +44077,11 @@
   "material": "Default",
   "soldBy": [
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -42486,6 +44240,11 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -42641,6 +44400,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "92c65ce5",
    "9989df0b",
@@ -42650,6 +44412,10 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Structural/Smooth Wooden Pillar",
+   "Blueprints/Structural/Wooden Pillar"
   ]
  },
  {
@@ -42805,6 +44571,11 @@
    "f4103c03",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-ankea"
   ],
   "boughtBy": [
    "c62564da",
@@ -43399,6 +45170,9 @@
    "9989df0b",
    "91d0982a",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Special/Mushroom Lantern"
   ]
  },
  {
@@ -43503,6 +45277,9 @@
     "amount": 25
    }
   ],
+  "soldAt": [
+   "interior-mines-canteen"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -43561,6 +45338,9 @@
     "amount": 25
    }
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -43617,6 +45397,9 @@
     "name": "Eat",
     "amount": 30
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -43675,6 +45458,9 @@
     "name": "Eat",
     "amount": 33
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
   ],
   "boughtBy": [
    "9989df0b",
@@ -44510,6 +46296,9 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -44518,6 +46307,14 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Bathroom/Makeshift Barrel Sink Blueprint",
+   "Blueprints/Manufacturing/Brick Furnace Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Blue Plastic Barrel Sink",
+   "Furniture/Manufacturing/Smelting/Brick Furnace"
   ]
  },
  {
@@ -44989,10 +46786,25 @@
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Signs/Label Small"
+  ],
+  "dismantledFrom": [
+   "Furniture/Clutter/Folder Large Old",
+   "Furniture/Clutter/Folder Large Pile Old",
+   "Furniture/Clutter/Folder Large Pile Old 2",
+   "Furniture/Clutter/Folder Piles Old",
+   "Furniture/Clutter/Folder Small Old",
+   "Furniture/Clutter/Folder Small Old 2",
+   "Furniture/Clutter/Folder Small Pile Old"
   ]
  },
  {
@@ -45163,6 +46975,10 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -45264,6 +47080,9 @@
   ],
   "soldBy": [
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -46732,6 +48551,11 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -46791,6 +48615,10 @@
     "name": "Open",
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -47253,6 +49081,9 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -47263,6 +49094,46 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Decoration/Big Gear",
+   "Blueprints/Decoration/Stolland Clock",
+   "Blueprints/Manufacturing/Brick Furnace Blueprint",
+   "Blueprints/Manufacturing/Chemical Lab Blueprint",
+   "Blueprints/Manufacturing/Copper Moonshine Still",
+   "Blueprints/Manufacturing/Fermenting Container Blueprint",
+   "Blueprints/Manufacturing/Loom Blueprint",
+   "Blueprints/Manufacturing/Malter Blueprint",
+   "Blueprints/Manufacturing/Mashing Kettle Blueprint",
+   "Blueprints/Manufacturing/Moonshine Distillery",
+   "Blueprints/Manufacturing/Printing Press"
+  ],
+  "dismantledFrom": [
+   "Furniture/Clutter/Chainsaw",
+   "Furniture/Clutter/Gas Bottle",
+   "Furniture/Clutter/Gear Big",
+   "Furniture/Clutter/Microscope",
+   "Furniture/Electronics/Mini Generator",
+   "Furniture/Manufacturing/3D Printer",
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Alcohol/Moonshine Distillery",
+   "Furniture/Manufacturing/Carpentry/Bandsaw",
+   "Furniture/Manufacturing/Compressor",
+   "Furniture/Manufacturing/Concrete Mixer",
+   "Furniture/Manufacturing/Grain Mill",
+   "Furniture/Manufacturing/Hydraulic Press",
+   "Furniture/Manufacturing/Loom",
+   "Furniture/Manufacturing/Machining/Geared Head Drill",
+   "Furniture/Manufacturing/Machining/Metalworking Lathe",
+   "Furniture/Manufacturing/Malter",
+   "Furniture/Manufacturing/Printing Press",
+   "Furniture/Manufacturing/Rolling Machine",
+   "Furniture/Manufacturing/Sewing Machine",
+   "Furniture/Manufacturing/Small Jaw Crusher",
+   "Furniture/Manufacturing/Smelting/Power Hammer",
+   "Furniture/Storage/Safe",
+   "Furniture/Vehicles/Bicycle",
+   "Furniture/Vehicles/Pappatunturi"
   ]
  },
  {
@@ -47338,6 +49209,10 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -47350,6 +49225,28 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Decoration/Big Gear",
+   "Blueprints/Manufacturing/Anvil",
+   "Blueprints/Manufacturing/Brick Furnace Blueprint",
+   "Blueprints/Manufacturing/Printing Press",
+   "Blueprints/Structural/Basement Floor Blueprint",
+   "Blueprints/Structural/Basement Grate Floor Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Manufacturing/Grain Mill",
+   "Furniture/Manufacturing/Hydraulic Press",
+   "Furniture/Manufacturing/Machining/Geared Head Drill",
+   "Furniture/Manufacturing/Machining/Metalworking Lathe",
+   "Furniture/Manufacturing/Printing Press",
+   "Furniture/Manufacturing/Rolling Machine",
+   "Furniture/Manufacturing/Small Jaw Crusher",
+   "Furniture/Manufacturing/Smelting/Anvil",
+   "Furniture/Manufacturing/Smelting/Brick Furnace",
+   "Furniture/Manufacturing/Smelting/Electric Kiln",
+   "Furniture/Manufacturing/Smelting/Power Hammer",
+   "Furniture/Storage/Safe"
   ]
  },
  {
@@ -47441,6 +49338,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "9989df0b",
@@ -47639,6 +49539,11 @@
    "91d0982a",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-mallment-tax-free"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -47700,6 +49605,13 @@
     "amount": 25,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-alco",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -47888,6 +49800,9 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "92c65ce5",
@@ -47901,6 +49816,74 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Chairs/Cottage Bench Blueprint",
+   "Blueprints/Chairs/Small Wooden Stool",
+   "Blueprints/Chairs/Wooden Bench Blueprint",
+   "Blueprints/Chairs/Wooden Chair Blueprint",
+   "Blueprints/Chairs/Wooden Step Stool",
+   "Blueprints/Decoration/Stolland Clock",
+   "Blueprints/Manufacturing/Loom Blueprint",
+   "Blueprints/Shelves/Wooden Shelf Blueprint",
+   "Blueprints/Storages/Large Wooden Cupboard Blueprint",
+   "Blueprints/Storages/Small Wooden Cupboard Blueprint",
+   "Blueprints/Storages/Wooden Drawer Blueprint",
+   "Blueprints/Tables/Cottage Table",
+   "Blueprints/Tables/Fancy Square Wooden Table",
+   "Blueprints/Tables/Wooden Desk",
+   "Blueprints/Tables/Wooden Table"
+  ],
+  "dismantledFrom": [
+   "Furniture/Chairs/Cottage Bench",
+   "Furniture/Chairs/Fancy Bench",
+   "Furniture/Chairs/Fancy Leather Chair",
+   "Furniture/Chairs/Fancy Sofa",
+   "Furniture/Chairs/Fancy Wooden Chair",
+   "Furniture/Chairs/Fancy Wooden Chair Grey",
+   "Furniture/Chairs/Wooden Bench",
+   "Furniture/Chairs/Wooden Chair",
+   "Furniture/Decoration/Small Mirror",
+   "Furniture/Decoration/Stolland Clock",
+   "Furniture/Growing/Cat cage Large",
+   "Furniture/Growing/Cat cage Medium",
+   "Furniture/Growing/Cat cage Small",
+   "Furniture/Growing/Chicken coop Large",
+   "Furniture/Growing/Chicken coop Small",
+   "Furniture/Kitchen/Kitchen Drawer",
+   "Furniture/Manufacturing/Drawing Board",
+   "Furniture/Manufacturing/Loom",
+   "Furniture/Manufacturing/Work table",
+   "Furniture/Paintings Big/Painting Base Landscape",
+   "Furniture/Paintings Big/Painting Base Portrait",
+   "Furniture/Paintings Big/Painting City",
+   "Furniture/Paintings Big/Painting Custom Big",
+   "Furniture/Paintings Big/Painting Custom Big Portrait",
+   "Furniture/Paintings Big/Painting Dog",
+   "Furniture/Paintings Big/Painting Fire",
+   "Furniture/Paintings Big/Painting Foggy Mirror",
+   "Furniture/Paintings Big/Painting Money",
+   "Furniture/Paintings Big/Painting Motorcycle Gang Member",
+   "Furniture/Paintings Big/Painting Motorcycle Gang Member 2",
+   "Furniture/Paintings Big/Painting Mountains",
+   "Furniture/Paintings Big/Painting Robin",
+   "Furniture/Paintings Big/Painting Stalburg",
+   "Furniture/Paintings Big/Painting Victim",
+   "Furniture/Paintings Medium/Painting Custom Medium",
+   "Furniture/Paintings Medium/Painting Medium Base",
+   "Furniture/Paintings Medium/Painting Tonni",
+   "Furniture/Shelves/Shelf Large Birch",
+   "Furniture/Storage/Fancy Large Wooden Cabinet",
+   "Furniture/Storage/Fancy Wooden Box",
+   "Furniture/Storage/Fancy Wooden Desk",
+   "Furniture/Storage/Large Wooden Cupboard",
+   "Furniture/Storage/Small Fancy Wooden Box",
+   "Furniture/Storage/Small Wooden Cupboard",
+   "Furniture/Storage/Wardrobe",
+   "Furniture/Storage/Wooden Drawer",
+   "Furniture/Tables/Fancy Wooden Square Table",
+   "Furniture/Tables/Wooden Desk",
+   "Furniture/Tables/Wooden Table"
   ]
  },
  {
@@ -48028,6 +50011,11 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -48037,6 +50025,23 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Growing/Aquarium",
+   "Blueprints/Growing/Flowerbox With Lamp",
+   "Blueprints/Growing/Terrarium",
+   "Blueprints/Lights/Plank Ceiling Light Blueprint",
+   "Blueprints/Manufacturing/Copper Moonshine Still",
+   "Blueprints/Manufacturing/Malter Blueprint",
+   "Blueprints/Manufacturing/Mashing Kettle Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Growing/Aquarium",
+   "Furniture/Growing/Flowerbox With Lamp",
+   "Furniture/Growing/Terrarium",
+   "Furniture/Kitchen/Smoker",
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Smelting/Power Hammer"
   ]
  },
  {
@@ -48135,6 +50140,9 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -48146,6 +50154,11 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Special/Mushroom Lantern",
+   "Blueprints/Special/Orange Mushroom Lantern",
+   "Blueprints/Special/Yellow Lantern"
   ]
  },
  {
@@ -48199,6 +50212,10 @@
    "2003da7f-open-sewer-tenement",
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "2003da7f-open-sewer-tenement",
@@ -48210,6 +50227,15 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Growing/Bag of Soil",
+   "Blueprints/Growing/Barrel",
+   "Blueprints/Growing/Flowerbox",
+   "Blueprints/Growing/Flowerpot",
+   "Blueprints/Growing/Old Bathtub Growing",
+   "Blueprints/Growing/Terrarium",
+   "Blueprints/Growing/Tincan"
   ]
  },
  {
@@ -48382,6 +50408,9 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Manufacturing/Alcohol/Bottle Corker"
   ]
  },
  {
@@ -48529,6 +50558,131 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Bathroom Cabinet",
+   "Furniture/Bathroom/Makeshift IBC Sink",
+   "Furniture/Bathroom/Plunger",
+   "Furniture/Beds/Decent Bed",
+   "Furniture/Beds/Double Bed",
+   "Furniture/Beds/Double Bed Money",
+   "Furniture/Beds/Plank Bed",
+   "Furniture/Chairs/Beach Chair",
+   "Furniture/Chairs/Blue Bench",
+   "Furniture/Chairs/Fancy Bench",
+   "Furniture/Chairs/Fancy Leather Chair",
+   "Furniture/Chairs/Fancy Sofa",
+   "Furniture/Chairs/Fancy Wooden Chair",
+   "Furniture/Chairs/Fancy Wooden Chair Grey",
+   "Furniture/Chairs/Plank Armchair",
+   "Furniture/Chairs/Plank Chair",
+   "Furniture/Chairs/Plank Stool",
+   "Furniture/Chairs/Rocking Chair",
+   "Furniture/Chairs/School Chair",
+   "Furniture/Chairs/Theater Chair",
+   "Furniture/Chairs/Tuffet",
+   "Furniture/Clutter/Broken Mirror",
+   "Furniture/Clutter/Cat Climbing Tree",
+   "Furniture/Clutter/Coaster Round",
+   "Furniture/Clutter/Coaster Square",
+   "Furniture/Clutter/Coat Rack",
+   "Furniture/Clutter/Coat Rack Large",
+   "Furniture/Clutter/Coat Rack Small",
+   "Furniture/Clutter/Darts",
+   "Furniture/Clutter/Pencil",
+   "Furniture/Clutter/Wooden Stand",
+   "Furniture/Decoration/Flower Mirror",
+   "Furniture/Decoration/Helm",
+   "Furniture/Decoration/Helm Clock",
+   "Furniture/Decoration/Katana Stand",
+   "Furniture/Decoration/Wooden Cross",
+   "Furniture/Decoration/Wooden Partition",
+   "Furniture/Kitchen/Kitchen Tools",
+   "Furniture/Lights/Gradient Paper Ceiling Light",
+   "Furniture/Lights/Plank Ceiling Light",
+   "Furniture/Lights/Table Lamp",
+   "Furniture/Manufacturing/Drawing Board",
+   "Furniture/Manufacturing/Upgrades/Spices",
+   "Furniture/Manufacturing/Work table",
+   "Furniture/Painting Table/Painting Colors",
+   "Furniture/Painting Table/Painting Custom",
+   "Furniture/Painting Table/Painting Grandmothers",
+   "Furniture/Painting Table/Painting Meadow Girls",
+   "Furniture/Painting Table/Painting Osmo Girl",
+   "Furniture/Painting Table/Painting Woman",
+   "Furniture/Paintings Big/Painting Base Landscape",
+   "Furniture/Paintings Big/Painting Base Portrait",
+   "Furniture/Paintings Big/Painting City",
+   "Furniture/Paintings Big/Painting Custom Big",
+   "Furniture/Paintings Big/Painting Custom Big Portrait",
+   "Furniture/Paintings Big/Painting Dog",
+   "Furniture/Paintings Big/Painting Fire",
+   "Furniture/Paintings Big/Painting Foggy Mirror",
+   "Furniture/Paintings Big/Painting Money",
+   "Furniture/Paintings Big/Painting Motorcycle Gang Member",
+   "Furniture/Paintings Big/Painting Motorcycle Gang Member 2",
+   "Furniture/Paintings Big/Painting Mountains",
+   "Furniture/Paintings Big/Painting Robin",
+   "Furniture/Paintings Big/Painting Stalburg",
+   "Furniture/Paintings Big/Painting Victim",
+   "Furniture/Paintings Medium/Painting Custom Medium",
+   "Furniture/Paintings Medium/Painting Medium Base",
+   "Furniture/Paintings Medium/Painting Tonni",
+   "Furniture/Paintings Small/Painting Beer",
+   "Furniture/Paintings Small/Painting Black Cat",
+   "Furniture/Paintings Small/Painting Custom Small",
+   "Furniture/Paintings Small/Painting Dog",
+   "Furniture/Paintings Small/Painting Family",
+   "Furniture/Paintings Small/Painting Fox",
+   "Furniture/Paintings Small/Painting Grey Cat",
+   "Furniture/Paintings Small/Painting Island",
+   "Furniture/Paintings Small/Painting Jesus",
+   "Furniture/Paintings Small/Painting Orange Forest",
+   "Furniture/Paintings Small/Painting Red Lady",
+   "Furniture/Paintings Small/Painting Small Base",
+   "Furniture/Shelves/Shelf Large Birch",
+   "Furniture/Shelves/Shelf Large Plank",
+   "Furniture/Shelves/Shelf Plywood",
+   "Furniture/Shelves/Shelf Small Birch",
+   "Furniture/Shelves/Shoe Rack",
+   "Furniture/Shelves/Small Plank Shelf",
+   "Furniture/Shelves/Small Plywood Shelf",
+   "Furniture/Sofa/Sofa Blue",
+   "Furniture/Sofa/Sofa Old",
+   "Furniture/Sofa/Sofa Purple",
+   "Furniture/Sofa/Sofa Red",
+   "Furniture/Sofa/Sofa Yellow",
+   "Furniture/Storage/Fancy Large Wooden Cabinet",
+   "Furniture/Storage/Fancy Wooden Box",
+   "Furniture/Storage/Fancy Wooden Desk",
+   "Furniture/Storage/Firewood Pile",
+   "Furniture/Storage/Night Stand",
+   "Furniture/Storage/Small Drawer",
+   "Furniture/Storage/Small Fancy Wooden Box",
+   "Furniture/Storage/Small Night Stand",
+   "Furniture/Storage/Small Wooden Night Stand",
+   "Furniture/Storage/Vitrine",
+   "Furniture/Storage/Wardrobe",
+   "Furniture/Storage/White Cupboard",
+   "Furniture/Storage/Wooden Wardrobe",
+   "Furniture/Tables/Coffee Table",
+   "Furniture/Tables/Corner Desk",
+   "Furniture/Tables/Corner Table",
+   "Furniture/Tables/Cottage Table",
+   "Furniture/Tables/Cottage Table Old",
+   "Furniture/Tables/Large Coffee Table",
+   "Furniture/Tables/Large Wooden Table",
+   "Furniture/Tables/Park Table",
+   "Furniture/Tables/Plank Side Table",
+   "Furniture/Tables/Plank Table",
+   "Furniture/Tables/Round Coffee Table",
+   "Furniture/Tables/School Desk",
+   "Furniture/Tables/Small Coffee Table",
+   "Furniture/Tables/Small Glass Coffee Table",
+   "Furniture/Tables/Small Round Coffee Table",
+   "Furniture/Tables/Small Wooden Table",
+   "Furniture/Tables/Wooden Single Leg Table",
+   "Furniture/Tables/Wooden Tv Table"
   ]
  },
  {
@@ -48864,6 +51018,9 @@
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Storages/Oak Barrel Blueprint"
   ]
  },
  {
@@ -49107,6 +51264,10 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -49115,6 +51276,22 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Growing/Aquarium",
+   "Blueprints/Growing/Terrarium",
+   "Blueprints/Manufacturing/Fermenting Bucket Blueprint",
+   "Blueprints/Shelves/Modular Shelf Hex",
+   "Blueprints/Shelves/Modular Shelf Rectangle",
+   "Blueprints/Shelves/Modular Shelf Square",
+   "Blueprints/Shelves/Wooden Shelf Blueprint",
+   "Blueprints/Tables/Cottage Table",
+   "Blueprints/Tables/Fancy Square Wooden Table",
+   "Blueprints/Tables/White Coffee Table Large",
+   "Blueprints/Tables/White Coffee Table Medium",
+   "Blueprints/Tables/White Coffee Table Small",
+   "Blueprints/Tables/Wooden Desk",
+   "Blueprints/Tables/Wooden Table"
   ]
  },
  {
@@ -49166,6 +51343,11 @@
   "prefab": "Prefabs/Items/Charcoal",
   "soldBy": [
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-butchershop"
   ],
   "boughtBy": [
    "9989df0b",
@@ -49443,6 +51625,10 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -49451,6 +51637,24 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Cat Cage Large",
+   "Blueprints/Cages/Cat Cage Medium",
+   "Blueprints/Cages/Cat Cage Small",
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small",
+   "Blueprints/Cages/Rat Cage Large",
+   "Blueprints/Cages/Rat Cage Medium",
+   "Blueprints/Cages/Rat Cage Small",
+   "Blueprints/Cages/Rat Cage Tiny",
+   "Blueprints/Structural/Mesh Wall"
+  ],
+  "dismantledFrom": [
+   "Furniture/Growing/Rat cage Large",
+   "Furniture/Growing/Rat cage Medium",
+   "Furniture/Structural/Basement Grate Floor",
+   "Furniture/Structural/Mesh Wall"
   ]
  },
  {
@@ -49541,6 +51745,10 @@
    "91d0982a",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -49549,6 +51757,26 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Growing/Barrel With Support",
+   "Blueprints/Growing/Flowerbox With Supports",
+   "Blueprints/Growing/Large Flowerpot With Support",
+   "Blueprints/Growing/Old Bathtub Growing With Support",
+   "Blueprints/Junk/Hay Bale",
+   "Blueprints/Manufacturing/Loom Blueprint",
+   "Blueprints/Rugs/Leather Scrap Rug",
+   "Blueprints/Rugs/Rag Rug"
+  ],
+  "dismantledFrom": [
+   "Furniture/Beds/Hammock",
+   "Furniture/Clutter/Cat Climbing Tree",
+   "Furniture/Growing/Barrel With Support",
+   "Furniture/Growing/Flowerbox With Supports",
+   "Furniture/Growing/Large Flowerpot With Support",
+   "Furniture/Manufacturing/Loom",
+   "Furniture/Rugs/Leather Scrap Rug",
+   "Furniture/Rugs/Rag Rug"
   ]
  },
  {
@@ -50585,6 +52813,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -50642,6 +52873,9 @@
     "amount": 33,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -50705,6 +52939,11 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-ankea"
+  ],
   "boughtBy": [
    "11165f55",
    "2003da7f-open-sewer-tenement",
@@ -50717,6 +52956,17 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small",
+   "Blueprints/Growing/Flowerpot"
+  ],
+  "dismantledFrom": [
+   "Furniture/Growing/Flowerpot",
+   "Furniture/Growing/Large Flowerpot",
+   "Furniture/Plants/Cactus",
+   "Furniture/Plants/Small Potted Plant"
   ]
  },
  {
@@ -52251,6 +54501,12 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -52306,6 +54562,9 @@
   "desc": "It's a bag of frozen French fries",
   "sprite": "Sprites/Items/Frozen French Fries_spr",
   "prefab": "Prefabs/Items/Frozen French Fries",
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -52629,6 +54888,9 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "92c65ce5",
@@ -52641,6 +54903,37 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Cages/Cat Cage Large",
+   "Blueprints/Cages/Cat Cage Medium",
+   "Blueprints/Cages/Cat Cage Small",
+   "Blueprints/Cages/Chicken Coop Large",
+   "Blueprints/Cages/Chicken Coop Small",
+   "Blueprints/Manufacturing/Printing Press",
+   "Blueprints/Shelves/Modular Shelf Hex",
+   "Blueprints/Shelves/Modular Shelf Rectangle",
+   "Blueprints/Shelves/Modular Shelf Square",
+   "Blueprints/Storages/Wooden Chest Blueprint",
+   "Blueprints/Tables/White Coffee Table Large",
+   "Blueprints/Tables/White Coffee Table Medium",
+   "Blueprints/Tables/White Coffee Table Small"
+  ],
+  "dismantledFrom": [
+   "Furniture/Manufacturing/Printing Press",
+   "Furniture/Manufacturing/Work table",
+   "Furniture/Storage/Large Wooden Chest",
+   "Furniture/Tables/Cafeteria Table",
+   "Furniture/Tables/Cafeteria Table Round",
+   "Furniture/Tables/Coffee Table",
+   "Furniture/Tables/Corner Desk",
+   "Furniture/Tables/Glass Coffee Table",
+   "Furniture/Tables/Lab Table",
+   "Furniture/Tables/Large Coffee Table",
+   "Furniture/Tables/Round Coffee Table",
+   "Furniture/Tables/School Desk",
+   "Furniture/Tables/Small Coffee Table",
+   "Furniture/Tables/Small Round Coffee Table"
   ]
  },
  {
@@ -52687,6 +54980,10 @@
     "type": "None",
     "name": "Take an egg"
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -52863,6 +55160,10 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -52874,6 +55175,12 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Structural/Tarp Wall"
+  ],
+  "dismantledFrom": [
+   "Furniture/Structural/Tarp Wall"
   ]
  },
  {
@@ -54211,6 +56518,9 @@
    "3f4a6f8b",
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -54275,6 +56585,9 @@
    "c62564da",
    "91d0982a",
    "d3da96b6"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -54356,6 +56669,9 @@
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
    "bb3cf675-interior-bazaar-mentti-a"
+  ],
+  "soldAt": [
+   "interior-tenement-pharmacy"
   ],
   "boughtBy": [
    "aa8254a4",
@@ -54583,6 +56899,9 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -54595,6 +56914,28 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Copper Moonshine Still",
+   "Blueprints/Manufacturing/Fermenting Container Blueprint",
+   "Blueprints/Manufacturing/Malter Blueprint",
+   "Blueprints/Manufacturing/Mashing Kettle Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Electronics/Gaming PC",
+   "Furniture/Electronics/PC",
+   "Furniture/Electronics/VCR",
+   "Furniture/Kitchen/Commercial Dishwasher",
+   "Furniture/Kitchen/Commercial Kitchen Table",
+   "Furniture/Kitchen/Commercial Kitchen Table With Sink",
+   "Furniture/Kitchen/Cooking Pot",
+   "Furniture/Kitchen/Dishwasher",
+   "Furniture/Kitchen/Kitchen Cart",
+   "Furniture/Kitchen/Smoker",
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Chemical Reactor",
+   "Furniture/Manufacturing/Electronics Workbench",
+   "Furniture/Manufacturing/Upgrades/Sterilizer"
   ]
  },
  {
@@ -54666,6 +57007,15 @@
    "2003da7f-open-sewer-tenement",
    "9989df0b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Junk/Hay Bale"
+  ],
+  "dismantledFrom": [
+   "Furniture/Clutter/Hay Bale",
+   "Furniture/Decoration/Jack O Turnip",
+   "Furniture/Plants/Cactus",
+   "Furniture/Plants/Small Potted Plant"
   ]
  },
  {
@@ -55827,6 +58177,9 @@
    "61e5b537",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -55837,6 +58190,9 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Special/Yellow Lantern"
   ]
  },
  {
@@ -55905,6 +58261,11 @@
   "sprite": "Sprites/Items/Box of Tea_spr",
   "prefab": "Prefabs/Items/Tea Box",
   "material": "Cardboard",
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -56322,6 +58683,10 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -56398,6 +58763,9 @@
   "soldBy": [
    "aa8254a4",
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-tenement-pharmacy"
   ],
   "boughtBy": [
    "aa8254a4",
@@ -56921,6 +59289,10 @@
    "aa8254a4",
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-tenement-pharmacy",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
@@ -57126,6 +59498,9 @@
    "0b151f18",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -58187,6 +60562,9 @@
    "d9a39a97",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "9989df0b",
    "9983c235-test-map-empty",
@@ -58679,6 +61057,12 @@
    "bb3cf675-interior-bazaar-mentti-a",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Copper Moonshine Still"
+  ],
+  "dismantledFrom": [
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still"
   ]
  },
  {
@@ -58808,6 +61192,11 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -58819,6 +61208,14 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Copper Moonshine Still"
+  ],
+  "dismantledFrom": [
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Electronics Station",
+   "Furniture/Manufacturing/Electronics Workbench"
   ]
  },
  {
@@ -58873,6 +61270,17 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Clutter/Violet Pillow",
+   "Blueprints/Clutter/White Pillow"
+  ],
+  "dismantledFrom": [
+   "Furniture/Clutter/Body Pillow Custom",
+   "Furniture/Clutter/Body Pillow Shroom Girl",
+   "Furniture/Clutter/Body Pillow White",
+   "Furniture/Clutter/Violet Pillow",
+   "Furniture/Clutter/White Pillow"
   ]
  },
  {
@@ -58991,6 +61399,9 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -59000,6 +61411,13 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Lights/Candle Cluster 2 Blueprint",
+   "Blueprints/Lights/Candle Cluster Blueprint",
+   "Blueprints/Lights/Candle Large Blueprint",
+   "Blueprints/Lights/Candle Medium Blueprint",
+   "Blueprints/Lights/Candle Small Blueprint"
   ]
  },
  {
@@ -59101,6 +61519,10 @@
    "0b151f18",
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -59215,6 +61637,10 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -59225,6 +61651,42 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Copper Moonshine Still"
+  ],
+  "dismantledFrom": [
+   "Furniture/Bathroom/Washing Machine",
+   "Furniture/Clutter/Table Fan",
+   "Furniture/Clutter/Water Cooler",
+   "Furniture/Decoration/Decoration Lights Large",
+   "Furniture/Decoration/Decoration Lights Medium",
+   "Furniture/Decoration/Decoration Lights Small",
+   "Furniture/Electronics/23 Inch Computer Monitor",
+   "Furniture/Electronics/27 Inch Computer Monitor",
+   "Furniture/Electronics/Cat Ear Headset",
+   "Furniture/Electronics/Charger",
+   "Furniture/Electronics/Cheap Radio",
+   "Furniture/Electronics/Computer Keyboard",
+   "Furniture/Electronics/Game Console",
+   "Furniture/Electronics/Mini Generator",
+   "Furniture/Electronics/Old Telephone",
+   "Furniture/Electronics/Small Radio",
+   "Furniture/Electronics/Tape Recorder",
+   "Furniture/Lights/Arc Floor Lamp",
+   "Furniture/Lights/Bankers Lamp",
+   "Furniture/Lights/Beer Lamp",
+   "Furniture/Lights/Floor Lamp",
+   "Furniture/Lights/Mushroom Lamp Blue",
+   "Furniture/Lights/Mushroom Lamp Green",
+   "Furniture/Lights/Mushroom Lamp Orange",
+   "Furniture/Lights/Mushroom Lamp Red",
+   "Furniture/Lights/Orange Lava Lamp",
+   "Furniture/Lights/Red Desk Lamp",
+   "Furniture/Lights/Wall Light",
+   "Furniture/Manufacturing/Alcohol/Copper Moonshine Still",
+   "Furniture/Manufacturing/Compressor",
+   "Furniture/Manufacturing/Machining/Angle Grinder"
   ]
  },
  {
@@ -59362,6 +61824,11 @@
    "0b151f18",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -59373,6 +61840,19 @@
    "3f4a6f8b",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Bathroom/Makeshift Shower",
+   "Blueprints/Manufacturing/Fermenting Bucket Blueprint",
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Electronics/Gaming PC",
+   "Furniture/Electronics/PC",
+   "Furniture/Electronics/VCR",
+   "Furniture/Kitchen/Microwave",
+   "Furniture/Kitchen/Refrigerator Modern",
+   "Furniture/Vehicles/Pappatunturi"
   ]
  },
  {
@@ -59905,6 +62385,9 @@
    "bb3cf675-interior-bazaar-mentti-a",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "aa8254a4",
    "bb3cf675-interior-tenement-b",
@@ -60255,6 +62738,9 @@
     "name": "Eat",
     "amount": 10
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -60811,6 +63297,10 @@
    "9989df0b",
    "91d0982a",
    "d9a39a97"
+  ],
+  "dismantledFrom": [
+   "Furniture/Electronics/All-in-One PC",
+   "Furniture/Electronics/Curved Gaming Monitor"
   ]
  },
  {
@@ -60989,6 +63479,13 @@
    "91d0982a",
    "10d75374",
    "d9a39a97"
+  ],
+  "givesBlueprints": [
+   {
+    "category": "Start",
+    "max": 1,
+    "pool": 46
+   }
   ]
  },
  {
@@ -61071,6 +63568,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a",
    "0b151f18"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -61213,6 +63713,13 @@
    "91d0982a",
    "10d75374",
    "d9a39a97"
+  ],
+  "givesBlueprints": [
+   {
+    "category": "Improved",
+    "max": 1,
+    "pool": 69
+   }
   ]
  },
  {
@@ -61404,6 +63911,9 @@
    "3f4a6f8b",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -61487,6 +63997,13 @@
    "91d0982a",
    "10d75374",
    "d9a39a97"
+  ],
+  "givesBlueprints": [
+   {
+    "category": "Detailed",
+    "max": 1,
+    "pool": 16
+   }
   ]
  },
  {
@@ -61555,6 +64072,9 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -61566,6 +64086,16 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Chairs/Cottage Bench Blueprint",
+   "Blueprints/Decoration/Stolland Clock",
+   "Blueprints/Storages/Wooden Drawer Blueprint",
+   "Blueprints/Structural/Smooth Wooden Pillar",
+   "Blueprints/Tables/Cottage Table",
+   "Blueprints/Tables/Fancy Square Wooden Table",
+   "Blueprints/Tables/Wooden Desk",
+   "Blueprints/Tables/Wooden Table"
   ]
  },
  {
@@ -61699,6 +64229,9 @@
    "91d0982a",
    "0b151f18",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -61885,6 +64418,9 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "9983c235-test-map-empty",
@@ -61963,6 +64499,9 @@
   ],
   "soldBy": [
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -62626,6 +65165,12 @@
   "soldBy": [
    "1b2ff7e6-open-sewer-tenement"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market",
+   "interior-bazaar-o-iron",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -62725,6 +65270,9 @@
   "soldBy": [
    "aa8254a4",
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-tenement-pharmacy"
   ],
   "boughtBy": [
    "aa8254a4",
@@ -63332,6 +65880,9 @@
    "0b151f18",
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -65634,6 +68185,18 @@
   ],
   "teaches": [
    3
+  ],
+  "givesBlueprints": [
+   {
+    "category": "Start",
+    "max": 1,
+    "pool": 46
+   },
+   {
+    "category": "Improved",
+    "max": 1,
+    "pool": 69
+   }
   ]
  },
  {
@@ -65717,6 +68280,13 @@
   ],
   "teaches": [
    4
+  ],
+  "givesBlueprints": [
+   {
+    "category": "main",
+    "max": 1,
+    "pool": 97
+   }
   ]
  },
  {
@@ -65816,6 +68386,13 @@
   ],
   "teaches": [
    5
+  ],
+  "givesBlueprints": [
+   {
+    "category": "main",
+    "max": 1,
+    "pool": 97
+   }
   ]
  },
  {
@@ -65893,6 +68470,9 @@
    "9983c235-open-sewer-bazaar",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -66023,6 +68603,9 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -66560,6 +69143,10 @@
   "sprite": "Sprites/Items/Butterine_spr",
   "prefab": "Prefabs/Items/Butterine",
   "material": "Plastic",
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-mines-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -68702,6 +71289,9 @@
    "0b151f18",
    "3f4a6f8b"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -68763,6 +71353,9 @@
    "91d0982a",
    "0b151f18",
    "3f4a6f8b"
+  ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
   ],
   "boughtBy": [
    "9989df0b",
@@ -69614,6 +72207,10 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -70444,6 +73041,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -70648,6 +73249,11 @@
     "name": "Eat",
     "amount": 8
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk",
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "9989df0b",
@@ -72448,6 +75054,10 @@
    "91d0982a",
    "9983c235-open-sewer-bazaar"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -72542,6 +75152,10 @@
   "soldBy": [
    "91d0982a",
    "5219c665"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -72660,6 +75274,10 @@
   ],
   "soldBy": [
    "5219c665"
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -73502,6 +76120,9 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -73556,6 +76177,9 @@
   "soldBy": [
    "91d0982a"
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -73597,6 +76221,9 @@
   "sprite": "Sprites/Items/Green Mushroom Mycelium Injector_spr",
   "prefab": "Prefabs/Items/Green Mushroom Mycelium Injector",
   "material": "Default",
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "bc533c6c",
    "2003da7f-open-sewer-tenement",
@@ -74088,6 +76715,20 @@
    "1b2ff7e6-interior-mines-office",
    "91d0982a",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Lights/Candle Cluster 2 Blueprint",
+   "Blueprints/Lights/Candle Cluster Blueprint",
+   "Blueprints/Lights/Candle Large Blueprint",
+   "Blueprints/Lights/Candle Medium Blueprint",
+   "Blueprints/Lights/Candle Small Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Lights/Candle Cluster",
+   "Furniture/Lights/Candle Cluster 2",
+   "Furniture/Lights/Candle Large",
+   "Furniture/Lights/Candle Medium",
+   "Furniture/Lights/Candle Small"
   ]
  },
  {
@@ -74127,6 +76768,9 @@
     "destroy": true,
     "special": "Laxative 10"
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
   ],
   "boughtBy": [
    "9989df0b",
@@ -74404,6 +77048,9 @@
     "name": "Vape",
     "amount": 15
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
   ],
   "boughtBy": [
    "bb3cf675-interior-tenement-b",
@@ -74738,6 +77385,10 @@
    "d9a39a97",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-bazaar-alco",
+   "interior-bazaar-ankea"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -74940,6 +77591,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-bazaar-fungi-boutique"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -75007,6 +77661,9 @@
    "91d0982a",
    "9983c235-open-sewer-bazaar",
    "d3da96b6"
+  ],
+  "soldAt": [
+   "interior-bazaar-mallment-tax-free"
   ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
@@ -75092,6 +77749,9 @@
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a",
    "d3da96b6"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -76686,6 +79346,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "41ea9fcb",
@@ -76734,6 +79397,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "41ea9fcb",
@@ -76781,6 +79447,9 @@
     "amount": 1,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -76831,6 +79500,10 @@
     "amount": 6,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -76888,6 +79561,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -76940,6 +79616,9 @@
     "amount": 22,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-j-kiosk"
   ],
   "boughtBy": [
    "9989df0b",
@@ -77047,6 +79726,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -77092,6 +79774,10 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market",
+   "interior-bazaar-butchershop"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -77136,6 +79822,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -77179,6 +79868,9 @@
     "amount": 1,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-tenement-o-market"
   ],
   "boughtBy": [
    "9989df0b",
@@ -77406,6 +80098,9 @@
    "9a26ca15",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -77549,6 +80244,9 @@
   "soldBy": [
    "9a26ca15"
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -77676,6 +80374,9 @@
     "name": "Drink",
     "amount": 15
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -77813,6 +80514,9 @@
     "amount": 15
    }
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -77948,6 +80652,9 @@
     "amount": 15
    }
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -78082,6 +80789,9 @@
     "name": "Drink",
     "amount": 15
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -78227,6 +80937,9 @@
     "amount": 15
    }
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -78287,6 +81000,9 @@
     "amount": 33,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -79305,6 +82021,9 @@
     "amount": 20
    }
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -79533,6 +82252,9 @@
    "9a26ca15",
    "5219c665"
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -79599,6 +82321,9 @@
     "name": "Drink",
     "amount": 15
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -79676,6 +82401,9 @@
   "soldBy": [
    "9a26ca15"
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -79752,6 +82480,9 @@
   "soldBy": [
    "9a26ca15"
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -79819,6 +82550,9 @@
     "amount": 15
    }
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -79885,6 +82619,9 @@
     "name": "Drink",
     "amount": 15
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -79957,6 +82694,9 @@
   "soldBy": [
    "9a26ca15"
   ],
+  "soldAt": [
+   "interior-bazaar-alco"
+  ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
    "9989df0b",
@@ -80017,6 +82757,9 @@
     "amount": 18,
     "destroy": true
    }
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -80087,6 +82830,9 @@
   ],
   "soldBy": [
    "3f4a6f8b"
+  ],
+  "soldAt": [
+   "interior-bazaar-alco"
   ],
   "boughtBy": [
    "1b2ff7e6-open-sewer-tenement",
@@ -80854,6 +83600,9 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-ankea"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -80997,6 +83746,9 @@
    "61e5b537",
    "3f4a6f8b"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -81005,6 +83757,9 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint"
   ]
  },
  {
@@ -81073,6 +83828,21 @@
    "0b151f18",
    "d3da96b6",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint",
+   "Blueprints/Manufacturing/Malter Blueprint"
+  ],
+  "dismantledFrom": [
+   "Furniture/Manufacturing/Carpentry/Bandsaw",
+   "Furniture/Manufacturing/Carpentry/Table Saw",
+   "Furniture/Manufacturing/Chemical Reactor",
+   "Furniture/Manufacturing/Hydraulic Press",
+   "Furniture/Manufacturing/Machining/Geared Head Drill",
+   "Furniture/Manufacturing/Machining/Metalworking Lathe",
+   "Furniture/Manufacturing/Makeshift Chemical Reactor",
+   "Furniture/Manufacturing/Malter",
+   "Furniture/Manufacturing/Small Jaw Crusher"
   ]
  },
  {
@@ -81452,6 +84222,9 @@
   "sprite": "Sprites/Items/Jubilee Mocca Coffee_spr",
   "prefab": "Prefabs/Items/Jubilee Mocca Coffee",
   "material": "Cardboard",
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -81619,6 +84392,9 @@
   "soldBy": [
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "9989df0b",
    "9983c235-test-map-empty",
@@ -81726,6 +84502,9 @@
   "soldBy": [
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "9989df0b",
    "9983c235-test-map-empty",
@@ -81780,6 +84559,9 @@
   ],
   "soldBy": [
    "d3da96b6"
+  ],
+  "soldAt": [
+   "interior-bazaar-electronics"
   ],
   "boughtBy": [
    "9989df0b",
@@ -81836,6 +84618,9 @@
   "soldBy": [
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "9989df0b",
    "9983c235-test-map-empty",
@@ -81891,6 +84676,9 @@
   "soldBy": [
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-electronics"
+  ],
   "boughtBy": [
    "9989df0b",
    "9983c235-test-map-empty",
@@ -81943,6 +84731,9 @@
   ],
   "soldBy": [
    "d3da96b6"
+  ],
+  "soldAt": [
+   "interior-bazaar-electronics"
   ],
   "boughtBy": [
    "9989df0b",
@@ -82321,6 +85112,9 @@
     "destroy": true
    }
   ],
+  "soldAt": [
+   "interior-tenement-o-market"
+  ],
   "boughtBy": [
    "9989df0b",
    "d9a39a97"
@@ -82657,6 +85451,9 @@
    "d3da96b6",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-bazaar-ankea"
+  ],
   "boughtBy": [
    "11165f55",
    "1b2ff7e6-interior-tenement-general-store",
@@ -82919,6 +85716,10 @@
    "9983c235-open-sewer-bazaar",
    "d9a39a97"
   ],
+  "soldAt": [
+   "interior-mines-market",
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "9989df0b",
    "91d0982a",
@@ -83067,6 +85868,9 @@
    "10d75374",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -83364,6 +86168,9 @@
   "soldBy": [
    "d3da96b6"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "9989df0b",
@@ -83425,6 +86232,9 @@
   "soldBy": [
    "1b2ff7e6-interior-tenement-general-store",
    "91d0982a"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
@@ -83985,6 +86795,9 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b",
    "d9a39a97"
+  ],
+  "usedInBlueprints": [
+   "Blueprints/Structural/Basement Grate Floor Handrail Blueprint"
   ]
  },
  {
@@ -84067,6 +86880,9 @@
    "9983c235-open-sewer-bazaar",
    "3f4a6f8b"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -84128,6 +86944,9 @@
    "9983c235-test-map-empty",
    "9983c235-open-sewer-bazaar"
   ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
+  ],
   "boughtBy": [
    "c62564da",
    "1b2ff7e6-interior-tenement-general-store",
@@ -84188,6 +87007,9 @@
   "soldBy": [
    "9983c235-test-map-empty",
    "9983c235-open-sewer-bazaar"
+  ],
+  "soldAt": [
+   "interior-bazaar-o-iron"
   ],
   "boughtBy": [
    "c62564da",
